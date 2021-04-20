@@ -17,3 +17,4 @@ A internet ajuda as pessoas a mostrarem todos os seus lados e a extravasar suas 
 Eu decidi usar esse espaço para compartilhar as coisas que aprendi ao longo de meu caminho até agora e também todas as novas descobertas do futuro.
 
 As vezes a informação mais simples e trivial pode ser a resposta para a duvida de alguém em algum lugar.
+{: style="text-align: justify;"}
