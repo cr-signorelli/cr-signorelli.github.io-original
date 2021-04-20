@@ -1,5 +1,7 @@
 ---
 title: "Por onde começar?"
+classes: wide
+
 categories:
   - about
   - introdution
