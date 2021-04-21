@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: [**congerdesign**](https://pixabay.com/users/congerdesign-509903/)"
   actions:
     - label: "Pixabay"
-      url: "https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/"
+      url: "https://pixabay.com/"
 categories:
   - about
 tags:
