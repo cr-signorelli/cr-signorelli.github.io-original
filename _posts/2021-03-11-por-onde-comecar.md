@@ -1,11 +1,18 @@
 ---
 title: "Por onde começar?"
 classes: wide
-
+header:
+  overlay_image: /assets/images/unsplash-image-1.jpg
+  og_image: /assets/images/pencil-1891732-optimize.jpg
+  caption: "Photo credit: [**congerdesign**](https://pixabay.com/)"
+  actions:
+    - label: "Imagem"
+      url: "https://pixabay.com/"
 categories:
   - about
 tags:
   - about
+last_modified_at: 2021-04-21T14:09:00-03:00
 ---
 
 Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!
