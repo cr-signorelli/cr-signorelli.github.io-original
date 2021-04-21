@@ -4,10 +4,8 @@ classes: wide
 
 categories:
   - about
-  - introdution
 tags:
   - about
-  - introdution
 ---
 
 Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!
