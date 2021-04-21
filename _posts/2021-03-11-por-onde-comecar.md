@@ -2,7 +2,7 @@
 title: "Por onde começar?"
 classes: wide
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/pencil-1891732-optimize.jpg
   og_image: /assets/images/unsplash-image-1.jpg
   #teaser: /assets/images/my-awesome-post-teaser.jpg
   caption: "Photo credit: [**congerdesign**](https://pixabay.com/)"
