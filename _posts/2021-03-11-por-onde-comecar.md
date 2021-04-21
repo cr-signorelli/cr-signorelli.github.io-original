@@ -5,16 +5,19 @@ header:
   overlay_image: /assets/images/pencil-1891732-optimize.jpg
   #og_image: /assets/images/unsplash-image-1.jpg
   #teaser: /assets/images/my-awesome-post-teaser.jpg
-  caption: "Photo credit: [**congerdesign**](https://pixabay.com/users/congerdesign-509903/)"
-  actions:
-    - label: "Pixabay"
-      url: "https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/"
+  caption: "Photo credit: [**congerdesign**](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/)"
+  #actions:
+  #  - label: "Leia mais"
+  #    url: "https://cr-signorelli.github.io/about/por-onde-comecar/"
 categories:
   - about
 tags:
   - about
 last_modified_at: 2021-04-21T14:09:00-03:00
 ---
+
+Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!
+{: style="text-align: justify;"}
 
 Mas apesar de todos os problemas que encontramos no dia a dia as pessoas fazem um enorme esforço para compartilhar seus conhecimentos, e a internet nos proporciona um ambiente perfeito para isso. Podemos encontrar textos e vídeos dos mais diversos assuntos e conteúdos.
 {: style="text-align: justify;"}
