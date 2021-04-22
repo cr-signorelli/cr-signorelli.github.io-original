@@ -19,13 +19,11 @@ tags:
 last_modified_at: 2021-04-21T21:30:00-03:00
 ---
 
-Criar pacotes para instalação no Oracle Solaris-10 Sparc/x86 pode ajudar bastante, principalmente porque não existe um sistema de repositório oficial para instalação de pacotes.
+Criar pacotes para instalação no Oracle Solaris-10 Sparc/x86 pode ser muito útil, principalmente porque não existe um sistema de repositório oficial para instalação de pacotes.
 {: style="text-align: justify;"}
 
 Normalmente em ambientes de produção o Solaris-10 é instalado apenas com o pacotes minímos necessários, por questões de performance, segurança e economia de espaço em disco. Com isso quando for preciso adicionar algum pacote que foi removido durante ou depois da instalação no Sistema será preciso utilizar o CD/DVD ou uma imagem ISO.
 {: style="text-align: justify;"}
-
-Exemplo da tela de seleção do tipo de instalação durante a instalação do Solaris-10:
 
 ```console
 +---------------------------------------------------------------------------+
@@ -47,14 +45,12 @@ Exemplo da tela de seleção do tipo de instalação durante a instalação do S
 ```
 
 O processo para criar os pacotes de instalação .pkg podem ser realizando em qualquer outra máquina com Solaris-10 instalado.
+{: style="text-align: justify;"}
 
-Baixo a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle, será preciso criar um conta antes.
+Baixo a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle, será preciso criar um conta antes.  
 <https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html>
 
-Tranfira o arquivo baixado para uma máquina com Solaris-10.
-
-Vamos associar o arquivo sol-10-u11-ga-sparc-dvd.iso em um _loopback file driver_ ( como um floppy ou um CD-ROM ):
-
+Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver" (como um floppy ou um CD-ROM):  
 ```shell
 -bash-3.2#  lofiadm -a /tmp/sol-10-u11-ga-sparc-dvd.iso 
 ```
@@ -95,3 +91,6 @@ Biblioteca pública e Arquivo Digital:
 * [http://www.ibiblio.org/pub/packages/solaris/i86pc/](http://www.ibiblio.org/pub/packages/solaris/i86pc/)
 * [https://www.ibiblio.org/pub/packages/solaris/i86pc/html/creating.solaris.packages.html](https://www.ibiblio.org/pub/packages/solaris/i86pc/html/creating.solaris.packages.html)
 * [https://www.ibiblio.org/pub/packages/solaris/sparc/html/creating.solaris.packages.html](https://www.ibiblio.org/pub/packages/solaris/sparc/html/creating.solaris.packages.html)
+
+
+Exemplo da tela de seleção do tipo de instalação durante a instalação do Solaris-10:
