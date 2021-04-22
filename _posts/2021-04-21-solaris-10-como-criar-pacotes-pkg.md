@@ -67,8 +67,7 @@ Monte o dispositivo virtual, e acesse o diretório:
 
 ---
 
-Usando o comando **pkgtrans** crie o arquivo .pkg com base no pacote **SUNWsshu**  
-_SUNWsshu – Contains client files and utilities for the /usr directory_
+Use o comando **pkgtrans** crie o arquivo .pkg com base no pacote **SUNWsshu**  
 
 ```console
 -bash-3.2# pkgtrans -s Product /var/tmp/ssh-client.pkg SUNWsshu
@@ -76,7 +75,7 @@ _SUNWsshu – Contains client files and utilities for the /usr directory_
 
 ---
 
-Testando se o arquivo foi criado com sucesso.
+Teste se o arquivo foi criado com sucesso.
 
 ```console
 -bash-3.2# cd /var/tmp/
@@ -91,7 +90,7 @@ Testando se o arquivo foi criado com sucesso.
 **Alerta:** Cuidado ao usar esses arquivos para reinstalar algum pacote no Servidor, podem haver diferenças nas versões, principalmente se o Solaris-10 já tenha recebido alguma atualização via **10_Recommended.zip**
 {: .notice--danger}
 
-## Referencias:
+**Referencias**  
 Lista oficial da Oracle com os pacotes do Solaris-10 [https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)
 
 Biblioteca pública e Arquivo Digital:
