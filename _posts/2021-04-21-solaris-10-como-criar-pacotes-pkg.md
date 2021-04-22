@@ -50,10 +50,13 @@ O processo para criar os pacotes de instalação .pkg podem ser realizando em qu
 Baixo a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle, será preciso criar um conta antes.  
 <https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html>
 
-Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver" (como um floppy ou um CD-ROM):  
-```shell
+Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver":  
+
+```console
 -bash-3.2#  lofiadm -a /tmp/sol-10-u11-ga-sparc-dvd.iso 
 ```
+
+---
 
 Monte o dispositivo virtual, e acesse o diretório:
 
@@ -61,6 +64,8 @@ Monte o dispositivo virtual, e acesse o diretório:
 -bash-3.2# mount -F hsfs -o ro /dev/lofi/1 /mnt
 -bash-3.2# cd /mnt/Solaris_10/
 ```
+
+---
 
 Usando o comando _pkgtrans_ crie o arquivo .pkg com base no pacote SUNWsshu
 _SUNWsshu – Contains client files and utilities for the /usr directory_
