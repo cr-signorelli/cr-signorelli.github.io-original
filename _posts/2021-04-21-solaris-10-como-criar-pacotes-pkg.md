@@ -22,7 +22,7 @@ last_modified_at: 2021-04-21T21:30:00-03:00
 Criar pacotes para instalação no Oracle Solaris-10 Sparc/x86 pode ser muito útil, principalmente porque não existe um sistema de repositório oficial para instalação de pacotes.
 {: style="text-align: justify;"}
 
-Normalmente em ambientes de produção o Solaris-10 é instalado apenas com o pacotes minímos necessários, por questões de performance, segurança e economia de espaço em disco. Com isso quando for preciso adicionar algum pacote que foi removido durante ou depois da instalação no Sistema será preciso utilizar o CD/DVD ou uma imagem ISO.
+Normalmente em ambientes de produção o Solaris-10 é instalado apenas com os pacotes mínimos necessários, por questões de performance, segurança e economia de espaço em disco. Com isso quando for preciso adicionar algum pacote que foi removido durante ou depois da instalação no Sistema será preciso utilizar o CD/DVD ou uma imagem ISO.
 {: style="text-align: justify;"}
 
 ```console
@@ -51,46 +51,43 @@ Baixo a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle.
 <https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html>
 
 Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver":  
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2#  lofiadm -a /tmp/sol-10-u11-ga-sparc-dvd.iso 
 ```
 
----
-
 Monte o dispositivo virtual, e acesse o diretório:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# mount -F hsfs -o ro /dev/lofi/1 /mnt
 -bash-3.2# cd /mnt/Solaris_10/
 ```
 
----
-
 Use o comando **pkgtrans** crie o arquivo .pkg com base no pacote **SUNWsshu**  
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# pkgtrans -s Product /var/tmp/ssh-client.pkg SUNWsshu
 ```
 
----
-
 Teste se o arquivo foi criado com sucesso.
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# cd /var/tmp/
 -bash-3.2# pkgadd -d ./ssh-client.pkg
 ```
 
----
-
 **Dica:** Deixe os arquivos .pkg de cada pacote criado previamente, ou pelo menos os pacotes que julgarem mais importantes.
 {: .notice--info}
 
-**Alerta:** Cuidado ao usar esses arquivos para reinstalar algum pacote no Servidor, podem haver diferenças nas versões, principalmente se o Solaris-10 já tenha recebido alguma atualização via **10_Recommended.zip**
+**Alerta:** Cuidado ao usar esses arquivos para reinstalar algum pacote no Servidor, pode haver diferenças nas versões, principalmente se o Solaris-10 já tenha recebido alguma atualização via **10_Recommended.zip**
 {: .notice--danger}
 
-**Referencias**  
+## Referências
+
 Lista oficial da Oracle com os pacotes do Solaris-10:
 * [https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)
 
