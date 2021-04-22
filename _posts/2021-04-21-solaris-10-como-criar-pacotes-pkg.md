@@ -1,12 +1,12 @@
 ---
 title: "Solaris 10 - Como criar pacotes .pkg"
 classes: wide
-#header:
-#  overlay_image: /assets/images/pencil-1891732-optimize.jpg
-#  og_image: /assets/images/pencil-1891732-optimize.jpg
-#  teaser: /assets/images/pencil-1891732_optimize-thumb.jpg
-#  image_description: ""
-#  caption: "Photo credit: [**congerdesign**](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/)"
+header:
+  overlay_image: /assets/images/code-coding-web-development-optimize.jpg
+  og_image: /assets/images/code-coding-web-development-optimize.jpg
+  teaser: /assets/images/pencil-1891732_optimize-thumb.jpg
+  image_description: "Tela de computador com algumas linhas de código"
+  caption: "Photo credit: [**lmonk72**](https://pixabay.com/photos/code-coding-web-development-944499/)"
 #  #actions:
 #  #  - label: "Leia mais"
 #  #    url: "https://cr-signorelli.github.io/about/por-onde-comecar/"
@@ -16,7 +16,7 @@ tags:
   - solaris-10
   - sparc
   - sysadmin
-last_modified_at: 2021-04-21T21:30:00-03:00
+last_modified_at: 2022-04-21T21:00:00-03:00
 ---
 
 Criar pacotes para instalação no Oracle Solaris-10 Sparc/x86 pode ser muito útil, principalmente porque não existe um sistema de repositório oficial para instalação de pacotes.
