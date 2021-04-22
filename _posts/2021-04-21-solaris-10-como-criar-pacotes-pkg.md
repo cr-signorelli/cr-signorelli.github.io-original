@@ -91,7 +91,7 @@ Testando se o arquivo foi criado com sucesso.
 **Alerta:** Cuidado ao usar esses arquivos para reinstalar algum pacote no Servidor, podem haver diferenças nas versões, principalmente se o Solaris-10 já tenha recebido alguma atualização via **10_Recommended.zip**
 {: .notice--danger}
 
-**Referencias:**
+## Referencias:
 Lista oficial da Oracle com os pacotes do Solaris-10 [https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)
 
 Biblioteca pública e Arquivo Digital:
