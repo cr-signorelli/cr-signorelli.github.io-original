@@ -91,7 +91,8 @@ Teste se o arquivo foi criado com sucesso.
 {: .notice--danger}
 
 **Referencias**  
-Lista oficial da Oracle com os pacotes do Solaris-10 [https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)
+Lista oficial da Oracle com os pacotes do Solaris-10:
+* [https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)
 
 Biblioteca pública e Arquivo Digital:
 * [https://www.ibiblio.org/](https://www.ibiblio.org/)
