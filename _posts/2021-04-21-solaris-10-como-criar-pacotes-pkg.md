@@ -47,7 +47,7 @@ Normalmente em ambientes de produção o Solaris-10 é instalado apenas com o pa
 O processo para criar os pacotes de instalação .pkg podem ser realizando em qualquer outra máquina com Solaris-10 instalado.
 {: style="text-align: justify;"}
 
-Baixo a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle, será preciso criar um conta antes.  
+Baixo a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle.  
 <https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html>
 
 Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver":  
@@ -67,12 +67,14 @@ Monte o dispositivo virtual, e acesse o diretório:
 
 ---
 
-Usando o comando _pkgtrans_ crie o arquivo .pkg com base no pacote SUNWsshu
+Usando o comando **pkgtrans** crie o arquivo .pkg com base no pacote **SUNWsshu**  
 _SUNWsshu – Contains client files and utilities for the /usr directory_
 
 ```console
 -bash-3.2# pkgtrans -s Product /var/tmp/ssh-client.pkg SUNWsshu
 ```
+
+---
 
 Testando se o arquivo foi criado com sucesso.
 
@@ -81,10 +83,12 @@ Testando se o arquivo foi criado com sucesso.
 -bash-3.2# pkgadd -d ./ssh-client.pkg
 ```
 
+---
+
 **Dica:** Deixe os arquivos .pkg de cada pacote criado previamente, ou pelo menos os pacotes que julgarem mais importantes.
 {: .notice--info}
 
-**Alerta:** Cuidado ao usar esses arquivos para reinstalar um pacote no Servidor podem haver diversa na versão, principalmente se o Solaris-10 já tenha recebido alguma atualização ( 10_Recommended.zip )
+**Alerta:** Cuidado ao usar esses arquivos para reinstalar algum pacote no Servidor, podem haver diferenças nas versões, principalmente se o Solaris-10 já tenha recebido alguma atualização via **10_Recommended.zip**
 {: .notice--danger}
 
 **Referencias:**
@@ -96,6 +100,3 @@ Biblioteca pública e Arquivo Digital:
 * [http://www.ibiblio.org/pub/packages/solaris/i86pc/](http://www.ibiblio.org/pub/packages/solaris/i86pc/)
 * [https://www.ibiblio.org/pub/packages/solaris/i86pc/html/creating.solaris.packages.html](https://www.ibiblio.org/pub/packages/solaris/i86pc/html/creating.solaris.packages.html)
 * [https://www.ibiblio.org/pub/packages/solaris/sparc/html/creating.solaris.packages.html](https://www.ibiblio.org/pub/packages/solaris/sparc/html/creating.solaris.packages.html)
-
-
-Exemplo da tela de seleção do tipo de instalação durante a instalação do Solaris-10:
