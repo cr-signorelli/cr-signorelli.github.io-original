@@ -2,8 +2,8 @@
 title: "Solaris 10 - Como criar pacotes .pkg"
 classes: wide
 header:
-  overlay_image: /assets/images/code-coding-web-development-optimize.jpg
-  og_image: /assets/images/code-coding-web-development-optimize.jpg
+  overlay_image: /assets/images/binary-code-binary-system-2910663.jpg
+  og_image: /assets/images/binary-code-binary-system-2910663.jpg
   teaser: /assets/images/pencil-1891732_optimize-thumb.jpg
   image_description: "Tela de computador com algumas linhas de código"
   caption: "Foto/Imagem: [**lmonk72**](https://pixabay.com/photos/code-coding-web-development-944499/)"
