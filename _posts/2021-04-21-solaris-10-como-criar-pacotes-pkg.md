@@ -88,18 +88,6 @@ Teste se o arquivo foi criado com sucesso.
 
 ## Referências
 
-Lista oficial da Oracle com os pacotes do Solaris-10:
-* <https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html>
-
-Biblioteca pública e Arquivo Digital:
-* <https://www.ibiblio.org/>
-* <http://www.ibiblio.org/pub/packages/solaris/sparc/>
-* <http://www.ibiblio.org/pub/packages/solaris/i86pc/>
-* <https://www.ibiblio.org/pub/packages/solaris/i86pc/html/creating.solaris.packages.html>
-* <https://www.ibiblio.org/pub/packages/solaris/sparc/html/creating.solaris.packages.html>
-
-## Referências
-
 > [Lista oficial da Oracle com os pacotes do Solaris-10](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)  
 > [Biblioteca pública e Arquivo Digital](https://www.ibiblio.org/)  
 > [Biblioteca pública e Arquivo Digital - Lista de pacotes Sparc](http://www.ibiblio.org/pub/packages/solaris/sparc/)  
