@@ -9,7 +9,7 @@ header:
   caption: "Photo credit: [**congerdesign**](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/)"
   #actions:
   #  - label: "Leia mais"
-  #    url: "https://cr-signorelli.github.io/about/por-onde-comecar/"
+  #    url: "https://cr-signorelli.github.io/"
 categories:
   - about
 tags:
