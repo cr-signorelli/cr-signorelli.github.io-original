@@ -16,7 +16,7 @@ tags:
   - solaris-10
   - sparc
   - sysadmin
-last_modified_at: 2022-04-21T21:00:00-03:00
+last_modified_at: 2021-04-22T23:00:00-03:00
 ---
 
 Criar pacotes para instalação no Oracle Solaris-10 Sparc/x86 pode ser muito útil, principalmente porque não existe um sistema de repositório oficial para instalação de pacotes.
