@@ -100,8 +100,8 @@ Biblioteca pública e Arquivo Digital:
 
 ## Referências
 
-[Lista oficial da Oracle com os pacotes do Solaris-10](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)
-[Biblioteca pública e Arquivo Digital](https://www.ibiblio.org/)
+> [Lista oficial da Oracle com os pacotes do Solaris-10](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)  
+> [Biblioteca pública e Arquivo Digital](https://www.ibiblio.org/)
 
 * <http://www.ibiblio.org/pub/packages/solaris/sparc/>
 * <http://www.ibiblio.org/pub/packages/solaris/i86pc/>
