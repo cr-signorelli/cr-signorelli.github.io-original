@@ -82,9 +82,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Signorelli"
+  name             : "Carlos R .Signorelli"
   avatar           : "/assets/images/bio-cr-signorelli.jpg"
-  bio              : "Tecnologia, programação, infra, Sparc/x86, virtualização, cloud, games e muito café!"
+  bio              : "Consultor de Técnologia com foco em Telecomunicações"
   location         : "São Paulo / Brasil"
   links:
     - label: "cr-signorelli.github.io"
