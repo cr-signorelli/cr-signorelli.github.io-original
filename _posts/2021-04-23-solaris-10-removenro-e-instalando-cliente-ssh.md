@@ -88,7 +88,7 @@ system      SUNWsshdu                    SSH Server, (Usr)
 2. __Imagem .ISO__
 3. __Arquivos .pkg__
 
-Não iremos utilizar a primeira opção, é muito comum que servidores não tenham unidade de CD/DVD e vamos considerar que acessar a máquina fisicamente para inserir um disco nem sempre é uma opção. Por isso iremos focar no procedimento da imagem .ISO.
+Não iremos utilizar a primeira opção, é muito comum que servidores não tenham unidade de CD/DVD e vamos considerar que acessar a máquina fisicamente para inserir um disco nem sempre é uma opção. Por isso vamos focar no procedimento da imagem .ISO.
 {: style="text-align: justify;"}
 
 Baixe a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle.  
@@ -130,5 +130,5 @@ system      SUNWsshr                     SSH Client and utilities, (Root)
 system      SUNWsshu                     SSH Client and utilities, (Usr)
 ```
 
-Ainda resta a última opção que é utilizar um arquivo .pkg gerado previamente. Veja esse artigo [Solaris 10 - Como criar pacotes .pkg](https://cr-signorelli.github.io/solaris-10/solaris-10-como-criar-pacotes-pkg/) XXX que contém um passo simples de como criar um pacote de instalação, com isso será possível transferir apenas dois pequenos pacotes ao invés de uma imagem .ISO de mais de 2GB.
-{: style="text-align: justify;"}
+**Dica:** Ainda resta a última opção que é utilizar um arquivo .pkg gerado previamente. Veja esse artigo [Solaris 10 - Como criar pacotes .pkg](https://cr-signorelli.github.io/solaris-10/solaris-10-como-criar-pacotes-pkg/) XXX que contém um passo simples de como criar um pacote de instalação, com isso será possível transferir apenas dois pequenos pacotes ao invés de uma imagem .ISO de mais de 2GB.
+{: .notice--info}
