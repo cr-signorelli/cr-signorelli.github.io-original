@@ -83,9 +83,10 @@ system      SUNWsshdu                    SSH Server, (Usr)
 
 É possível realizar esse processo de algumas formas diferentes:
 {: style="text-align: justify;"}
-1. CD/DVD
-2. Imagem .ISO
-3. Um arquivo .pkg de cada pacote SUNWsshdr e SUNWsshdu
+
+1. __CD/DVD__
+2. __Imagem .ISO__
+3. __Arquivos .pkg__
 
 Não iremos utilizar a primeira opção, é muito comum que servidores não tenham unidade de CD/DVD e vamos considerar que acessar a máquina fisicamente para inserir um disco nem sempre é uma opção. Por isso iremos focar no procedimento da imagem .ISO.
 {: style="text-align: justify;"}
