@@ -23,13 +23,13 @@ last_modified_at: 2021-04-22T23:00:00-03:00
 Remover os clientes SSH podem ser uma medida de segurança agressiva, é importante ressaltar que isso pode trazer vantagens e desvantagens.
 {: style="text-align: justify;"}
 
-Embora seja uma medida extrema, se considerar que uma vez conectado ao servidor não seja necessário acessar outras máquinas realmente programas como clientes SSH ou SCP não são necessários. Mas ao fazer isso você também vai afetar suas atividades como transferir ou coletar algum arquivo ou log do servidor.
+Embora seja uma medida extrema, se considerar que uma vez conectado ao servidor não seja necessário acessar outras máquinas realmente programas como clientes SSH ou SCP não são necessários. Mas ao fazer isso você também vai afetar suas atividades como transferir ou coletar algum arquivo ou log de um servidor.
 {: style="text-align: justify;"}
 
 Caso haja invasão isso será mais uma barreira, mas em muitos casos os binários de sistema são as primeiras vítimas, normalmente trocados por versão alteradas dependendo da estratégia e intensão.
 {: style="text-align: justify;"}
 
-Veja a lista completa dos binários que fazem parte desse pacote.
+Veja a lista completa dos binários e arquivos que fazem parte dos pacotes **SUNWsshr** e **SUNWsshu**.
 {: style="text-align: justify;"}
 
 ```console
@@ -46,7 +46,7 @@ usr/lib/ssh/ssh-http-proxy-connect
 usr/lib/ssh/ssh-socks5-proxy-connect
 ```
 
-#### Removendo o cliente SSH (SUNWsshr SUNWsshu)
+#### Removendo o cliente SSH
 
 Verifique se os pacotes estão instalados na máquina:
 {: style="text-align: justify;"}
@@ -61,7 +61,7 @@ system      SUNWsshr                     SSH Client and utilities, (Root)
 system      SUNWsshu                     SSH Client and utilities, (Usr)
 ```
 
-Uma vez localizdos **SUNWsshr** e **SUNWsshu**, uso o comando **pkgrm** para removê-los:
+Uma vez localizdos use o comando **pkgrm** para removê-los:
 {: style="text-align: justify;"}
 
 ```console
