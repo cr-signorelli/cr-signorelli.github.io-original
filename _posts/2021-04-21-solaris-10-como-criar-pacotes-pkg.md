@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris-optmize.jpg
   teaser: /assets/images/solaris-optmize-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/photos/code-coding-web-development-944499/)"
+  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
 #  #  - label: "Leia mais"
 #  #    url: "https://cr-signorelli.github.io/"
@@ -57,7 +57,7 @@ Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver":
 -bash-3.2#  lofiadm -a /tmp/sol-10-u11-ga-sparc-dvd.iso 
 ```
 
-Monte o dispositivo virtual, e acesse o diretório:
+Monte o dispositivo virtual e acesse o diretório:
 {: style="text-align: justify;"}
 
 ```console
@@ -65,14 +65,14 @@ Monte o dispositivo virtual, e acesse o diretório:
 -bash-3.2# cd /mnt/Solaris_10/
 ```
 
-Use o comando **pkgtrans** crie o arquivo .pkg com base no pacote **SUNWsshu**  
+Use o comando **pkgtrans** crie o arquivo .pkg com base no pacote **SUNWsshu**:
 {: style="text-align: justify;"}
 
 ```console
 -bash-3.2# pkgtrans -s Product /var/tmp/ssh-client.pkg SUNWsshu
 ```
 
-Teste se o arquivo foi criado com sucesso.
+Teste se o arquivo foi criado com sucesso:
 {: style="text-align: justify;"}
 
 ```console
