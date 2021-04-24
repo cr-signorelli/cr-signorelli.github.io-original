@@ -130,5 +130,5 @@ system      SUNWsshr                     SSH Client and utilities, (Root)
 system      SUNWsshu                     SSH Client and utilities, (Usr)
 ```
 
-**Dica:** Ainda resta a última opção que é utilizar um arquivo .pkg gerado previamente. Veja esse artigo [Solaris 10 - Como criar pacotes .pkg](https://cr-signorelli.github.io/solaris-10/solaris-10-como-criar-pacotes-pkg/) XXX que contém um passo simples de como criar um pacote de instalação, com isso será possível transferir apenas dois pequenos pacotes ao invés de uma imagem .ISO de mais de 2GB.
+**Dica:** Ainda resta a última opção com arquivos .pkg gerados previamente. Veja esse artigo [Solaris 10 - Como criar pacotes .pkg](https://cr-signorelli.github.io/solaris-10/solaris-10-como-criar-pacotes-pkg/) que contém um passo simples de como criar um pacote de instalação, dessa forma será possível transferir apenas dois pacotes pequenos ao invés de uma imagem .ISO de mais de 2GB.
 {: .notice--info}
