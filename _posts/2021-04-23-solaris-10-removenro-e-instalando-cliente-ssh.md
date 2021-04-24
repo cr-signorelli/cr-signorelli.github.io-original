@@ -17,7 +17,7 @@ tags:
   - sparc
   - sysadmin
   - segurança
-last_modified_at: 2021-04-22T23:00:00-03:00
+last_modified_at: 2021-04-23T23:00:00-03:00
 ---
 
 Remover os clientes SSH podem ser uma medida de segurança agressiva, é importante ressaltar que isso pode trazer vantagens e desvantagens.
