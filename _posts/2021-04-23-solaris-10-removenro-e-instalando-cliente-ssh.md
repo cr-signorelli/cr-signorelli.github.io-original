@@ -2,9 +2,9 @@
 title: "Solaris 10 - Removendo e instalando cliente SSH"
 classes: wide
 header:
-  overlay_image: /assets/images/analytics-optmize.jpg
-  og_image: /assets/images/analytics-optmize.jpg
-  teaser: /assets/images/analytics-optmize-thumb.jpg
+  overlay_image: /assets/images/key-3348307-optmize.jpg
+  og_image: /assets/images/key-3348307-optmize.jpg
+  teaser: /assets/images/key-3348307-optmize-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
