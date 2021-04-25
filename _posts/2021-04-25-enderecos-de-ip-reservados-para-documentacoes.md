@@ -30,18 +30,18 @@ Embora exista essa recomendação é muito comum ao lermos um tutorial, artigo o
 Blocos IPv4 reservados para documentação:
 {: style="text-align: justify;"}
 
-| Block           | Range                         | Number            | Scope        | Description                                                                                     |
+| Block           | Range                         | Number            | Description                                                                                     |
 |-----------------|-------------------------------|-------------------|--------------|-------------------------------------------------------------------------------------------------|
-| 192.0.2.0/24    | 192.0.2.0 – 192.0.2.255       | 256               | Docmentation | "TEST-NET-1" for use in documentation and examples. |
-| 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | 256               | Docmentation | "TEST-NET-2" for use in documentation and examples. |
-| 203.0.113.0/24  | 203.0.113.0 – 203.0.113.255   | 256               | Docmentation | "TEST-NET-3" for use in documentation and examples. |
+| 192.0.2.0/24    | 192.0.2.0 – 192.0.2.255       | 256               | "TEST-NET-1" for use in documentation and examples. |
+| 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | 256               | "TEST-NET-2" for use in documentation and examples. |
+| 203.0.113.0/24  | 203.0.113.0 – 203.0.113.255   | 256               | "TEST-NET-3" for use in documentation and examples. |
 
 Blocos IPv6 reservados para documentação:
 {: style="text-align: justify;"}
 
-| Block           | Range                                               | Number            | Scope         | Description                                             |
-|-----------------|-----------------------------------------------------|-------------------|---------------|---------------------------------------------------------|
-| 2001:db8::/32   | 2001:db8:: – 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff | 2^96              | Documentation | for use in documentation and examples. |
+| Block           | Range                                               | Number            | Description                                             |
+|-----------------|-----------------------------------------------------|-------------------|---------------------------------------------------------|
+| 2001:db8::/32   | 2001:db8:: – 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff | 2^96              | for use in documentation and examples. |
 
 #### Referências
 
