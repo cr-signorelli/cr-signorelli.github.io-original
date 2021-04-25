@@ -5,8 +5,8 @@ header:
   overlay_image: /assets/images/key-3348307-optmize.jpg
   og_image: /assets/images/key-3348307-optmize.jpg
   teaser: /assets/images/key-3348307-optmize-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
+  image_description: "Chave pendurada na fechadura"
+  caption: "Foto/Imagem: [**mastertux-470906**](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
 #  #actions:
 #  #  - label: "Leia mais"
 #  #    url: "https://cr-signorelli.github.io/"
