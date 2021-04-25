@@ -107,5 +107,5 @@ Por último edite o arquivo **/etc/TIMEZONE** e altere o conteúdo da linha **TZ
 
 #### Referências
 
-> [http://www.timeanddate.com/](http://www.timeanddate.com/)
-> [http://sysunconfig.net/unixtips/timezone.txt](http://sysunconfig.net/unixtips/timezone.txt)
+> [http://www.timeanddate.com/](http://www.timeanddate.com/)  
+> [http://sysunconfig.net/unixtips/timezone.txt](http://sysunconfig.net/unixtips/timezone.txt)  
