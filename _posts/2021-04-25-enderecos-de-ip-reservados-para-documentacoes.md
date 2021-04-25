@@ -41,7 +41,7 @@ Blocos IPv6 reservados para documentação:
 
 | Block           | Range                                               | Number            | Description                                             |
 |-----------------|-----------------------------------------------------|-------------------|---------------------------------------------------------|
-| 2001:db8::/32   | 2001:db8:: – 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff | 2^96              | for use in documentation and examples. |
+| 2001:db8::/32   | 2001:db8:: – 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff | 2^96              | For use in documentation and examples. |
 
 #### Referências
 
