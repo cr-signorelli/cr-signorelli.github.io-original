@@ -179,7 +179,6 @@ body {
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
     color: #fff;
-    font-size: $type-size-8;
 
     a {
       color: #fff;
@@ -200,7 +199,6 @@ body {
     .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
-      font-size: $type-size-2;
     }
 
     .page__lead {
@@ -208,7 +206,7 @@ body {
     }
 
     .page__title {
-      font-size: $type-size-2;
+      font-size: $type-size-8;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
