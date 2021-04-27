@@ -179,7 +179,6 @@ body {
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
     color: #fff;
-    font-size: $type-size-8;
 
     a {
       color: #fff;
@@ -194,9 +193,7 @@ body {
       }
     }
 
-    .page__title {
-      font-size: $type-size-1;
-    }
+    .page__title,
     .page__meta,
     .page__lead,
     .btn {
@@ -206,6 +203,7 @@ body {
 
     .page__lead {
       max-width: $medium;
+      font-size: $type-size-8;
     }
 
     .page__title {
