@@ -183,7 +183,6 @@ body {
 
     a {
       color: #fff;
-      font-size: $type-size-2;
     }
 
     .wrapper {
@@ -195,7 +194,9 @@ body {
       }
     }
 
-    .page__title,
+    .page__title {
+      font-size: $type-size-1;
+    }
     .page__meta,
     .page__lead,
     .btn {
