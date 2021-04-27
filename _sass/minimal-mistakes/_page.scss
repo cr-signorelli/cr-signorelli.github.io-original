@@ -193,6 +193,10 @@ body {
       }
     }
 
+    .page__meta {
+      font-size: $type-size-8;  
+    }
+
     .page__title,
     .page__meta,
     .page__lead,
@@ -203,7 +207,6 @@ body {
 
     .page__lead {
       max-width: $medium;
-      font-size: $type-size-8;
     }
 
     .page__title {
