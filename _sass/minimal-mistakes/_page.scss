@@ -201,18 +201,9 @@ body {
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
-/*    .page__lead {
+    .page__lead {
       max-width: $medium;
     }
-*/
-    .page__lead {
-      font-size: $type-size-2;
-
-      @include breakpoint($small) {
-        font-size: $type-size-1;
-      }
-    }
-
 
     .page__title {
       font-size: $type-size-2;
