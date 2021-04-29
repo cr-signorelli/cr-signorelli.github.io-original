@@ -1,10 +1,11 @@
 ---
-title: "Solaris 10 - Procedimento básico de instalação"
+title: "Solaris 10 - Boot-read-fail"
 classes: wide
 header:
-  overlay_image: /assets/images/solaris-optmize.jpg
-  og_image: /assets/images/solaris-optmize.jpg
-  teaser: /assets/images/solaris-optmize-thumb.jpg
+  overlay_color: "#333"
+  #overlay_image: /assets/images/solaris-optmize.jpg
+  #og_image: /assets/images/solaris-optmize.jpg
+  #teaser: /assets/images/solaris-optmize-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
@@ -19,7 +20,7 @@ tags:
 last_modified_at: 2021-04-22T23:00:00-03:00
 ---
 
-# Solaris 10 - Boot-read-fail
+# 
 
 ---
 
