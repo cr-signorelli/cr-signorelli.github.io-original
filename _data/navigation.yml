@@ -15,7 +15,7 @@ main:
   # - title: "Extra Menu Item Long Title"
   #   url: /
 
-sidebar navigation list sample
+# sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
     children:
