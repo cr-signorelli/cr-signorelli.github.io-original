@@ -42,7 +42,7 @@ comments:
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
+search                   : false # true, false (default)
 search_full_content      : false # true, false (default)
 search_provider          : "lunr"
 algolia:
