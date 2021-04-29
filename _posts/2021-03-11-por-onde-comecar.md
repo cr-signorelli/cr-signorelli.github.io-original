@@ -3,8 +3,8 @@ title: "Por onde começar?"
 classes: wide
 header:
   overlay_image: /assets/images/pencil-1891732-optimize.jpg
-  og_image: /assets/images/pencil-1891732-optimize.jpg
-  teaser: /assets/images/pencil-1891732_optimize-thumb.jpg
+  og_image: /assets/images/pencil-1891732-optimize-og.jpg
+  teaser: /assets/images/pencil-1891732-optimize-thumb.jpg
   image_description: "Lápis usado sobre um caderno com folhas quadriculadas"
   caption: "Photo credit: [**congerdesign**](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/)"
   #actions:

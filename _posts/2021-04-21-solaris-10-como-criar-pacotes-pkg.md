@@ -2,9 +2,9 @@
 title: "Solaris 10 - Como criar pacotes .pkg"
 classes: wide
 header:
-  overlay_image: /assets/images/solaris-optmize.jpg
-  og_image: /assets/images/solaris-optmize.jpg
-  teaser: /assets/images/solaris-optmize-thumb.jpg
+  overlay_image: /assets/images/solaris10-optimize.jpg
+  og_image: /assets/images/solaris10-optimize-og.jpg
+  teaser: /assets/images/solaris10-optimize-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:

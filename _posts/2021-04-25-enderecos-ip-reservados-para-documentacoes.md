@@ -2,9 +2,9 @@
 title: "Endereços IP reservados para documentações"
 classes: wide
 header:
-  overlay_image: /assets/images/network-3849206-optmize.jpg
-  og_image: /assets/images/network-3849206-optmize-og.jpg
-  teaser: /assets/images/network-3849206-optmize-thumb.jpg
+  overlay_image: /assets/images/network-3849206-optimize.jpg
+  og_image: /assets/images/network-3849206-optimize-og.jpg
+  teaser: /assets/images/network-3849206-optimize-thumb.jpg
   image_description: "Fundo branco com linhas conectadas formando uma rede"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
