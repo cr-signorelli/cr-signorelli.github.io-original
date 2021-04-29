@@ -3,7 +3,7 @@ title: "Solaris 10 - Removendo e instalando cliente SSH"
 classes: wide
 header:
   overlay_image: /assets/images/key-3348307-optmize.jpg
-  og_image: /assets/images/key-3348307-optmize.jpg
+  og_image: /assets/images/key-3348307-optmize-og.jpg
   teaser: /assets/images/key-3348307-optmize-thumb.jpg
   image_description: "Chave pendurada na fechadura"
   caption: "Foto/Imagem: [**mastertux-470906**](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
