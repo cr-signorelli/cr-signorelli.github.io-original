@@ -6,7 +6,7 @@ header:
   #overlay_image: /assets/images/solaris-optmize.jpg
   #og_image: /assets/images/solaris-optmize.jpg
   #teaser: /assets/images/solaris-optmize-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
+  #image_description: "Fundo azulado com desenho de meio sol"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
 #  #  - label: "Leia mais"
@@ -17,21 +17,32 @@ tags:
   - solaris-10
   - sparc
   - sysadmin
-last_modified_at: 2021-04-22T23:00:00-03:00
+last_modified_at: 2021-04-29T18:00:00-03:00
 ---
 
-# 
+Diversos eventos podem desencadear esse problema, afetando os alias dos discos.
 
----
+Embora pareça simples à primeira vista é algo crítico, não conseguir iniciar automaticamente o sistema após uma queda de energia ou uma manutenção programada pode ser um grande inconveniente.
 
-**Procedimento para tratar boot-read fail**
+**Aviso:** O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.
+{: .notice--warning}
 
----
+**Aviso:** Se sua empresa possui contrato de suporte ativo ou o equipamento está em garantia faça abertura de chamado no [My Oracle Support](https://support.oracle.com/portal/), além de simples é possível realizar todo atendimento online. Poder contar com uma equipe de suporte qualificada como apoio é indispensável.
+{: .notice--warning}
 
-Se possivel boot a maquina com CDROM como single user.
+**Requisitos:**
+
+- Servidor dever estar utilizando ILOM como firmware de gerenciamento.
+- Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).
+- CD/DVD com a imagem do Solaris 10 ou Imagem ISO.
+
+Acesso o **prompt ok** e realize o boot a maquina com CDROM no modo single user:
+
 ```console
 {ok} boot cdrom -s
 ```
+
+Após o boot e com sistema carregado é preciso identificar os discos da máquina:
 
 ```console
 # ls /dev/dsk
@@ -44,7 +55,7 @@ c0t36479CCB99B8E947d0s5  c0t3866266DF79F5225d0s3  c1t6d0s1                 c1t6d
 ```
 
 ```console
-# ls -lh
+# ls -lh /dev/dsk
 lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
 lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:b,raw
 lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:c,raw
@@ -79,7 +90,8 @@ lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s6 -> ../../devices/pci@400/pci@2/
 lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:h,raw
 ```
 
-Os discos que interessam são os todos que terminam como s0.
+Os discos que interessam são os todos que terminam como **s0**:
+
 ```console
 # ls -l /dev/rdsk/*s0
 lrwxrwxrwx 1 root root  86 Aug 28  2015 /dev/rdsk/c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
@@ -88,40 +100,56 @@ lrwxrwxrwx 1 root root  72 Aug 28  2015 /dev/rdsk/c1t6d0s0 -> ../../devices/pci@
 lrwxrwxrwx 1 root root  90 Aug 28  2015 /dev/rdsk/c2t0d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:a,raw
 ```
 
-Aqui estão nossos discos.
-```
-/dev/rdsk/c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
-/dev/rdsk/c0t3866266DF79F5225d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:a,raw
+Descarte o devices que não interessam como CDROM e USB:
+
+```console
+# ls -l /dev/rdsk/*s0 | grep -v cdrom | grep -v usb
+lrwxrwxrwx 1 root root  86 Aug 28  2015 /dev/rdsk/c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 /dev/rdsk/c0t3866266DF79F5225d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:a,raw
 ```
 
-Agora vamos refazer o boot.
+Agora vamos refazer o boot:
+
 ```console
 # installboot -F zfs /usr/platform/`uname -i`/lib/fs/zfs/bootblk /dev/rdsk/c0t3866266DF79F5225d0s0
 # installboot -F zfs /usr/platform/`uname -i`/lib/fs/zfs/bootblk /dev/rdsk/c0t36479CCB99B8E947d0s0
 ```
 
-Volte para o prompt ok e verifica qual é a controladora SCSI.
+Delisge o sistema e volte para o **prompt ok** e verifica qual é a controladora SCSI:
+
 ```console
 {0} ok probe-scsi-all
 ```
 
 Seleciona a controladora SCSI
+
 ```console
 {0} ok select /pci@400/pci@1/pci@0/pci@4/scsi@0
 ```
 
-Redefina os alias fixar as configurações.
+Redefina os alias fixar as configurações, atenção ao montar a linha de comando:
+
+> /pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora
+> disk@w3866266df79f5225,0:a  --> disco identificado anteriormente
+
 ```console
 {0} ok nvalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a
 {0} ok nvalias rootmirr /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w36479ccb99b8e947,0:a
 {0} ok setenv boot-device rootdisk rootmirr
 ```
 
-Caso os sistema operacional esteja ligado faça pelo Sistema Operacional.
+Também é possível realizar o procedimento com  o sistema operacional (Solaris 10) ativo:
+
 ```console
-# eeprom boot-device="rootdisk rootmirr"
-# eeprom multipath-boot?=false
-# eeprom boot-device-index=0
-# eeprom use-nvramrc?=true
-# eeprom nvramrc="devalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a devalias rootmirr /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w36479ccb99b8e947,0:a"
+-bash-3.2# eeprom boot-device="rootdisk rootmirr"
+-bash-3.2# eeprom multipath-boot?=false
+-bash-3.2# eeprom boot-device-index=0
+-bash-3.2# eeprom use-nvramrc?=true
+-bash-3.2# eeprom nvramrc="devalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a devalias rootmirr /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w36479ccb99b8e947,0:a"
 ```
+
+#### Referências
+
+> [Lista de Servidores Oracle T-Series](https://en.wikipedia.org/wiki/SPARC_T_series)  
+> [Integrated Lights Out Manager (ILOM)](https://docs.oracle.com/cd/E19860-01/E21549/z400000c1393879.html)  
+> [Advanced Lights Out Manager (ALOM)](https://docs.oracle.com/cd/E19088-01/v125.srvr/819-2445-11/819-2445-11.pdf)  
