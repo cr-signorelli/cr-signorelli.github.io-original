@@ -4,7 +4,7 @@ classes: wide
 header:
   overlay_image: /assets/images/solaris-optimize.jpg
   og_image: /assets/images/solaris-optimize-og.jpg
-  teaser: /assets/images/solaris-optimize-thumb.jpg
+  teaser: /assets/images/solaris10-optimize-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
