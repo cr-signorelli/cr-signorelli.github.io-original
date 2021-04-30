@@ -28,12 +28,12 @@ Embora pareça simples à primeira vista é algo crítico, não conseguir inicia
 
 **Informações e Requisitos**
 
-- O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.
-- Servidor dever estar utilizando ILOM como firmware de gerenciamento.
-- Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).
-- CD/DVD com a imagem do Solaris 10 ou Imagem ISO.
+>> O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.
+>> Servidor dever estar utilizando ILOM como firmware de gerenciamento.
+>> Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).
+>> CD/DVD com a imagem do Solaris 10 ou Imagem ISO.
 
-Acesso o **prompt ok** e realize o boot a maquina com CDROM no modo single user:
+Acesso o **"prompt ok"** e realize o boot a maquina com CDROM no modo single user:
 {: style="text-align: justify;"}
 
 ```console
@@ -91,7 +91,7 @@ lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s6 -> ../../devices/pci@400/pci@2/
 lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:h,raw
 ```
 
-Os discos que interessam são os todos que terminam como **s0**:
+Os discos que interessam são os todos que terminam como s0:
 {: style="text-align: justify;"}
 
 ```console
@@ -136,8 +136,8 @@ Seleciona a controladora SCSI
 ```
 
 Redefina os alias fixar as configurações, atenção ao montar a linha de comando:  
-**_/pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora_**  
-**_disk@w3866266df79f5225,0:a  --> disco identificado anteriormente_**  
+_/pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora_  
+_disk@w3866266df79f5225,0:a  --> disco identificado anteriormente_  
 
 ```console
 {0} ok nvalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a
