@@ -45,6 +45,7 @@ Após o boot e com sistema carregado é preciso identificar os discos da máquin
 
 ```console
 # ls /dev/dsk
+
 c0t36479CCB99B8E947d0s0  c0t36479CCB99B8E947d0s6  c0t3866266DF79F5225d0s4  c1t6d0s2  c2t0d0s0  c2t0d0s6
 c0t36479CCB99B8E947d0s1  c0t36479CCB99B8E947d0s7  c0t3866266DF79F5225d0s5  c1t6d0s3  c2t0d0s1  c2t0d0s7
 c0t36479CCB99B8E947d0s2  c0t3866266DF79F5225d0s0  c0t3866266DF79F5225d0s6  c1t6d0s4  c2t0d0s2
@@ -55,6 +56,7 @@ c0t36479CCB99B8E947d0s5  c0t3866266DF79F5225d0s3  c1t6d0s1                 c1t6d
 
 ```console
 # ls -lh /dev/dsk
+
 lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
 lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:b,raw
 lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:c,raw
@@ -94,6 +96,7 @@ Os discos que interessam são os todos que terminam como **s0**:
 
 ```console
 # ls -l /dev/rdsk/*s0
+
 lrwxrwxrwx 1 root root  86 Aug 28  2015 /dev/rdsk/c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
 lrwxrwxrwx 1 root root  86 Aug 28  2015 /dev/rdsk/c0t3866266DF79F5225d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:a,raw
 lrwxrwxrwx 1 root root  72 Aug 28  2015 /dev/rdsk/c1t6d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:a,raw
@@ -134,8 +137,10 @@ Seleciona a controladora SCSI
 Redefina os alias fixar as configurações, atenção ao montar a linha de comando:
 {: style="text-align: justify;"}
 
-* /pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora  
-* disk@w3866266df79f5225,0:a  --> disco identificado anteriormente  
+```
+/pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora  
+disk@w3866266df79f5225,0:a  --> disco identificado anteriormente  
+```
 
 ```console
 {0} ok nvalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a
