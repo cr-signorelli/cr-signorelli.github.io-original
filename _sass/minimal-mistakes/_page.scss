@@ -74,12 +74,13 @@ body {
 
   & + .page__meta {
     margin-top: -0.5em;
+    font-size: $type-size-8;
   }
 }
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-8;
+  font-size: $type-size-4;
 }
 
 .page__content {
