@@ -3,9 +3,9 @@ title: "Solaris 10 - Boot-read-fail"
 classes: wide
 header:
   #overlay_color: "#333"
-  overlay_image: /assets/images/solaris-optmize.jpg
-  og_image: /assets/images/solaris-optmize.jpg
-  teaser: /assets/images/solaris-optmize-thumb.jpg
+  overlay_image: /assets/images/solaris10-optimize.jpg
+  og_image: /assets/images/solaris10-optimize.jpg
+  teaser: /assets/images/solaris10-optimize-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
@@ -33,9 +33,6 @@ Embora pareça simples à primeira vista é algo crítico, não conseguir inicia
 - Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).
 - CD/DVD com a imagem do Solaris 10 ou Imagem ISO.
 
-**Aviso:** Se sua empresa possui contrato de suporte ativo ou o equipamento está em garantia faça abertura de chamado no _[My Oracle Support](https://support.oracle.com/portal/)_, além de simples é possível realizar todo atendimento online. Poder contar com uma equipe de suporte qualificada como apoio é indispensável.
-{: .notice--warning}
-
 Acesso o **prompt ok** e realize o boot a maquina com CDROM no modo single user:
 {: style="text-align: justify;"}
 
@@ -58,38 +55,38 @@ c0t36479CCB99B8E947d0s5  c0t3866266DF79F5225d0s3  c1t6d0s1                 c1t6d
 
 ```console
 # ls -lh /dev/dsk
-c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
-c0t36479CCB99B8E947d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:b,raw
-c0t36479CCB99B8E947d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:c,raw
-c0t36479CCB99B8E947d0s3 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:d,raw
-c0t36479CCB99B8E947d0s4 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:e,raw
-c0t36479CCB99B8E947d0s5 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:f,raw
-c0t36479CCB99B8E947d0s6 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:g,raw
-c0t36479CCB99B8E947d0s7 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:h,raw
-c0t3866266DF79F5225d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:a,raw
-c0t3866266DF79F5225d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:b,raw
-c0t3866266DF79F5225d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:c,raw
-c0t3866266DF79F5225d0s3 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:d,raw
-c0t3866266DF79F5225d0s4 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:e,raw
-c0t3866266DF79F5225d0s5 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:f,raw
-c0t3866266DF79F5225d0s6 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:g,raw
-c0t3866266DF79F5225d0s7 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:h,raw
-c1t6d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:a,raw
-c1t6d0s1 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:b,raw
-c1t6d0s2 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:c,raw
-c1t6d0s3 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:d,raw
-c1t6d0s4 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:e,raw
-c1t6d0s5 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:f,raw
-c1t6d0s6 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:g,raw
-c1t6d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:h,raw
-c2t0d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:a,raw
-c2t0d0s1 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:b,raw
-c2t0d0s2 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:c,raw
-c2t0d0s3 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:d,raw
-c2t0d0s4 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:e,raw
-c2t0d0s5 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:f,raw
-c2t0d0s6 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:g,raw
-c2t0d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:h,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:b,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:c,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s3 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:d,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s4 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:e,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s5 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:f,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s6 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:g,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s7 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:h,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:a,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:b,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:c,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s3 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:d,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s4 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:e,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s5 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:f,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s6 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:g,raw
+lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s7 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:h,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:a,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s1 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:b,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s2 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:c,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s3 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:d,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s4 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:e,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s5 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:f,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s6 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:g,raw
+lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:h,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:a,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s1 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:b,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s2 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:c,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s3 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:d,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s4 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:e,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s5 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:f,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s6 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:g,raw
+lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:h,raw
 ```
 
 Os discos que interessam são os todos que terminam como **s0**:
@@ -137,8 +134,8 @@ Seleciona a controladora SCSI
 Redefina os alias fixar as configurações, atenção ao montar a linha de comando:
 {: style="text-align: justify;"}
 
-> /pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora  
-> disk@w3866266df79f5225,0:a  --> disco identificado anteriormente  
+* /pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora  
+* disk@w3866266df79f5225,0:a  --> disco identificado anteriormente  
 
 ```console
 {0} ok nvalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a
@@ -156,6 +153,9 @@ Também é possível realizar o procedimento com  o sistema operacional (Solaris
 -bash-3.2# eeprom use-nvramrc?=true
 -bash-3.2# eeprom nvramrc="devalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a devalias rootmirr /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w36479ccb99b8e947,0:a"
 ```
+
+**Aviso:** Se sua empresa possui contrato de suporte ativo ou o equipamento está em garantia faça abertura de chamado no _[My Oracle Support](https://support.oracle.com/portal/)_, além de simples é possível realizar todo atendimento online. Poder contar com uma equipe de suporte qualificada como apoio é indispensável.
+{: .notice--warning}
 
 #### Referências
 
