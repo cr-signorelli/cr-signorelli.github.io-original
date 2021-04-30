@@ -28,7 +28,7 @@ Embora pareça simples à primeira vista é algo crítico, não conseguir inicia
 
 ---
 
-**Informações e Requisitos**
+#### Informações e Requisitos
 
 > O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.  
 > Servidor dever estar utilizando ILOM como firmware de gerenciamento.  
