@@ -26,12 +26,16 @@ Diversos eventos podem desencadear esse problema, afetando os alias dos discos.
 Embora pareça simples à primeira vista é algo crítico, não conseguir iniciar automaticamente o sistema após uma queda de energia ou uma manutenção programada pode ser um grande inconveniente.
 {: style="text-align: justify;"}
 
+---
+
 **Informações e Requisitos**
 
 > O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.  
 > Servidor dever estar utilizando ILOM como firmware de gerenciamento.  
 > Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).  
 > CD/DVD com a imagem do Solaris 10 ou Imagem ISO.  
+
+---
 
 Acesso o **"prompt ok"** e realize o boot a maquina com CDROM no modo single user:
 {: style="text-align: justify;"}
