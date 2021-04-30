@@ -136,8 +136,8 @@ Seleciona a controladora SCSI
 ```
 
 Redefina os alias fixar as configurações, atenção ao montar a linha de comando:  
-_/pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora_  
-_disk@w3866266df79f5225,0:a  --> disco identificado anteriormente_
+_**/pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora**_  
+_*disk@w3866266df79f5225,0:a  --> disco identificado anteriormente*_
 
 ```console
 {0} ok nvalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a
