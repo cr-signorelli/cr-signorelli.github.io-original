@@ -108,6 +108,7 @@ Descarte o devices que não interessam como CDROM e USB:
 
 ```console
 # ls -l /dev/rdsk/*s0 | grep -v cdrom | grep -v usb
+
 lrwxrwxrwx 1 root root  86 Aug 28  2015 /dev/rdsk/c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
 lrwxrwxrwx 1 root root  86 Aug 28  2015 /dev/rdsk/c0t3866266DF79F5225d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:a,raw
 ```
@@ -134,13 +135,9 @@ Seleciona a controladora SCSI
 {0} ok select /pci@400/pci@1/pci@0/pci@4/scsi@0
 ```
 
-Redefina os alias fixar as configurações, atenção ao montar a linha de comando:
-{: style="text-align: justify;"}
-
-```
-/pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora  
-disk@w3866266df79f5225,0:a  --> disco identificado anteriormente  
-```
+Redefina os alias fixar as configurações, atenção ao montar a linha de comando:  
+_/pci@400/pci@1/pci@0/pci@4/scsi@0 --> path da controladora_  
+_disk@w3866266df79f5225,0:a  --> disco identificado anteriormente_
 
 ```console
 {0} ok nvalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a
