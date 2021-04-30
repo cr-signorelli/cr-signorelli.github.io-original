@@ -28,10 +28,10 @@ Embora pareça simples à primeira vista é algo crítico, não conseguir inicia
 
 **Informações e Requisitos**
 
->> O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.
->> Servidor dever estar utilizando ILOM como firmware de gerenciamento.
->> Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).
->> CD/DVD com a imagem do Solaris 10 ou Imagem ISO.
+> O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.
+> Servidor dever estar utilizando ILOM como firmware de gerenciamento.
+> Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).
+> CD/DVD com a imagem do Solaris 10 ou Imagem ISO.
 
 Acesso o **"prompt ok"** e realize o boot a maquina com CDROM no modo single user:
 {: style="text-align: justify;"}
@@ -52,43 +52,6 @@ c0t36479CCB99B8E947d0s2  c0t3866266DF79F5225d0s0  c0t3866266DF79F5225d0s6  c1t6d
 c0t36479CCB99B8E947d0s3  c0t3866266DF79F5225d0s1  c0t3866266DF79F5225d0s7  c1t6d0s5  c2t0d0s3
 c0t36479CCB99B8E947d0s4  c0t3866266DF79F5225d0s2  c1t6d0s0                 c1t6d0s6  c2t0d0s4
 c0t36479CCB99B8E947d0s5  c0t3866266DF79F5225d0s3  c1t6d0s1                 c1t6d0s7  c2t0d0s5
-```
-
-```console
-# ls -lh /dev/dsk
-
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:a,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:b,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:c,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s3 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:d,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s4 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:e,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s5 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:f,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s6 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:g,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t36479CCB99B8E947d0s7 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w36479ccb99b8e947,0:h,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s0 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:a,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s1 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:b,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s2 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:c,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s3 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:d,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s4 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:e,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s5 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:f,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s6 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:g,raw
-lrwxrwxrwx 1 root root  86 Aug 28  2015 c0t3866266DF79F5225d0s7 -> ../../devices/pci@400/pci@1/pci@0/pci@4/scsi@0/iport@v0/disk@w3866266df79f5225,0:h,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:a,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s1 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:b,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s2 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:c,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s3 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:d,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s4 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:e,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s5 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:f,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s6 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:g,raw
-lrwxrwxrwx 1 root root  72 Aug 28  2015 c1t6d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@4/scsi@0/iport@40/cdrom@p6,0:h,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s0 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:a,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s1 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:b,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s2 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:c,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s3 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:d,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s4 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:e,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s5 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:f,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s6 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:g,raw
-lrwxrwxrwx 1 root root  90 Aug 28  2015 c2t0d0s7 -> ../../devices/pci@400/pci@2/pci@0/pci@f/pci@0/usb@0,2/hub@2/hub@3/storage@2/disk@0,0:h,raw
 ```
 
 Os discos que interessam são os todos que terminam como s0:
