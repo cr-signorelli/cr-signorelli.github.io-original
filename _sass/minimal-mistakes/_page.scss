@@ -179,7 +179,7 @@ body {
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
     color: #fff;
-    text-shadow: 1px 1px 4px rgba(#000, 2.5);
+    text-shadow: 1px 1px 4px rgba(#000, 0.5);
 
     a {
       color: #fff;
@@ -236,6 +236,7 @@ body {
   z-index: 5;
   opacity: 0.5;
   border-radius: $border-radius 0 0 0;
+  font-size: $type-size-1;
 
   @include breakpoint($large) {
     padding: 5px 10px;
