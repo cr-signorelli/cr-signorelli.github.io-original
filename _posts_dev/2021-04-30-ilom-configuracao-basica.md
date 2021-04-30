@@ -11,9 +11,10 @@ header:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
 categories:
-  - network
+  - ilom
 tags:
   - ilom
+  - network
   - sparc
   - sysadmin
 last_modified_at: 2021-04-29T18:00:00-03:00
