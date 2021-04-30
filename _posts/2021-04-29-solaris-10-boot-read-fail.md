@@ -28,10 +28,10 @@ Embora pareça simples à primeira vista é algo crítico, não conseguir inicia
 
 **Informações e Requisitos**
 
-> O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.
-> Servidor dever estar utilizando ILOM como firmware de gerenciamento.
-> Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).
-> CD/DVD com a imagem do Solaris 10 ou Imagem ISO.
+> O procedimento descrito foi realizado em um Servidor Oracle T-Series SPARC.  
+> Servidor dever estar utilizando ILOM como firmware de gerenciamento.  
+> Acesso de gerenciamento remoto (NET-MGT) ou via console (SER-MGT).  
+> CD/DVD com a imagem do Solaris 10 ou Imagem ISO.  
 
 Acesso o **"prompt ok"** e realize o boot a maquina com CDROM no modo single user:
 {: style="text-align: justify;"}
