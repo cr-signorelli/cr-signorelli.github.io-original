@@ -40,12 +40,12 @@ Uma vez logado na console da ILOM use os comandos abaixo para configurar a rede.
 
 #### Troca de senha
 
-Por padrão os servidores Oracle SPARC a ILOM vem com usuário e senha pré definidos.
+Por padrão os servidores Oracle SPARC a ILOM vem com usuário e senha pré definidos:
 
 > usuário: **root**  
 > senha: **changeme**  
 
-Uma vez logado na console da ILOM use o comando abaixo para trocar a senha de root.
+Uma vez logado na console da ILOM use o comando abaixo para trocar a senha de root:
 
 ```console
 > set /SP/users/root <senha_nova>
@@ -55,9 +55,9 @@ Uma vez logado na console da ILOM use o comando abaixo para trocar a senha de ro
 
 Requisitos para essa etapa:
 
-> Um computador conectado na mesma rede e no mesmo domínio de broadcast do servidor.
-> Um servidor web instalado e habilitado com a porta 8888 liberada.
-> Hospedar no servidor web o arquivo do firmware que será utilizado
+> Um computador conectado na mesma rede e no mesmo domínio de broadcast do servidor.  
+> Um servidor web instalado e habilitado com a porta 8888 liberada.  
+> Hospedar no servidor web o arquivo do firmware que será utilizado.  
 
 Através da console inicie o processo:
 
@@ -84,7 +84,7 @@ ILOM will now be restarted with the new firmware.
 
 #### Clean registers
 
-Reinicia tudo o sistema da ILOM, é muito similar a um **"power cycle"**
+Reinicia tudo o sistema da ILOM, é muito similar a um **"power cycle"**.
 
 Acesse o "prompt ok" (OBP = OpenbootProm) use o comando **.registers** para mostrar os dados dos registradores:
 
