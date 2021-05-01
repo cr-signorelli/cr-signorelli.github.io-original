@@ -189,8 +189,8 @@ body {
       padding-left: 1em;
       padding-right: 1em;
 
-      @include breakpoint($large) {
-        max-width: $large;
+      @include breakpoint($small) {
+        max-width: $small;
       }
     }
 
