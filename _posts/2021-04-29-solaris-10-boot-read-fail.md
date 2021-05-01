@@ -1,5 +1,5 @@
 ---
-title: "Solaris 10 - Boot-read-fail"
+title: "Solaris 10 - Boot read fail"
 classes: wide
 header:
   #overlay_color: "#333"
