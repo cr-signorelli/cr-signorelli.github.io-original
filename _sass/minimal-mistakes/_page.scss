@@ -170,21 +170,17 @@ body {
     position: relative;
     margin-bottom: 2em;
     padding: 3em 0;
-    font-size: 80px;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 80px;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
-    font-size: 80px;
     -webkit-animation-delay: 0.25s;
-    font-size: 80px;
     animation-delay: 0.25s;
     color: #fff;
     text-shadow: 1px 1px 4px rgba(#000, 0.5);
-    font-size: 80px;
+
     a {
       color: #fff;
     }
@@ -193,8 +189,8 @@ body {
       padding-left: 1em;
       padding-right: 1em;
 
-      @include breakpoint($x-large) {
-        max-width: $x-large;
+      @include breakpoint($large) {
+        max-width: $large;
       }
     }
 
