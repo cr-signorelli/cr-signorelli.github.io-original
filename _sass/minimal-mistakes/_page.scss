@@ -180,6 +180,7 @@ body {
     animation-delay: 0.25s;
     color: #fff;
     text-shadow: 1px 1px 4px rgba(#000, 0.5);
+    font-size: $type-size-1;
 
     a {
       color: #fff;
@@ -203,7 +204,6 @@ body {
     }
 
     .page__lead {
-      font-size: $type-size-2;
       max-width: $medium;
     }
 
