@@ -24,8 +24,8 @@ last_modified_at: 2021-05-02T17:30:00-03:00
 Os túneis IP fornecem um meio de transportar pacotes de dados entre domínios de broadcast.
 {: style="text-align: justify;"}
 
-> Especificações que vamos usar para o exemplo:
->
+> Especificações que vamos usar para o exemplo:  
+>  
 > 10.137.0.0/17 = rede que precisamos alcançar em outra máquina  
 > 192.168.70.1/30 = outro lado do tunel IP  
 > 192.159.205.12 = IP do outro lado  
@@ -42,7 +42,7 @@ Estrutura do comando **ifconfig** para criar rede:
 -bash-3.2# ifconfig ip.tun0 <IP_TUNNEL_SRC> <IP_TUNNEL_DST> tsrc <IP_INTERFACE_SRC> tdst <IP_INTERFACE_DST> up
 ```
 
-> **Analisando as opções:**  
+> Analisando as opções:  
 >  
 > \<IP_TUNNEL_SRC\> - IP de origem do tunel (Non-routing IP of the source tunnel)  
 > \<IP_TUNNEL_DST\> - IP de destino do tunel (Non-routing IP of the destination tunnel)  
@@ -56,7 +56,7 @@ Estrutura do comando **route**:
 -bash-3.2# route add <NETWORK_ON_TUNNER> <IP_TUNNEL_DST>
 ```
 
-> **Analisando as opções:**  
+> Analisando as opções:  
 >  
 > \<NETWORK_ON_TUNNER\> - IP da rede que deseja acessar através do tunel (IP address of the network you want to access through the tunnel)  
 > \<IP_TUNNEL_DST\> - IP do tunel de destino (Non-routing IP of the destination tunnel)  
@@ -69,7 +69,7 @@ pass in from <IP_INTERFACE_DST> to any
 pass out from any to <IP_INTERFACE_DST>
 ```
 
-> **Analisando as opções:**  
+> Analisando as opções:  
 >  
 > \<IP_INTERFACE_DST\> - IP de destino da interface que vamos usar para desencapsular o trafego (IP from destination interface which we use to unencapsulate the traffic)  
 

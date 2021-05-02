@@ -151,9 +151,8 @@ Desmontando a o CD/DVD:
 -bash-3.2# umount the DVD
 ```
 
-Especificações que vamos usar para o exemplo:
-{: style="text-align: justify;"}
-
+> Especificações que vamos usar para o exemplo:  
+>  
 > server01 = hostname  
 > 192.0.2.10/24 = endereço IP  
 > 3:22:11:6d:2e:1f = macaddress do servidor  

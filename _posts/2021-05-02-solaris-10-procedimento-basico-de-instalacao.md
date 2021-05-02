@@ -23,9 +23,11 @@ last_modified_at: 2021-05-02T01:30:00-03:00
 Quando se trata de servidores é comum que a instalação dos sistemas operacionais sejam feitas em modo texto, remota ou através de ferramentas de automação. Por isso acredito que seja importante poder conhecer as telas de todo processo sempre que possível.
 {: style="text-align: justify;"}
 
-Especificações que vamos usar para o exemplo:
+
 {: style="text-align: justify;"}
 
+> Especificações que vamos usar para o exemplo:  
+>
 > vnet0 = network interface  
 > 192.0.2.10/24 = ip address  
 > 192.0.2.1 = default gateway  
