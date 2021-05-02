@@ -46,10 +46,10 @@ Estrutura do comando **ifconfig** para criar rede:
 Analisando as opções:
 {: style="text-align: justify;"}
 
-> '<IP_TUNNEL_SRC>' - IP de origem do tunel (Non-routing IP of the source tunnel)  
-> '<IP_TUNNEL_DST>' - IP de destino do tunel (Non-routing IP of the destination tunnel)  
-> '<IP_INTERFACE_SRC>' - IP de origem da interface que vamos usar para encapsular o tráfego (IP from source interface which we use to encapsulate the traffic)  
-> '<IP_INTERFACE_DST>' - IP de destino da interface que vamos usar para desencapsular o tráfego (IP from destination interface which we use to unencapsulate the traffic)  
+> \<IP_TUNNEL_SRC\> - IP de origem do tunel (Non-routing IP of the source tunnel)  
+> \<IP_TUNNEL_DST\> - IP de destino do tunel (Non-routing IP of the destination tunnel)  
+> \<IP_INTERFACE_SRC\> - IP de origem da interface que vamos usar para encapsular o tráfego (IP from source interface which we use to encapsulate the traffic)  
+> \<IP_INTERFACE_DST\> - IP de destino da interface que vamos usar para desencapsular o tráfego (IP from destination interface which we use to unencapsulate the traffic)  
 
 Estrutura do comando **route**:
 {: style="text-align: justify;"}
