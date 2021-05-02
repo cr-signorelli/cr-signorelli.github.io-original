@@ -21,17 +21,15 @@ tags:
 last_modified_at: 2021-05-01T23:00:00-03:00
 ---
 
-Solaris 10 - Install using JUMPSTART
-
----
+É muito comum que servidores não possuam unidade CD/DVD, algumas modelos da Oracle não possuem nem entrada USB, ou seja, a única fora de instalar o sistema é via rede.
 
 #### Requisitos
 
 > Imagem .ISO do Solaris 10 64bits SPARC.  
 > Outra máquina com Solaris 10 instalado (vamos utilizar um máquina virtual usando VirtuaBox).  
->> Configure a interface do VirtualBox como "bridge".  
->> Configura a máquina virtual na mesma subnet do servidor onde o Solaris 10 será instalado.  
->> Monte a imagem .ISO no VirtualBox e adicione a sua máquina virtual.  
+> Configure a interface do VirtualBox como "bridge".  
+> Configura a máquina virtual na mesma subnet do servidor onde o Solaris 10 será instalado.  
+> Monte a imagem .ISO no VirtualBox e adicione a sua máquina virtual.  
 
 Ao adicionar a imagem .ISO via VirtualBox o Solaris irá idenficá-la como uma unidade de CD/DVD.
 
@@ -131,7 +129,7 @@ nfs4_domain=example.com
 root_password=URFUni9
 ```
 
-Desmontando a o CD/DVD
+Desmontando a o CD/DVD:
 
 ```console
 -bash-3.2# cd /
@@ -150,7 +148,8 @@ Edite o arquivo **/etc/hosts** e adicione o hostname e o IP do servidor que ser�
 192.0.2.10 server01
 ```
 
-Adicionado o servidor na JumpStart
+Adicionado o servidor na JumpStart:
+
 ```console
 -bash-3.2# cd /path/to/anywhere/Solaris_10/Tools
 -bash-3.2# ./add_install_client -e 3:22:11:6d:2e:1f -s 192.0.2.10:/path/to/anywhere/sol -c 192.0.2.10:/path/to/anywhere/config -p 192.0.2.10:/path/to/anywhere/config server01 sun4v
@@ -168,5 +167,5 @@ Ao iniciar a instalação siga as instruções na tela.
 
 #### Referências
 
-> [Planning to Install Over the Network](https://docs.oracle.com/cd/E26505_01/html/E28037/ejusv.html#scrolltoc)
+> [Planning to Install Over the Network](https://docs.oracle.com/cd/E26505_01/html/E28037/ejusv.html#scrolltoc)  
 > [Documentação sobre sysidcfg](https://docs.oracle.com/cd/E26505_01/html/E28037/preconsysid-55534.html)  

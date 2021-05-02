@@ -93,18 +93,6 @@ Ajuste de permissões do arquivo:
 -bash-3.2# chmod 644 /etc/hostname.igb0
 ```
 
-#### IP-Forwarding
-
-IP-Forwarding permite que você encaminhe todas as solicitações provenientes de uma determinada porta ou URL para serem um endereço IP especificado.
-
-Padrão esse configurações vem desativada use o comando **ndd** para ligar essa opção:
-
-```console
--bash-3.2# ndd -set /dev/ip ip_forwarding 0
-```
-
-Para que o IP forwarding seja iniciado automaticamente junto do sistema operacional adicione no boot do sistema, arquivo responsável por isso é **/etc/rc2.d/S69inet**.
-
 #### IPV4 Rotas
 
 Adicione a rota padrão (default) de fora permanete:
@@ -124,6 +112,18 @@ Adicionando um rota espeficida da rede 10.0.0.0/8 para um 198.51.100.1 de outra 
 ```console
 -bash-3.2# route add -net 10.0.0.0 -netmask 255.0.0.0 198.51.100.1 1
 ```
+
+#### IP-Forwarding
+
+IP-Forwarding permite que você encaminhe todas as solicitações provenientes de uma determinada porta ou URL para serem um endereço IP especificado.
+
+Padrão esse configurações vem desativada use o comando **ndd** para ligar essa opção:
+
+```console
+-bash-3.2# ndd -set /dev/ip ip_forwarding 0
+```
+
+Para que o IP forwarding seja iniciado automaticamente junto do sistema operacional adicione no boot do sistema, arquivo responsável por isso é **/etc/rc2.d/S69inet**.
 
 #### IPv6 interface física
 
