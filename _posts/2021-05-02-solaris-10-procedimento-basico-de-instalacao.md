@@ -2,9 +2,9 @@
 title: "Solaris 10 - Procedimento básico de instalação"
 classes: wide
 header:
-  overlay_image: /assets/images/solaris-optmize.jpg
-  og_image: /assets/images/solaris-optmize.jpg
-  teaser: /assets/images/solaris-optmize-thumb.jpg
+  overlay_image: /assets/images/solaris10-optimize.jpg
+  og_image: /assets/images/solaris10-optimize-og.jpg
+  teaser: /assets/images/solaris10-optimize-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
@@ -16,91 +16,20 @@ tags:
   - solaris-10
   - sparc
   - sysadmin
-last_modified_at: 2021-04-22T23:00:00-03:00
+  - instalacao
+last_modified_at: 2021-05-02T01:30:00-03:00
 ---
 
+Quando se trata de servidores é comum que a instalação dos sistemas operacionais sejam feitas em modo texto, remota ou através de ferramentas de automação. Por isso acredito que seja importante poder conhecer as telas de todo processo sempre que possível.
+{: style="text-align: justify;"}
 
----
+Especificações que vamos usar para o exemplo:
+{: style="text-align: justify;"}
 
-**ILOM**
-
-Configurando IP na NET-MGT.
-```console
-cd /SP/network 
-set pendingipaddress=192.168.0.10
-set pendingipnetmask=255.255.255.0  
-set pendingipgateway=192.168.0.1
-set commitpending=true
-set state=enabled
-```
-
-Desativar o autoboot antes de ligar o sistema.
-```console
--> set /HOST/bootmode script="setenv auto-boot? false"
--> start /SYS
-```
-
-Acesso o console
-```console
--> start /HOST/console
-```
-
-
-**RAID via ILOM (apenas para T3.1 e T3.2)**
-
-Verifica qual é a controladora SCSI.
-```console
-{0} ok probe-scsi-all
-```
-
-Selecione a controladora onde estão os disco.
-```console
-{0} ok select /pci@400/pci@1/pci@0/pci@4/scsi@0
-```
-
-Lista os disco e montando o raid.
-```console
-{0} ok show-children
-
-FCode Version 1.00.54, MPT Version 2.00, Firmware Version 5.05.00.00
-Target a
-  Unit 0   Disk   HITACHI  H106030SDSUN300G A2B0    585937500 Blocks, 300 GB
-  SASDeviceName 5000cca012b61364  SASAddress 5000cca012b61365  PhyNum 0
-Target b
-  Unit 0   Disk   HITACHI  H106030SDSUN300G A2B0    585937500 Blocks, 300 GB
-  SASDeviceName 5000cca012b57114  SASAddress 5000cca012b57115  PhyNum 1
-Target c
-  Unit 0   Disk   HITACHI  H106030SDSUN300G A2B0    585937500 Blocks, 300 GB
-  SASDeviceName 5000cca012b7564c  SASAddress 5000cca012b7564d  PhyNum 4
-Target d
-  Unit 0   Disk   HITACHI  H106030SDSUN300G A2B0    585937500 Blocks, 300 GB
-  SASDeviceName 5000cca012b7cce0  SASAddress 5000cca012b7cce1  PhyNum 5
-Target e
-  Unit 0   Encl Serv device   SUN      SAS2 X16DBP      0305
-  SASAddress 50800200000272bd  PhyNum 18
-
-{0} ok a b  create-raid0-volume
-Target a size is 583983104 Blocks, 298 GB
-Target b size is 583983104 Blocks, 298 GB
-The volume can be any size from 1 MB to 570296 MB
-What size do you want?  [570296]
-Volume size will be 1167966208 Blocks, 597 GB
-Enter a volume name:  [0 to 15 characters] volume1
-Volume has been created
-
-{0} ok c d  create-raid0-volume
-```
-
-**Formatando os disco**
-
-Usando o CD/DVD inicie a Solaris 10 em single mode.
-```console
-{0} ok boot cdrom -s
-```
-
-
-
-Solaris 10 - Procedimento básico de instalação:
+> vnet0 = network interface  
+> 192.0.2.10/24 = ip address  
+> 192.0.2.1 = default gateway  
+> server01 = hostname
 
 ```console
 {0} ok boot cdrom
@@ -157,6 +86,8 @@ Type the number of your choice and press Return: 3
 Completing system identification...
 in.rdisc: No interfaces up
 ```
+
+Dependendo do teclado o F2 não funciona, não se preocupe utilize a sequência **ESC + 2**.
 
 ```console
 q The Solaris Installation Program qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
@@ -243,7 +174,7 @@ q Host Name for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
   digits, and minus signs (-).
 
 
-                 Host name for vnet0 MCODTCLDM61
+                 Host name for vnet0 server01
 
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
     Esc-2_Continue    Esc-6_Help
@@ -260,7 +191,7 @@ q IP Address for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
   129.200.9.1).
 
 
-                IP address for vnet0 187.65.0.46
+                IP address for vnet0 192.0.2.10
 
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
     Esc-2_Continue    Esc-6_Help
@@ -354,7 +285,7 @@ q Default Route IP Address for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
 
-         Router IP Address for vnet0 187.65.0.11
+         Router IP Address for vnet0 192.0.2.1
 
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
     Esc-2_Continue    Esc-6_Help
@@ -369,13 +300,13 @@ q Confirm Information for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
                           Networked: Yes
                            Use DHCP: No
-                          Host name: MCODTCLDM61
-                         IP address: 187.65.0.46
+                          Host name: server01
+                         IP address: 192.0.2.10
             System part of a subnet: Yes
                             Netmask: 255.255.255.0
                         Enable IPv6: No
                       Default Route: Specify one
-                  Router IP Address: 187.65.0.11
+                  Router IP Address: 192.0.2.1
 
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
     Esc-2_Continue    Esc-4_Change    Esc-6_Help
