@@ -18,7 +18,7 @@ tags:
   - sysadmin
   - network
   - instalacao
-last_modified_at: 2021-05-01T23:00:00-03:00
+last_modified_at: 2021-05-02T00:30:00-03:00
 ---
 
 Caso haja necessidade de adicionar um HD externo esse procedimento irá auxilia-lo a como localizar, montar e preparar o filesystem do disco novo.

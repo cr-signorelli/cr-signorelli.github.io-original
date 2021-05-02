@@ -22,6 +22,7 @@ last_modified_at: 2021-05-01T23:00:00-03:00
 ---
 
 É muito comum que servidores não possuam unidade CD/DVD, algumas modelos da Oracle não possuem nem entrada USB, ou seja, a única fora de instalar o sistema é via rede.
+{: style="text-align: justify;"}
 
 #### Requisitos
 
@@ -32,10 +33,13 @@ last_modified_at: 2021-05-01T23:00:00-03:00
 > Monte a imagem .ISO no VirtualBox e adicione a sua máquina virtual.  
 
 Ao adicionar a imagem .ISO via VirtualBox o Solaris irá idenficá-la como uma unidade de CD/DVD.
+{: style="text-align: justify;"}
 
 Acesse o sistema como **root** a unidade de CD/DVD deve será montada automaticamente pelo serviço **volfs**
+{: style="text-align: justify;"}
 
 Instalando o JumpStart server:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# mkdir -p /path/to/anywhere/sol
@@ -45,12 +49,14 @@ Instalando o JumpStart server:
 ```
 
 Adicione os seguinte parametros no arquivo **/etc/dfs/dfstab** para compartilhar o diretório:
+{: style="text-align: justify;"}
 
 ```console
 share -F nfs -o ro,anon=0 -d "install dir" /path/to/anywhere/sol
 ```
 
 Execute o comando **shareall** e  **share** e verifique se o diretório foi compartilhados:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# shareall
@@ -58,18 +64,21 @@ Execute o comando **shareall** e  **share** e verifique se o diretório foi comp
 ```
 
 Certifique se o serviço de NFSD esta rodando:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# svcs -l svc:/network/nfs/server:default
 ```
 
 Caso esteja desligado execute o comando a seguir
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# svcadm enable svc:/network/nfs/server:default
 ```
 
 Configurando o JumpStart:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# cd /cdrom/cdrom0/S0/Solaris_10/Tools
@@ -78,20 +87,24 @@ Configurando o JumpStart:
 ```
 
 Parâmetros para regras, edite o arquivo **/path/to/config/rules** e adicione os seguintes dados:
+{: style="text-align: justify;"}
 
 ```console
 network net_ip.0 && arch sparc – profile -
 ```
 
 Edite o arquivo **profile** e adicione os seguintes dados:
+{: style="text-align: justify;"}
 
 ```console
 install_type initial_install / system_type standalone
 ```
 
-Edite o arquivo **sysidcfg** e adicione as linhas padrões referente as configurações da máquina que será instalada. Caso tenha alguma duvida consulte a [documentação oficial](https://docs.oracle.com/cd/E26505_01/html/E28037/preconsysid-55534.html). 
+Edite o arquivo **sysidcfg** e adicione as linhas padrões referente as configurações da máquina que será instalada. Caso tenha alguma duvida consulte a [documentação oficial](https://docs.oracle.com/cd/E26505_01/html/E28037/preconsysid-55534.html).
+{: style="text-align: justify;"}
 
 Exemplo do arquivo **sysidcfg** para SPARC:
+{: style="text-align: justify;"}
 
 ```console
 keyboard=US-English
@@ -115,6 +128,7 @@ security_policy=kerberos {default_realm=example.com
 ```
 
 Exemplo do arquivo **sysidcfg** para x86:
+{: style="text-align: justify;"}
 
 ```console
 keyboard=US-English
@@ -130,6 +144,7 @@ root_password=URFUni9
 ```
 
 Desmontando a o CD/DVD:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# cd /
@@ -137,18 +152,21 @@ Desmontando a o CD/DVD:
 ```
 
 Especificações que vamos usar para o exemplo:
+{: style="text-align: justify;"}
 
 > server01 = hostname  
 > 192.0.2.10/24 = endereço IP  
 > 3:22:11:6d:2e:1f = macaddress do servidor  
 
 Edite o arquivo **/etc/hosts** e adicione o hostname e o IP do servidor que será instalado, exemplo:
+{: style="text-align: justify;"}
 
 ```console
 192.0.2.10 server01
 ```
 
 Adicionado o servidor na JumpStart:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# cd /path/to/anywhere/Solaris_10/Tools
@@ -156,14 +174,17 @@ Adicionado o servidor na JumpStart:
 ```
 
 Acesso o arquivo **/etc/bootparams** e verifique o parâmetro **root_server** não é localhost, tem que ser o IP da sua máquina virtual
+{: style="text-align: justify;"}
 
 Agora acesse o ALOM ou ILOM do seu servidor que irá receber a instalação vá até o **prompt ok** e inicie a instalação:
+{: style="text-align: justify;"}
 
 ```console
 boot net -v – install
 ```
 
 Ao iniciar a instalação siga as instruções na tela.
+{: style="text-align: justify;"}
 
 #### Referências
 
