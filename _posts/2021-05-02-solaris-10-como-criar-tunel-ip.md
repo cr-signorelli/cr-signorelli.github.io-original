@@ -22,6 +22,7 @@ last_modified_at: 2021-05-02T17:30:00-03:00
 ---
 
 Os túneis IP fornecem um meio de transportar pacotes de dados entre domínios de broadcast.
+{: style="text-align: justify;"}
 
 Especificações que vamos usar para o exemplo:
 {: style="text-align: justify;"}
@@ -33,20 +34,24 @@ Especificações que vamos usar para o exemplo:
 > 192.234.0.23 = IP do nosso lado
 
 Crie o tunel:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# ifconfig ip.tun0 plumb 
 ```
 
 Antes de criar o tunel vamos analisar a sintaxe do comandos.
+{: style="text-align: justify;"}
 
 Estrutura do comando **ifconfig** para criar rede:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# ifconfig ip.tun0 <IP_TUNNEL_SRC> <IP_TUNNEL_DST> tsrc <IP_INTERFACE_SRC> tdst <IP_INTERFACE_DST> up
 ```
 
 Analisando as opções:
+{: style="text-align: justify;"}
 
 - <IP_TUNNEL_SRC> - IP de origem do tunel (Non-routing IP of the source tunnel)
 - <IP_TUNNEL_DST> - IP de destino do tunel (Non-routing IP of the destination tunnel)
@@ -54,17 +59,20 @@ Analisando as opções:
 - <IP_INTERFACE_DST> - IP de destino da interface que vamos usar para desencapsular o tráfego (IP from destination interface which we use to unencapsulate the traffic)
 
 Estrutura do comando **route**:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# route add <NETWORK_ON_TUNNER> <IP_TUNNEL_DST>
 ```
 
 Analisando as opções:
+{: style="text-align: justify;"}
 
 - <NETWORK_ON_TUNNER> - IP da rede que deseja acessar através do tunel (IP address of the network you want to access through the tunnel)
 - <IP_TUNNEL_DST> - IP do tunel de destino (Non-routing IP of the destination tunnel)
 
 Estrutura do firewall, será preciso adicionar algumas regras no **ipf.conf**
+{: style="text-align: justify;"}
 
 ```console
 pass in from <IP_INTERFACE_DST> to any
@@ -72,10 +80,12 @@ pass out from any to <IP_INTERFACE_DST>
 ```
 
 Analisando as opções:
+{: style="text-align: justify;"}
 
 - <IP_INTERFACE_DST> - IP de destino da interface que vamos usar para desencapsular o trafego (IP from destination interface which we use to unencapsulate the traffic)
 
 Criando o tunel e adicionando as rotas:
+{: style="text-align: justify;"}
 
 ```console
 -bash-3.2# ifconfig ip.tun0 192.168.70.2 192.168.70.1 tsrc 192.234.0.23 tdst 192.159.205.12 up
@@ -83,6 +93,7 @@ Criando o tunel e adicionando as rotas:
 ```
 
 Adicione as regras do firewall
+{: style="text-align: justify;"}
 
 ```console
 pass in from 192.159.205.12 to any
