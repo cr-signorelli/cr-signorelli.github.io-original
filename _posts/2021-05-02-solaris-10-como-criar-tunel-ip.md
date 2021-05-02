@@ -24,9 +24,8 @@ last_modified_at: 2021-05-02T17:30:00-03:00
 Os túneis IP fornecem um meio de transportar pacotes de dados entre domínios de broadcast.
 {: style="text-align: justify;"}
 
-Especificações que vamos usar para o exemplo:
+Especificações que vamos usar para o exemplo:<br>
 {: style="text-align: justify;"}
-
 > 10.137.0.0/17 = rede que precisamos alcançar em outra máquina  
 > 192.168.70.1/30 = outro lado do tunel IP  
 > 192.159.205.12 = IP do outro lado  
