@@ -25,8 +25,9 @@ Configurar a interface de IPv4 ou IPv6 manualmente não é algo complicado, mas 
 
 #### IPv4 interface física
 
-> Especificações que vamos usar para o exemplo:  
->
+Especificações que vamos usar para o exemplo:
+{: style="text-align: justify;"}
+
 > igb0 = physical network interface  
 > 192.0.2.10/24 = interface ip address  
 > 192.0.2.1 = default gateway  
@@ -141,8 +142,9 @@ Para que o IP forwarding seja iniciado automaticamente junto do sistema operacio
 
 #### IPv6 interface física
 
-> Especificações que vamos usar para o exemplo:  
->   
+Especificações que vamos usar para o exemplo:
+{: style="text-align: justify;"}
+
 > igb0 = physical network interface  
 > 2001:db8:1:0:0:0:0:100/128 = interface ip address  
 > 2001:db8:1:0:0:0:0:1 = default gateway  

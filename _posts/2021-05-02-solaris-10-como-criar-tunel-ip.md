@@ -46,10 +46,10 @@ Estrutura do comando **ifconfig** para criar rede:
 Analisando as opções:
 {: style="text-align: justify;"}
 
-> \<IP_TUNNEL_SRC\> - IP de origem do tunel (Non-routing IP of the source tunnel)  
-> \<IP_TUNNEL_DST\> - IP de destino do tunel (Non-routing IP of the destination tunnel)  
-> \<IP_INTERFACE_SRC\> - IP de origem da interface que vamos usar para encapsular o tráfego (IP from source interface which we use to encapsulate the traffic)  
-> \<IP_INTERFACE_DST\> - IP de destino da interface que vamos usar para desencapsular o tráfego (IP from destination interface which we use to unencapsulate the traffic)  
+> \<IP_TUNNEL_SRC\> - IP de origem do tunel.  
+> \<IP_TUNNEL_DST\> - IP de destino do tunel.  
+> \<IP_INTERFACE_SRC\> - IP de origem da interface que vamos usar para encapsular o tráfego.  
+> \<IP_INTERFACE_DST\> - IP de destino da interface que vamos usar para desencapsular o tráfego.  
 
 Estrutura do comando **route**:
 {: style="text-align: justify;"}
@@ -61,8 +61,8 @@ Estrutura do comando **route**:
 Analisando as opções:  
 {: style="text-align: justify;"}
 
-> \<NETWORK_ON_TUNNER\> - IP da rede que deseja acessar através do tunel (IP address of the network you want to access through the tunnel)  
-> \<IP_TUNNEL_DST\> - IP do tunel de destino (Non-routing IP of the destination tunnel)  
+> \<NETWORK_ON_TUNNER\> - IP da rede que deseja acessar através do tunel.  
+> \<IP_TUNNEL_DST\> - IP do tunel de destino.  
 
 Estrutura do firewall, será preciso adicionar algumas regras no **ipf.conf**
 {: style="text-align: justify;"}
@@ -75,7 +75,7 @@ pass out from any to <IP_INTERFACE_DST>
 Analisando as opções:
 {: style="text-align: justify;"}
 
-> \<IP_INTERFACE_DST\> - IP de destino da interface que vamos usar para desencapsular o trafego (IP from destination interface which we use to unencapsulate the traffic)  
+> \<IP_INTERFACE_DST\> - IP de destino da interface que vamos usar para desencapsular o trafego.  
 
 Criando o tunel e adicionando as rotas:
 {: style="text-align: justify;"}
