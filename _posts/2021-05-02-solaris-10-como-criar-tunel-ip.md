@@ -27,11 +27,11 @@ Os túneis IP fornecem um meio de transportar pacotes de dados entre domínios d
 Especificações que vamos usar para o exemplo:
 {: style="text-align: justify;"}
 
-> 10.137.0.0/17 = rede que precisamos alcançar em outra máquina.  
-> 192.168.70.1/30 = outro lado do tunel IP
-> 192.159.205.12 = IP do outro lado
-> 192.168.70.2/30 = nosso lado do tunel IP
-> 192.234.0.23 = IP do nosso lado
+> 10.137.0.0/17 = rede que precisamos alcançar em outra máquina  
+> 192.168.70.1/30 = outro lado do tunel IP  
+> 192.159.205.12 = IP do outro lado  
+> 192.168.70.2/30 = nosso lado do tunel IP  
+> 192.234.0.23 = IP do nosso lado  
 
 Crie o tunel:
 {: style="text-align: justify;"}
