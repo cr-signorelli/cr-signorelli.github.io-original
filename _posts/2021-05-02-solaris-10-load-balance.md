@@ -156,7 +156,7 @@ Não esqueça de ajustar a permissão de execução dos arquivos criados:
 -bash-3.2# chmod +x /etc/rc2.d/S99firewall
 ```
 
-**Alerta:** Quando finalizar suas configurações e testes com o load balance, carrega suas regras de firewall para não ficar sem proteção.
+**Alerta:** Quando finalizar suas configurações e testes com o load balance, carregue suas regras de firewall para não ficar sem proteção.
 {: .notice--danger}
 
 #### Primary - estrutura da LDOM's
