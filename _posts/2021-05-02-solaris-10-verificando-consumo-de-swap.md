@@ -1,5 +1,5 @@
 ---
-title: "Solaris 10 - Update de firmware usando sysfwdownload"
+title: "Solaris 10 - Verificando consumo de SWAP"
 classes: wide
 header:
   overlay_image: /assets/images/solaris10-optimize.jpg
