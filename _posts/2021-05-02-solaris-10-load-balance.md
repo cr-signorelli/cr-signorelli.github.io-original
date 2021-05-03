@@ -156,6 +156,9 @@ Não esqueça de ajustar a permissão de execução dos arquivos criados:
 -bash-3.2# chmod +x /etc/rc2.d/S99firewall
 ```
 
+**Alerta:** Quando finalizar suas configurações e testes com o load balance, carrega suas regras de firewall para não ficar sem proteção.
+{: .notice--danger}
+
 #### Primary - estrutura da LDOM's
 
 Antes de continuar vamos analisar dois cenários de configurar a forma como as máquinas virtuais (LDOM's) irão conversar com a Primary + Load Balance. Particularmente o Cenário 2 é muito mais vantajoso mais tem a questão do seu hardware ser ou não compatível com essa solução.
