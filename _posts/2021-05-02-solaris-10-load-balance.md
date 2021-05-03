@@ -342,7 +342,5 @@ Mostra os MAP/Redirect do IPNAT que estão sendo realizados:
 -bash-3.2# ipnat -l
 ```
 
-#### Problemas
-
 **Alerta:** Round-Robin que está sendo usado nessa solução não possui nenhum "HEALTH-CHECK", ou seja, se uma das máquina cair ou a aplicação travar o balance vai continuar a mandar o tráfego para lá, será preciso acessar o arquivo de IPNAT remover a máquina da lista e recarregar o IPF + IPNAT.
 {: .notice--danger}
