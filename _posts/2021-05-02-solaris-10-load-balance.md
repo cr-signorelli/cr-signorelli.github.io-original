@@ -92,7 +92,7 @@ rdr igb0 198.51.100.116 port 80 -> 192.168.100.2  port 80 tcp round-robin
 rdr igb0 198.51.100.116 port 80 -> 192.168.100.3  port 80 tcp round-robin
 rdr igb0 198.51.100.116 port 80 -> 192.168.100.4  port 80 tcp round-robin
 
-#  Garante que as respostas do APACHE das maquinas serao recebidas de volta
+# Garante que as respostas do APACHE das maquinas serao recebidas de volta
 map igb0 from any to 192.168.100.2  port = 80 -> 198.51.100.116
 map igb0 from any to 192.168.100.3  port = 80 -> 198.51.100.116
 map igb0 from any to 192.168.100.4  port = 80 -> 198.51.100.116
@@ -294,26 +294,11 @@ Caso seja preciso só deligar o modo híbrido:
 
 #### LDOM 1 - configurando a rede dentro da maquina virtual
 
-Habilitar a VNET1:
-
 ```console
 -bash-3.2# ifconfig vnet1 plumb
 -bash-3.2# ifconfig vnet1 192.168.100.2 netmask 255.255.255.0 up
-```
-
-Adicionando o DEFAULT GW para jogar a saída para o Proxy transparente:
-
-```console
 -bash-3.2# route add default 192.168.100.1
-```
-
-Removendo o antigoGW:
-```console
 -bash-3.2# route delete default 198.51.100.1
-```
-
-Desligando a VNET0:
-```console
 -bash-3.2# ifconfig vnet0 down
 ```
 
