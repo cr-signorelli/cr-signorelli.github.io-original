@@ -27,7 +27,9 @@ Abra o **powershell** como administrador e execute o comando abaixo, lembre-se q
 
 ```powershell
 dism /Get-WimInfo /WimFile:D:\sources\install.esd /index:1
+```
 
+```powershell
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
