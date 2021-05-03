@@ -25,7 +25,7 @@ Antes de instalar o Windows em um computador é importante verificar qual a vers
 Abra o **powershell** como administrador e execute o comando abaixo, lembre-se que **D:** é a unidade onde está seu DVD ou pendrive que será analisado:
 {: style="text-align: justify;"}
 
-```PowerShell
+```powershell
 dism /Get-WimInfo /WimFile:D:\sources\install.esd /index:1
 
 Windows PowerShell
