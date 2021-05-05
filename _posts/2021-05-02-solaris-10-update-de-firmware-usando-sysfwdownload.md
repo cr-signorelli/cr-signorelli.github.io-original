@@ -61,4 +61,4 @@ Depois de finalizar o processo de upgrade e reiniciar o sistema, acessa novament
 
 #### Referências
 
-> [Download the firmware](https://www.oracle.com/servers/technologies/firmware/release-history-jsp.html)  
+> [Download the firmware](https://www.oracle.com/servers/technologies/firmware/release-history-jsp.html){:target="_blank"}  
