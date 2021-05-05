@@ -13,8 +13,8 @@ locale                   : "pt-BR"
 #title                    : "Beyond the Geeks"
 title                    : "Beco do Código"
 title_separator          : "-"
-#subtitle                 : "Tutorias, cursos, dicas e curiosidades"
-subtitle                 : "Tutorias, dicas e curiosidades"
+#subtitle                 : "Tutoriais, cursos, dicas e curiosidades"
+subtitle                 : "Tutoriais, dicas e curiosidades"
 name                     : "Signorelli"
 #description              : "Unix is user-friendly. It's just very selective about who its friends are."
 description              : "O Unix é amigável. Só é muito seletivo sobre quem são seus amigos."
@@ -87,7 +87,8 @@ analytics:
 author:
   name             : "Carlos R .Signorelli"
   avatar           : "/assets/images/bio-cr-signorelli.jpg"
-  bio              : "Consultor de Técnologia com experiência em Telecomunicações"
+  #bio              : "Consultor de Técnologia com experiência em Telecomunicações"
+  bio              : "Consultor de Tecnologia com larga experiência em implementação de Data Centers e sistemas UNIX/Linux em larga escala."
   location         : "São Paulo / Brasil"
   links:
     - label: "cr-signorelli.github.io"
@@ -102,7 +103,9 @@ author:
     # - label: "signorelli.carlos"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/signorelli.carlos"
-
+    - label: "LinkedIn - cr-signorelli"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/carlos-rodrigo-signorelli-1235bb33/"
 
 # Site Footer
 footer:
