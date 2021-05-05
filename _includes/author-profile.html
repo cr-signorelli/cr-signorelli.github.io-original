@@ -47,7 +47,7 @@
 
       {% if author.uri %}
         <li>
-          <a href="{{ author.uri }}" itemprop="url">
+          <a href="{{ author.uri }}" target="_blank" itemprop="url">
             <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span>
           </a>
         </li>
@@ -88,7 +88,7 @@
 
       {% if author.linkedin %}
         <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>
