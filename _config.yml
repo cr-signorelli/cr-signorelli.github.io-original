@@ -88,7 +88,7 @@ author:
   name             : "Carlos R .Signorelli"
   avatar           : "/assets/images/bio-cr-signorelli.jpg"
   #bio              : "Consultor de Técnologia com experiência em Telecomunicações"
-  bio              : "Consultor de Tecnologia com larga experiência em implementação de Data Centers e sistemas UNIX/Linux em larga escala."
+  bio              : "Consultor de Tecnologia com larga experiência em implementação de Data Centers e sistemas Unix/Linux em larga escala."
   location         : "São Paulo / Brasil"
   links:
     - label: "cr-signorelli.github.io"
@@ -103,8 +103,8 @@ author:
     # - label: "signorelli.carlos"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/signorelli.carlos"
-    - label: "LinkedIn - cr-signorelli"
-      icon: "fab fa-fw fa-linkedin-in"
+    - label: "linkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/carlos-rodrigo-signorelli-1235bb33/"
 
 # Site Footer
