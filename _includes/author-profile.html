@@ -40,14 +40,14 @@
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+            <li><a href="{{ link.url }}" target="_blank" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
           {% endif %}
         {% endfor %}
       {% endif %}
 
       {% if author.uri %}
         <li>
-          <a href="{{ author.uri }}" target="_blank" itemprop="url">
+          <a href="{{ author.uri }}" itemprop="url">
             <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span>
           </a>
         </li>
@@ -128,7 +128,7 @@
 
       {% if author.github %}
         <li>
-          <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://github.com/{{ author.github }}" target="_blank" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
