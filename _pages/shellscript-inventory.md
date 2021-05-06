@@ -26,8 +26,6 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 
 Organizando as publicações sobre ShellScript
 
-## Conhecendo o Hardware
-
 ## História
 
 ## Administração
