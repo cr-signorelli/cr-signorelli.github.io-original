@@ -41,8 +41,8 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 
 ## Troubleshooting
 
-Boot read fail
-Virtualizador [Oracle Virtual Box 6.1]({{ site.url }}{{ site.baseurl }}/solaris-10/solaris-10-boot-read-fail/)  
+
+Virtualizador [Boot read fail]({{ site.url }}{{ site.baseurl }}/solaris-10/solaris-10-boot-read-fail/)  
 
 ### Ordered Lists
 
