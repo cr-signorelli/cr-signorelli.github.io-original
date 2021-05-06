@@ -20,7 +20,7 @@ categories:
 #tags:
 #  - solaris-10
 toc: true
-toc_label: "Unique Title"
+toc_label: " Menu"
 toc_icon: "flushed"
 last_modified_at: 2021-05-02T01:00:00-03:00
 ---
@@ -55,8 +55,7 @@ Organizando as publicações sobre Solaris 10 SPARC / x86
 
 ### Disk
 
-- Boot Read Fail
-- Como resultar o problema de inicialização do disco - [Boot read fail]({{ site.url }}{{ site.baseurl }}/solaris-10/solaris-10-boot-read-fail/)  
+- [Boot Read Fail - Como resolver o problema de inicialização do disco]({{ site.url }}{{ site.baseurl }}/solaris-10/solaris-10-boot-read-fail/)  
 
 ### Lista organizada (exemplo)
 
