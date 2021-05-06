@@ -5,7 +5,7 @@ main:
   - title: "Solaris 10"
     url: /solaris-10-inventory/
   - title: "Solaris 11"
-    url: /solaris-10-inventory/
+    url: /solaris-11-inventory/
   - title: "ShellScript"
     url: /shellscript-inventory/  
   - title: "Tags"
