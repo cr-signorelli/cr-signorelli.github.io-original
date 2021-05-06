@@ -20,7 +20,7 @@ categories:
 #tags:
 #  - solaris-10
 toc: true
-toc_label: " Menu"
+toc_label: "Menu"
 toc_icon: "flushed"
 last_modified_at: 2021-05-02T01:00:00-03:00
 ---
