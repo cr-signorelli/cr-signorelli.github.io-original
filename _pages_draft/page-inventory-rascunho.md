@@ -1,6 +1,6 @@
 ---
-title: "Oracle Solaris 10 SPARC / x86"
-permalink: /solaris-10-inventory/
+title: "Rascunho"
+permalink: /rascunho/
 header:
   #overlay_image: /assets/images/solaris11-optimize.jpg
   overlay_image: https://source.unsplash.com/1600x300/?abstract
