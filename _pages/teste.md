@@ -1,6 +1,6 @@
 ---
 title: "Oracle Solaris 10 SPARC / x86"
-permalink: /solaris-10-menu/
+permalink: /solaris-10-inventory/
 date: 2021-05-02T01:00:00-03:00
 header:
   #overlay_image: /assets/images/solaris11-optimize.jpg
@@ -19,7 +19,7 @@ categories:
 #tags:
 #  - solaris-10
 toc: true
-toc_label: " Menu"
+toc_label: "-- Menu --"
 toc_icon: "chess-king"
 last_modified_at: 2021-05-02T01:00:00-03:00
 ---
