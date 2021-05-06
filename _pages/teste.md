@@ -1,6 +1,6 @@
 ---
 title: "Teste"
-permalink: /sample-page/
+permalink: /teste/
 header:
   image: https://source.unsplash.com/1600x300/?texture
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
