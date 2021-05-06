@@ -14,7 +14,6 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-
 categories:
   - solaris-10
 #tags:
