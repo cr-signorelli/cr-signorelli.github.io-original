@@ -3,19 +3,31 @@ title: "Teste"
 permalink: /teste/
 header:
   #overlay_image: /assets/images/solaris11-optimize.jpg
-  overlay_image: https://source.unsplash.com/1600x600/?abstract
+  overlay_image: https://source.unsplash.com/1600x300/?abstract
   #og_image: /assets/images/solaris11-optimize-og.jpg
   og_image: https://source.unsplash.com/120x120/?abstract
   #teaser: /assets/images/solaris11-optimize-thumb.jpg
   teaser: https://source.unsplash.com/300x200/?abstract
   image_description: "Fundo abstrato colorido vermelho e laranja"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
+#  #actions:
+#  #  - label: "Leia mais"
+#  #    url: "https://cr-signorelli.github.io/"
+
+categories:
+  - solaris-11.3
 tags:
+  - solaris-11.3
+  - sparc
+  - sysadmin
   - table of contents
 toc: true
 toc_label: "Unique Title"
 toc_icon: "heart"
+last_modified_at: 2021-05-02T01:00:00-03:00
 ---
+
+
 
 
 Enable table of contents on post or page by adding `toc: true` to its YAML Front Matter. The title and icon can also be changed with:
