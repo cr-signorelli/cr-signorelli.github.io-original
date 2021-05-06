@@ -3,7 +3,7 @@ title: "Teste"
 permalink: /teste/
 header:
   #overlay_image: /assets/images/solaris11-optimize.jpg
-  overlay_image: https://source.unsplash.com/1600x300/?abstract
+  overlay_image: https://source.unsplash.com/1600x600/?abstract
   #og_image: /assets/images/solaris11-optimize-og.jpg
   og_image: https://source.unsplash.com/120x120/?abstract
   #teaser: /assets/images/solaris11-optimize-thumb.jpg
