@@ -27,24 +27,38 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 
 Organizando as publicações sobre Solaris 10 SPARC / x86
 
-## HTML Elements
+## Conhecendo o Hardware
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+## História
 
-## Body text
+## Administração
 
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+- Ajustando o Timezone
+- Montando um HD externo
+- Procedimento básico de instalação
+- Update de firmware usando sysfwdownload
+- Como criar pacotes .PKG
 
-### Blockquotes
+## Network
 
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
+- Configurações de IPv4 e IPv6
+- Como criar um tunel IP
+- JumpStart
+- Load Balance
+
+## Segurança
+
+- Removendo e instalando cliente SSH
+- Identificando portas abertas
 
 ## Troubleshooting
 
+### Disk
 
-Virtualizador [Boot read fail]({{ site.url }}{{ site.baseurl }}/solaris-10/solaris-10-boot-read-fail/)  
+- Boot Read Fail
+- Como resultar o problema de inicialização do disco - [Boot read fail]({{ site.url }}{{ site.baseurl }}/solaris-10/solaris-10-boot-read-fail/)  
 
-### Ordered Lists
+### Lista organizada (exemplo)
 
 1. Item one
    1. sub item one
@@ -52,13 +66,13 @@ Virtualizador [Boot read fail]({{ site.url }}{{ site.baseurl }}/solaris-10/solar
    3. sub item three
 2. Item two
 
-### Unordered Lists
+### Lista
 
 * Item one
 * Item two
 * Item three
 
-## Tables
+## Tabela
 
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
@@ -81,7 +95,7 @@ Virtualizador [Boot read fail]({{ site.url }}{{ site.baseurl }}/solaris-10/solar
 }
 ```
 
-## Buttons
+## Botões
 
 Make any link standout more when applying the `.btn` class.
 
@@ -94,8 +108,3 @@ Make any link standout more when applying the `.btn` class.
 <div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
 <div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
 <div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
