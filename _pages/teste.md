@@ -1,5 +1,5 @@
 ---
-title: "Oracle Solaris 10 SPARC / x86"{: style="text-align: justify;"}
+title: "Oracle Solaris 10 SPARC / x86"{: style="text-align: center;"}
 permalink: /teste/
 date: 2021-05-02T01:00:00-03:00
 header:
