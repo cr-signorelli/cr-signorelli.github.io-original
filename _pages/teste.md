@@ -1,5 +1,5 @@
 ---
-title: "Oracle Solaris 10 SPARC / x86"{: style="text-align: center;"}
+title: "Oracle Solaris 10 SPARC / x86"
 permalink: /teste/
 date: 2021-05-02T01:00:00-03:00
 header:
@@ -16,30 +16,16 @@ header:
   #    url: "https://cr-signorelli.github.io/"
 
 categories:
-  - solaris-11.3
-tags:
-  - solaris-11.3
-  - sparc
-  - sysadmin
-  - table of contents
+  - solaris-10
+#tags:
+#  - solaris-10
 toc: true
 toc_label: "Unique Title"
-toc_icon: "cat"
+toc_icon: "flushed"
 last_modified_at: 2021-05-02T01:00:00-03:00
 ---
 
-
-
-
-Enable table of contents on post or page by adding `toc: true` to its YAML Front Matter. The title and icon can also be changed with:
-
-```yaml
----
-toc: true
-toc_label: "Unique Title"
-toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
----
-```
+Organizando as publicações sobre Solaris 10 SPARC / x86
 
 ## HTML Elements
 
@@ -49,18 +35,14 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
-![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
-
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
 ### Blockquotes
 
 > Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
 
-## List Types
+## Troubleshooting
+
+Boot read fail
+Virtualizador [Oracle Virtual Box 6.1]({{ site.url }}{{ site.baseurl }}/solaris-10/solaris-10-boot-read-fail/)  
 
 ### Ordered Lists
 
