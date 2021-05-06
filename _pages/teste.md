@@ -1,5 +1,5 @@
 ---
-title: "Teste"
+title: "Oracle Solaris 10 SPARC / x86"
 permalink: /teste/
 header:
   #overlay_image: /assets/images/solaris11-optimize.jpg
@@ -10,9 +10,9 @@ header:
   teaser: https://source.unsplash.com/300x200/?abstract
   image_description: "Fundo abstrato colorido vermelho e laranja"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
-  actions:
-    - label: "Leia mais"
-      url: "https://cr-signorelli.github.io/"
+  #actions:
+  #  - label: "Leia mais"
+  #    url: "https://cr-signorelli.github.io/"
 
 categories:
   - solaris-11.3
