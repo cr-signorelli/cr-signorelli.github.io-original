@@ -1,5 +1,5 @@
 ---
-title: "Oracle Solaris 11.3 SPARC / x86"
+title: "Oracle Solaris 11 SPARC / x86"
 permalink: /solaris-11-inventory/
 header:
   #overlay_image: /assets/images/solaris11-optimize.jpg
@@ -31,6 +31,10 @@ Organizando as publicações sobre Solaris 11.3 SPARC / x86
 ## História
 
 ## Administração
+
+## Virtualização
+
+- Me primeiro Solaris 11.4 x86 zone
 
 ## Ferramentas
 

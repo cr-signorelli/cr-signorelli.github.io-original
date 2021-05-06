@@ -26,7 +26,9 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 
 Organizando as publicações sobre Solaris 10 SPARC / x86
 
-## Conhecendo o Hardware
+## Hardware
+
+- Configuração básica da ILOM
 
 ## História
 
