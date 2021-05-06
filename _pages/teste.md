@@ -24,7 +24,7 @@ tags:
   - table of contents
 toc: true
 toc_label: "Unique Title"
-toc_icon: "heart"
+toc_icon: "cat"
 last_modified_at: 2021-05-02T01:00:00-03:00
 ---
 
