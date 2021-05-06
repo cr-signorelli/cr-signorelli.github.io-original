@@ -1,6 +1,7 @@
 ---
 title: "Oracle Solaris 10 SPARC / x86"
 permalink: /teste/
+date: 2021-05-02T01:00:00-03:00
 header:
   #overlay_image: /assets/images/solaris11-optimize.jpg
   overlay_image: https://source.unsplash.com/1600x300/?abstract
