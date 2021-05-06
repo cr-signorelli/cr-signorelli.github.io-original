@@ -2,6 +2,10 @@
 main:
   # - title: "About"
   #   url: https://cr-signorelli.github.io/
+  - title: "Tags"
+    url: /tags/
+  - title: "Categorias"
+    url: /categories/
   # - title: "Posts"
   #   url: /year-archive/
   # - title: "Collections"
