@@ -48,8 +48,8 @@ Normalmente em ambientes de produção o Solaris-10 é instalado apenas com os p
 O processo para criar os pacotes de instalação .pkg podem ser realizando em qualquer outra máquina com Solaris-10 instalado.
 {: style="text-align: justify;"}
 
-Baixe a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle.  
-<https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html>
+Baixe a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle [https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html](https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html){:target="_blank"}  
+{: style="text-align: justify;"}
 
 Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver":  
 {: style="text-align: justify;"}
@@ -89,9 +89,9 @@ Teste se o arquivo foi criado com sucesso:
 
 #### Referências
 
-> [Lista oficial da Oracle com os pacotes do Solaris-10](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html)  
-> [Biblioteca pública e Arquivo Digital](https://www.ibiblio.org/)  
-> [Biblioteca pública e Arquivo Digital - Lista de pacotes Sparc](http://www.ibiblio.org/pub/packages/solaris/sparc/)  
-> [Biblioteca pública e Arquivo Digital - Criando pacotes Sparc](https://www.ibiblio.org/pub/packages/solaris/sparc/html/creating.solaris.packages.html)  
-> [Biblioteca pública e Arquivo Digital - Lista de pacotes x86](http://www.ibiblio.org/pub/packages/solaris/i86pc/)  
-> [Biblioteca pública e Arquivo Digital - Criando pacotes x86](https://www.ibiblio.org/pub/packages/solaris/i86pc/html/creating.solaris.packages.html)  
+> [Lista oficial da Oracle com os pacotes do Solaris-10](https://docs.oracle.com/cd/E19253-01/html/817-0545/index.html){:target="_blank"}  
+> [Biblioteca pública e Arquivo Digital](https://www.ibiblio.org/){:target="_blank"}  
+> [Biblioteca pública e Arquivo Digital - Lista de pacotes Sparc](http://www.ibiblio.org/pub/packages/solaris/sparc/){:target="_blank"}  
+> [Biblioteca pública e Arquivo Digital - Criando pacotes Sparc](https://www.ibiblio.org/pub/packages/solaris/sparc/html/creating.solaris.packages.html){:target="_blank"}  
+> [Biblioteca pública e Arquivo Digital - Lista de pacotes x86](http://www.ibiblio.org/pub/packages/solaris/i86pc/){:target="_blank"}  
+> [Biblioteca pública e Arquivo Digital - Criando pacotes x86](https://www.ibiblio.org/pub/packages/solaris/i86pc/html/creating.solaris.packages.html){:target="_blank"}  
