@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris10-og.jpg
   teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"

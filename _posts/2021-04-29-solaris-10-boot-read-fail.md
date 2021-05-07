@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris10-og.jpg
   teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -116,11 +116,11 @@ Também é possível realizar o procedimento com  o sistema operacional (Solaris
 -bash-3.2# eeprom nvramrc="devalias rootdisk /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w3866266df79f5225,0:a devalias rootmirr /pci@400/pci@1/pci@0/pci@4/scsi@0/disk@w36479ccb99b8e947,0:a"
 ```
 
-**Aviso:** Se sua empresa possui contrato de suporte ativo ou o equipamento está em garantia faça abertura de chamado no _[My Oracle Support](https://support.oracle.com/portal/)_, além de simples é possível realizar todo atendimento online. Poder contar com uma equipe de suporte qualificada como apoio é indispensável.
+**Aviso:** Se sua empresa possui contrato de suporte ativo ou o equipamento está em garantia faça abertura de chamado no _[My Oracle Support](https://support.oracle.com/portal/){:target="_blank"}_, além de simples é possível realizar todo atendimento online. Poder contar com uma equipe de suporte qualificada como apoio é indispensável.
 {: .notice--warning}
 
 #### Referências
 
-> [Lista de Servidores Oracle T-Series](https://en.wikipedia.org/wiki/SPARC_T_series)  
-> [Integrated Lights Out Manager (ILOM)](https://docs.oracle.com/cd/E19860-01/E21549/z400000c1393879.html)  
-> [Advanced Lights Out Manager (ALOM)](https://docs.oracle.com/cd/E19088-01/v125.srvr/819-2445-11/819-2445-11.pdf)  
+> [Lista de Servidores Oracle T-Series](https://en.wikipedia.org/wiki/SPARC_T_series){:target="_blank"}  
+> [Integrated Lights Out Manager (ILOM)](https://docs.oracle.com/cd/E19860-01/E21549/z400000c1393879.html){:target="_blank"}  
+> [Advanced Lights Out Manager (ALOM)](https://docs.oracle.com/cd/E19088-01/v125.srvr/819-2445-11/819-2445-11.pdf){:target="_blank"}  

@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/windows10-og.jpg
   teaser: /assets/images/windows10-thumb.jpg
   image_description: "Fundo azul com o logo da microsoft a direita"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
 #  #actions:
 #  #  - label: "Leia mais"
 #  #    url: "https://cr-signorelli.github.io/"

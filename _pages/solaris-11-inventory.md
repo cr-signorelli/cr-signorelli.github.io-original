@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris11-og.jpg
   teaser: /assets/images/solaris11-thumb.jpg
   image_description: "Fundo abstrato colorido vermelho e laranja"
-  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"

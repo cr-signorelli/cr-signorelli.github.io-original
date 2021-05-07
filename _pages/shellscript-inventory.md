@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/shell-og.jpg
   teaser: /assets/images/shell-thumb.jpg
   image_description: "Uma concha na areia da praia"
-  caption: "Imagem: [**aaronburden**](https://unsplash.com/@aaronburden)"
+  caption: "Imagem: [aaronburden](https://unsplash.com/@aaronburden)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"

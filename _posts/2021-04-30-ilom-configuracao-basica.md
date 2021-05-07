@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris10-og.jpg
   teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -100,6 +100,6 @@ Limpando registradores:
 
 #### Referências
 
-> [Oracle Integrated Lights Out Manager (ILOM) 3.0 CLI Procedures Guide](https://docs.oracle.com/cd/E19201-01/820-6412-12/backuprestore_cli.html)  
-> [Procedure to reset SP](https://docs.oracle.com/cd/E19201-01/820-6412-12/backuprestore_cli.html#50561097_Restore%20the%20ILOM%20Configuration)  
-> [Post extended configuration for T7-1](https://docs.oracle.com/cd/E54976_01/html/E54980/z4000ca11317576.html#scrolltoc)  
+> [Oracle Integrated Lights Out Manager (ILOM) 3.0 CLI Procedures Guide](https://docs.oracle.com/cd/E19201-01/820-6412-12/backuprestore_cli.html){:target="_blank"}  
+> [Procedure to reset SP](https://docs.oracle.com/cd/E19201-01/820-6412-12/backuprestore_cli.html#50561097_Restore%20the%20ILOM%20Configuration){:target="_blank"}  
+> [Post extended configuration for T7-1](https://docs.oracle.com/cd/E54976_01/html/E54980/z4000ca11317576.html#scrolltoc){:target="_blank"}  

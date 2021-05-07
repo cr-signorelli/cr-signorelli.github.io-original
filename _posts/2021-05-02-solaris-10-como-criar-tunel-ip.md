@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris10-og.jpg
   teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -97,4 +97,4 @@ pass out from any to 192.159.205.12
 
 #### Referências
 
-> [Oracle Solaris Administration: IP Services](http://docs.oracle.com/cd/E19253-01/816-5166/6mbb1kq31/)  
+> [Oracle Solaris Administration: IP Services](http://docs.oracle.com/cd/E19253-01/816-5166/6mbb1kq31/){:target="_blank"}  

@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris10-og.jpg
   teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -101,7 +101,7 @@ Edite o arquivo **profile** e adicione os seguintes dados:
 install_type initial_install / system_type standalone
 ```
 
-Edite o arquivo **sysidcfg** e adicione as linhas padrões referente as configurações da máquina que será instalada. Caso tenha alguma duvida consulte a [documentação oficial](https://docs.oracle.com/cd/E26505_01/html/E28037/preconsysid-55534.html).
+Edite o arquivo **sysidcfg** e adicione as linhas padrões referente as configurações da máquina que será instalada. Caso tenha alguma duvida consulte a [documentação oficial](https://docs.oracle.com/cd/E26505_01/html/E28037/preconsysid-55534.html){:target="_blank"}.
 {: style="text-align: justify;"}
 
 Exemplo do arquivo **sysidcfg** para SPARC:
@@ -189,5 +189,5 @@ Ao iniciar a instalação siga as instruções na tela.
 
 #### Referências
 
-> [Planning to Install Over the Network](https://docs.oracle.com/cd/E26505_01/html/E28037/ejusv.html#scrolltoc)  
-> [Documentação sobre sysidcfg](https://docs.oracle.com/cd/E26505_01/html/E28037/preconsysid-55534.html)  
+> [Planning to Install Over the Network](https://docs.oracle.com/cd/E26505_01/html/E28037/ejusv.html#scrolltoc){:target="_blank"}  
+> [Documentação sobre sysidcfg](https://docs.oracle.com/cd/E26505_01/html/E28037/preconsysid-55534.html){:target="_blank"}  

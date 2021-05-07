@@ -2,20 +2,21 @@
 title: "Solaris 10 - Procedimento básico de instalação"
 classes: wide
 header:
-  overlay_image: /assets/images/solaris-optmize.jpg
-  og_image: /assets/images/solaris-optmize.jpg
-  teaser: /assets/images/solaris-optmize-thumb.jpg
+  overlay_image: /assets/images/solaris10.jpg
+  og_image: /assets/images/solaris10-og.jpg
+  teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
-#  #actions:
-#  #  - label: "Leia mais"
-#  #    url: "https://cr-signorelli.github.io/"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  #actions:
+  #  - label: "Leia mais"
+  #    url: "https://cr-signorelli.github.io/"
 categories:
   - solaris-10
 tags:
   - solaris-10
   - sparc
   - sysadmin
+date: 2021-04-22T23:00:00-03:00
 last_modified_at: 2021-04-22T23:00:00-03:00
 ---
 
