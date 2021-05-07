@@ -2,14 +2,14 @@
 title: "Solaris 10 - Removendo e instalando cliente SSH"
 classes: wide
 header:
-  overlay_image: /assets/images/key-3348307-optimize.jpg
-  og_image: /assets/images/key-3348307-optimize-og.jpg
-  teaser: /assets/images/key-3348307-optimize-thumb.jpg
+  overlay_image: /assets/images/key.jpg
+  og_image: /assets/images/key-og.jpg
+  teaser: /assets/images/key-thumb.jpg
   image_description: "Chave pendurada na fechadura"
-  caption: "Foto/Imagem: [**mastertux-470906**](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
-#  #actions:
-#  #  - label: "Leia mais"
-#  #    url: "https://cr-signorelli.github.io/"
+  caption: "Imagem: [**mastertux-470906**](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
+  #actions:
+  #  - label: "Leia mais"
+  #    url: "https://cr-signorelli.github.io/"
 categories:
   - solaris-10
 tags:
@@ -17,6 +17,7 @@ tags:
   - sparc
   - sysadmin
   - segurança
+date: 2021-04-23T23:00:00-03:00
 last_modified_at: 2021-04-23T23:00:00-03:00
 ---
 

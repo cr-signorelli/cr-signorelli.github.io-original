@@ -2,14 +2,14 @@
 title: "Solaris 10 - Configurações de IPv4 e Ipv6"
 classes: wide
 header:
-  overlay_image: /assets/images/solaris10-optimize.jpg
-  og_image: /assets/images/solaris10-optimize-og.jpg
-  teaser: /assets/images/solaris10-optimize-thumb.jpg
+  overlay_image: /assets/images/solaris10.jpg
+  og_image: /assets/images/solaris10-og.jpg
+  teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
-#  #actions:
-#  #  - label: "Leia mais"
-#  #    url: "https://cr-signorelli.github.io/"
+  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #actions:
+  #  - label: "Leia mais"
+  #    url: "https://cr-signorelli.github.io/"
 categories:
   - solaris-10
 tags:
@@ -17,6 +17,7 @@ tags:
   - sparc
   - sysadmin
   - network
+date: 2021-05-01T20:00:00-03:00
 last_modified_at: 2021-05-01T20:00:00-03:00
 ---
 

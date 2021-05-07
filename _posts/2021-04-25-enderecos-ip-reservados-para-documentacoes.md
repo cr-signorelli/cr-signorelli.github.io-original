@@ -2,19 +2,20 @@
 title: "Endereços IP reservados para documentações"
 classes: wide
 header:
-  overlay_image: /assets/images/network-3849206-optimize.jpg
-  og_image: /assets/images/network-3849206-optimize-og.jpg
-  teaser: /assets/images/network-3849206-optimize-thumb.jpg
-  image_description: "Fundo branco com linhas conectadas formando uma rede"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
-#  #actions:
-#  #  - label: "Leia mais"
-#  #    url: "https://cr-signorelli.github.io/"
+  overlay_image: /assets/images/fiber.jpg
+  og_image: /assets/images/fiber-og.jpg
+  teaser: /assets/images/fiber-thumb.jpg
+  image_description: "Fundo preto com fibras opticas azuis"
+  caption: "Imagem: [**Denny Müller**](https://unsplash.com/photos/JyRTi3LoQnc)"
+  #actions:
+  #  - label: "Leia mais"
+  #    url: "https://cr-signorelli.github.io/"
 categories:
   - network
 tags:
   - network
   - documentação
+date: 2021-04-25T17:30:00-03:00
 last_modified_at: 2021-04-25T17:30:00-03:00
 ---
 

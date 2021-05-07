@@ -2,11 +2,11 @@
 title: "Por onde começar?"
 classes: wide
 header:
-  overlay_image: /assets/images/pencil-1891732-optimize.jpg
-  og_image: /assets/images/pencil-1891732-optimize-og.jpg
-  teaser: /assets/images/pencil-1891732-optimize-thumb.jpg
+  overlay_image: /assets/images/pencil.jpg
+  og_image: /assets/images/pencil-og.jpg
+  teaser: /assets/images/pencil-thumb.jpg
   image_description: "Lápis usado sobre um caderno com folhas quadriculadas"
-  caption: "Photo credit: [**congerdesign**](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/)"
+  caption: "imagem: [**congerdesign**](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -14,6 +14,7 @@ categories:
   - about
 tags:
   - about
+date: 2021-04-21T14:09:00-03:00
 last_modified_at: 2021-04-21T14:09:00-03:00
 ---
 
