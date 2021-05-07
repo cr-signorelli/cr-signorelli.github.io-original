@@ -1,5 +1,5 @@
 ---
-title: "Splash Page"
+title: "Bem vindo ao Beco do Código"
 layout: splash
 permalink: /splash-page/
 date: 2021-05-07T01:00:00-03:00
@@ -12,9 +12,9 @@ header:
     - label: "Leia mais"
       url: "/terms/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Teste do texto no campo excerpt"
+excerpt: "Está página ainda está em desenvolvimento"
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Está página ainda está em desenvolvimento. Centered with `type="center"`'
 feature_row:
   - image_path: https://source.unsplash.com/CBFXuVLSe8U
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
