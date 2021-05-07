@@ -87,7 +87,6 @@ analytics:
 author:
   name             : "Carlos R .Signorelli"
   avatar           : "/assets/images/bio-cr-signorelli.jpg"
-  #bio              : "Consultor de Técnologia com experiência em Telecomunicações"
   bio              : "Consultor de Tecnologia com experiência em implementação de DataCenters e sistemas Unix/Linux em larga escala."
   location         : "São Paulo / Brasil"
   links:
