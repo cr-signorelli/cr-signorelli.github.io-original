@@ -248,13 +248,22 @@ compress_html:
 
 # Collections
 collections:
-  recipes:
+  solaris:
     output: true
     permalink: /:collection/:path/
-  pets:
+  unix:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  linux:
+    output: true
+    permalink: /:collection/:path/
+  windows:
+    output: true
+    permalink: /:collection/:path/
+  shellscript:
+    output: true
+    permalink: /:collection/:path/
+  python:
     output: true
     permalink: /:collection/:path/
 
