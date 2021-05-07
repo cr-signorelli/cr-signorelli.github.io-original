@@ -2,11 +2,11 @@
 title: "ILOM - Configuração básica"
 classes: wide
 header:
-  overlay_image: /assets/images/network-3849206-optimize.jpg
-  og_image: /assets/images/network-3849206-optimize-og.jpg
-  teaser: /assets/images/network-3849206-optimize-thumb.jpg
-  image_description: "Fundo branco com linhas conectadas formando uma rede"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
+  overlay_image: /assets/images/solaris10.jpg
+  og_image: /assets/images/solaris10-og.jpg
+  teaser: /assets/images/solaris10-thumb.jpg
+  image_description: "Fundo azulado com desenho de meio sol"
+  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"

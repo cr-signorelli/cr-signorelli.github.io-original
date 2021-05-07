@@ -2,21 +2,18 @@
 title: "Oracle Solaris 10 SPARC / x86"
 permalink: /solaris-10-inventory/
 header:
-  #overlay_image: /assets/images/solaris11-optimize.jpg
-  overlay_image: https://source.unsplash.com/1600x300/?abstract
-  #og_image: /assets/images/solaris11-optimize-og.jpg
-  og_image: https://source.unsplash.com/120x120/?abstract
-  #teaser: /assets/images/solaris11-optimize-thumb.jpg
-  teaser: https://source.unsplash.com/300x200/?abstract
-  image_description: "Fundo abstrato colorido vermelho e laranja"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
+  overlay_image: /assets/images/solaris10.jpg
+  og_image: /assets/images/solaris10-og.jpg
+  teaser: /assets/images/solaris10-thumb.jpg
+  image_description: "Fundo azulado com desenho de meio sol"
+  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
 categories:
   - solaris-10
-#tags:
-#  - solaris-10
+tags:
+  - solaris-10
 toc: true
 toc_label: "--- Índice ---"
 toc_icon: "chess-king"
@@ -29,8 +26,6 @@ Organizando as publicações sobre Solaris 10 SPARC / x86
 ## Hardware
 
 - Configuração básica da ILOM
-
-## História
 
 ## Administração
 

@@ -2,20 +2,20 @@
 title: "Windows 10 - Identificado a versão no DVD ou pendrive"
 classes: wide
 header:
-  overlay_image: /assets/images/windows10-optimize.jpg
-  og_image: /assets/images/windows10-optimize-og.jpg
-  teaser: /assets/images/windows10-optimize-thumb.jpg
+  overlay_image: /assets/images/windows10.jpg
+  og_image: /assets/images/windows10-og.jpg
+  teaser: /assets/images/windows10-thumb.jpg
   image_description: "Fundo azul com o logo da microsoft a direita"
   #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
 #  #actions:
 #  #  - label: "Leia mais"
 #  #    url: "https://cr-signorelli.github.io/"
 categories:
-  - solaris-11.3
+  - windows-10
 tags:
-  - solaris-11.3
-  - sparc
+  - windows-10
   - sysadmin
+date: 2021-05-02T20:00:00-03:00
 last_modified_at: 2021-05-02T20:00:00-03:00
 ---
 

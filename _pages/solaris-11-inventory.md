@@ -2,21 +2,18 @@
 title: "Oracle Solaris 11 SPARC / x86"
 permalink: /solaris-11-inventory/
 header:
-  #overlay_image: /assets/images/solaris11-optimize.jpg
-  overlay_image: https://source.unsplash.com/1600x300/?abstract
-  #og_image: /assets/images/solaris11-optimize-og.jpg
-  og_image: https://source.unsplash.com/120x120/?abstract
-  #teaser: /assets/images/solaris11-optimize-thumb.jpg
-  teaser: https://source.unsplash.com/300x200/?abstract
+  overlay_image: /assets/images/solaris11.jpg
+  og_image: /assets/images/solaris11-og.jpg
+  teaser: /assets/images/solaris11-thumb.jpg
   image_description: "Fundo abstrato colorido vermelho e laranja"
-  #caption: "Foto/Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
 categories:
   - solaris-11.3
-#tags:
-#  - solaris-11.3
+tags:
+  - solaris-11.3
 toc: true
 toc_label: "--- Índice ---"
 toc_icon: "chess-king"
@@ -25,12 +22,6 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 ---
 
 Organizando as publicações sobre Solaris 11.3 SPARC / x86
-
-## Conhecendo o Hardware
-
-## História
-
-## Administração
 
 ## Virtualização
 
@@ -43,8 +34,6 @@ Organizando as publicações sobre Solaris 11.3 SPARC / x86
 ## Network
 
 - Link aggregation + Jump frame
-
-## Segurança
 
 ## Troubleshooting
 
