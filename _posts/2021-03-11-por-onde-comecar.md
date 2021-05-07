@@ -10,7 +10,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Está página ainda está em desenvolvimento"
+#excerpt: "Está página ainda está em desenvolvimento"
 categories:
   - about
 tags:
