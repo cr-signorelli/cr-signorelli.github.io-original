@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/pencil-og.jpg
   teaser: /assets/images/pencil-thumb.jpg
   image_description: "Lápis usado sobre um caderno com folhas quadriculadas"
-  caption: "imagem: [congerdesign](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/){:target="_blank"}"
+  caption: "Imagem: [congerdesign](https://pixabay.com/en/pencil-notes-chewed-paper-ball-1891732/){:target="_blank"}"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
