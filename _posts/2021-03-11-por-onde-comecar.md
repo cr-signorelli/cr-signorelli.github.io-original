@@ -2,7 +2,7 @@
 title: "Por onde começar?"
 classes: wide
 header:
-  overlay_image: /assets/images/pencil.jpg
+  image: /assets/images/pencil.jpg
   og_image: /assets/images/pencil-og.jpg
   teaser: /assets/images/pencil-thumb.jpg
   image_description: "Lápis usado sobre um caderno com folhas quadriculadas"
@@ -10,7 +10,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Está página ainda está em desenvolvimento"
+excerpt: "Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!"
 categories:
   - about
 tags:
