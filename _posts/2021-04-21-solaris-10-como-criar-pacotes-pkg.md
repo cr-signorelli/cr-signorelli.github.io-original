@@ -48,7 +48,7 @@ Normalmente em ambientes de produção o Solaris-10 é instalado apenas com os p
 O processo para criar os pacotes de instalação .pkg podem ser realizando em qualquer outra máquina com Solaris-10 instalado.
 {: style="text-align: justify;"}
 
-Baixe a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle [https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html](https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html){:target="_blank"}  
+Baixe a imagem ISO do Solaris-10 Sparc/x86 no [site oficial da Oracle](https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html){:target="_blank"}  
 {: style="text-align: justify;"}
 
 Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver":  

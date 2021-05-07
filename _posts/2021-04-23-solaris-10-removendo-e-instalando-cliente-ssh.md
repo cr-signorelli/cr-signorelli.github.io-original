@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/key-og.jpg
   teaser: /assets/images/key-thumb.jpg
   image_description: "Chave pendurada na fechadura"
-  caption: "Imagem: [**mastertux-470906**](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
+  caption: "Imagem: [mastertux-470906](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -92,8 +92,7 @@ system      SUNWsshdu                    SSH Server, (Usr)
 Não iremos utilizar a primeira opção, é muito comum que servidores não tenham unidade de CD/DVD e vamos considerar que acessar a máquina fisicamente para inserir um disco nem sempre é uma opção. Por isso vamos focar no procedimento da imagem .ISO.
 {: style="text-align: justify;"}
 
-Baixe a imagem ISO do Solaris-10 Sparc/x86 no site oficial da Oracle.  
-<https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html>
+Baixe a imagem ISO do Solaris-10 Sparc/x86 no [site oficial da Oracle](https://www.oracle.com/solaris/solaris10/downloads/solaris10-get-jsp-downloads.html){:target="_blank"}  
 
 Associe o arquivo **sol-10-u11-ga-sparc-dvd.iso** em um "loopback file driver":  
 {: style="text-align: justify;"}
@@ -131,5 +130,5 @@ system      SUNWsshr                     SSH Client and utilities, (Root)
 system      SUNWsshu                     SSH Client and utilities, (Usr)
 ```
 
-**Dica:** Ainda resta a última opção utilizar arquivos .pkg gerados previamente. Veja esse artigo *[Solaris 10 - Como criar pacotes .pkg](https://cr-signorelli.github.io/solaris-10/solaris-10-como-criar-pacotes-pkg/)* que contém um passo simples de como criar um pacote de instalação, dessa forma será possível transferir apenas dois pacotes pequenos ao invés de uma imagem .ISO de mais de 2GB.
+**Dica:** Ainda resta a última opção utilizar arquivos .pkg gerados previamente. Veja esse artigo *[Solaris 10 - Como criar pacotes .pkg](https://cr-signorelli.github.io/solaris-10/solaris-10-como-criar-pacotes-pkg/){:target="_blank"}* que contém um passo simples de como criar um pacote de instalação, dessa forma será possível transferir apenas dois pacotes pequenos ao invés de uma imagem .ISO de mais de 2GB.
 {: .notice--info}

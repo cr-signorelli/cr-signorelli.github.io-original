@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/fiber-og.jpg
   teaser: /assets/images/fiber-thumb.jpg
   image_description: "Fundo preto com fibras opticas azuis"
-  caption: "Imagem: [**Denny Müller**](https://unsplash.com/photos/JyRTi3LoQnc)"
+  caption: "Imagem: [Denny Müller](https://unsplash.com/photos/JyRTi3LoQnc)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -46,7 +46,7 @@ Blocos IPv6 reservados para documentação:
 
 #### Referências
 
-> [Wikipedia - Inglês](https://en.wikipedia.org/wiki/Reserved_IP_addresses)  
-> [Wikipedia - Português](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP)  
-> [Link para IANA IPv4](https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml)  
-> [Link para IANA IPv6](https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml)  
+> [Wikipedia - Inglês](https://en.wikipedia.org/wiki/Reserved_IP_addresses){:target="_blank"}  
+> [Wikipedia - Português](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP){:target="_blank"}  
+> [Link para IANA IPv4](https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml){:target="_blank"}  
+> [Link para IANA IPv6](https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml){:target="_blank"}  

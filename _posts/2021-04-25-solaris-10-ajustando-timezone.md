@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/solaris10-og.jpg
   teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [**signorelli**](https://pixabay.com/)"
+  #caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -108,5 +108,5 @@ Por último edite o arquivo **/etc/TIMEZONE** e altere o conteúdo da linha **TZ
 
 #### Referências
 
-> [http://www.timeanddate.com/](http://www.timeanddate.com/)  
-> [http://sysunconfig.net/unixtips/timezone.txt](http://sysunconfig.net/unixtips/timezone.txt)
+> [http://www.timeanddate.com/](http://www.timeanddate.com/){:target="_blank"}  
+> [http://sysunconfig.net/unixtips/timezone.txt](http://sysunconfig.net/unixtips/timezone.txt){:target="_blank"}
