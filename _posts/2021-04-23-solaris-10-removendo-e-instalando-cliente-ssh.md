@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/key-og.jpg
   teaser: /assets/images/key-thumb.jpg
   image_description: "Chave pendurada na fechadura"
-  caption: "Imagem: [mastertux-470906](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
+  caption: "Imagem: [mastertux](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
