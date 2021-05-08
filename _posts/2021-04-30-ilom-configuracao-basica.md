@@ -1,15 +1,17 @@
 ---
 title: "ILOM - Configuração básica"
 classes: wide
+permalink: /ilom-configuracao-basica/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/bN5XdU-bap4/1920x300
+  og_image: https://source.unsplash.com/bN5XdU-bap4/120x120
+  teaser: https://source.unsplash.com/bN5XdU-bap4/200x100
+  image_description: "Placa de circuto"
+  caption: "Imagem: [**Chris Ried**](https://unsplash.com/photos/bN5XdU-bap4)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "ILOM é uma ferramenta que permite acessar e controlar console todos os recursos do servidor de forma remota"
 categories:
   - ilom
 tags:
