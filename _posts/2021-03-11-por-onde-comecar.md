@@ -10,7 +10,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!"{: style="text-align: justify;"}
+excerpt: "Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!"
 categories:
   - about
 tags:
