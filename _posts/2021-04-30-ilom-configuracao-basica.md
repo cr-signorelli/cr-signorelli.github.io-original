@@ -11,7 +11,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "ILOM é uma ferramenta que permite acessar e controlar console todos os recursos do servidor de forma remota"
+excerpt: "ILOM é uma ferramenta que permite acessar e controlar console todos os recursos do servidor de forma remota."
 categories:
   - ilom
 tags:
