@@ -3,6 +3,7 @@ title: "ILOM - Configuração básica"
 classes: wide
 permalink: /ilom-configuracao-basica/
 header:
+  overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/bN5XdU-bap4/1920x300
   og_image: https://source.unsplash.com/bN5XdU-bap4/120x120
   teaser: https://source.unsplash.com/bN5XdU-bap4/200x100
