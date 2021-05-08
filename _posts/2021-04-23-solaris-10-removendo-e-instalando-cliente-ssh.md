@@ -3,7 +3,7 @@ title: "Solaris 10 - Removendo e instalando cliente SSH"
 classes: wide
 permalink: /solaris-10-removendo-e-instalando-cliente-ssh/
 header:
-  overlay_image: https://source.unsplash.com/M5tzZtFCOfs/1920x300
+  overlay_image: https://source.unsplash.com/oZPwn40zCK4/1920x300
   og_image: https://source.unsplash.com/M5tzZtFCOfs/120x120
   teaser: https://source.unsplash.com/M5tzZtFCOfs/200x100
   image_description: "Chave pendurada na fechadura"
