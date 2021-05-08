@@ -10,6 +10,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Não é comum utilizarmos no dia a dia os endereços reservados em nossas notas e rascunho, mas caso tenha que compartilhar esses dados cuidado para não expor informações sigilosas de sua rede."
 categories:
   - network
 tags:
@@ -20,10 +21,7 @@ date: 2021-04-25T17:30:00-03:00
 last_modified_at: 2021-04-25T17:30:00-03:00
 ---
 
-IANA (Internet Assigned Numbers Authority) é responsáveis ​​por coordenar alguns dos elementos-chave que mantêm a Internet funcionando sem problemas.
-{: style="text-align: justify;"}
-
-Dentre várias atividades que envolvem a para de redes, eles definiram e reservaram alguns blocos de endereço IP's que devem ser usando apenas em documentações, para facilitar e evitar confusões.
+Internet Assigned Numbers Authority (IANA) é responsáveis ​​por coordenar alguns dos elementos-chave que mantêm a Internet funcionando sem problemas. Dentre várias atividades que envolvem a para de redes, eles definiram e reservaram alguns blocos de endereço IP's que devem ser usando apenas em documentações, para facilitar e evitar confusões.
 {: style="text-align: justify;"}
 
 Embora exista essa recomendação é muito comum ao lermos um tutorial, artigo ou qualquer outro material técnico e não encontrar esses endereços. Poderíamos passar um tempo discutindo os motivos disso e sobre as boas práticas ao escrever uma documentação. Mas um fato importante para pensar é que muitos desses materiais vem da experiencia, fizeram parte do dia a dia de alguém, o histórico salvo do terminal, aquele rascunho salvo em um bloco notas, um procedimento que funcionou que foi enviado para um amigo. O importante mesmo é que no fim alguém decidiu compartilhar essa informação.
