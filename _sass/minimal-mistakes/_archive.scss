@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 0em;
-  margin-bottom: 0em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 
   @include breakpoint($large) {
     float: right;
@@ -127,7 +127,7 @@
 
 .list__item {
   .page__meta {
-    margin: 0 0 4px;
+    margin: 0 0 0px;
     font-size: 0.6em;
   }
 }
