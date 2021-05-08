@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Removendo e instalando cliente SSH"
 classes: wide
+permalink: /solaris-10-removendo-e-instalando-cliente-ssh/
 header:
-  overlay_image: /assets/images/key.jpg
-  og_image: /assets/images/key-og.jpg
-  teaser: /assets/images/key-thumb.jpg
+  overlay_image: https://source.unsplash.com/M5tzZtFCOfs/1920x300
+  og_image: https://source.unsplash.com/M5tzZtFCOfs/120x120
+  teaser: https://source.unsplash.com/M5tzZtFCOfs/200x100
   image_description: "Chave pendurada na fechadura"
-  caption: "Imagem: [mastertux](https://pixabay.com/illustrations/key-castle-security-metal-3d-3348307/)"
+  caption: "Imagem: [**Taylor Vick**](https://unsplash.com/photos/M5tzZtFCOfs)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Remover o client SSH pode ser uma medida de segurança agressiva, existe vantagens e desvantagens em fazer isso."
 categories:
   - solaris-10
 tags:
@@ -21,9 +23,6 @@ show_date: false
 date: 2021-04-23T23:00:00-03:00
 last_modified_at: 2021-04-23T23:00:00-03:00
 ---
-
-Remover os clientes SSH pode ser uma medida de segurança agressiva, é importante ressaltar que isso pode trazer vantagens e desvantagens.
-{: style="text-align: justify;"}
 
 Embora seja uma medida extrema, se considerar que uma vez conectado ao servidor não seja necessário acessar outras máquinas realmente programas como clientes SSH ou SCP não são necessários. Mas ao fazer isso você também vai afetar suas atividades como transferir ou coletar algum arquivo ou log de um servidor.
 {: style="text-align: justify;"}
