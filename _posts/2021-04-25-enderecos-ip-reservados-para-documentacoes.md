@@ -11,7 +11,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Muito cuidado ao compartilhar suas notas principalmente na internet para não expor informações sigilosas de suas rede."
+excerpt: "Cuidado ao compartilhar suas notas na internet para não expor informações sigilosas de suas redes."
 categories:
   - network
 tags:

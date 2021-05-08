@@ -11,7 +11,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Criar pacotes para instalação no Solaris-10 pode ser muito útil, principalmente porque não existe um sistema de repositório oficial."
+excerpt: "Criar pacotes para instalação pode ser útil, principalmente porque não existe sistema de repositório oficial."
 categories:
   - solaris-10
 tags:
