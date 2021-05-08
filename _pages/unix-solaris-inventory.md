@@ -1,6 +1,6 @@
 ---
 title: "Unix / Oracle Solaris"
-permalink: /unix-solaris--inventory/
+permalink: /unix-solaris-inventory/
 header:
   overlay_image: /assets/images/solaris10.jpg
   og_image: /assets/images/solaris10-og.jpg

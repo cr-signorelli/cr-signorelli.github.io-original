@@ -1,18 +1,19 @@
 ---
 title: "Por onde começar?"
+permalink: /por-onde-comecar/
 classes: wide
 header:
   overlay_image: https://source.unsplash.com/bF2vsubyHcQ/1920x300
   og_image: https://source.unsplash.com/bF2vsubyHcQ/120x120
   teaser: https://source.unsplash.com/bF2vsubyHcQ/200x100
-  image_description: "Lápis usado sobre um caderno com folhas quadriculadas"
+  image_description: "Dois lápis, folha de caderno e tesoura sobre um fundo amarelo."
   caption: "Imagem: [**Joanna Kosinska**](https://unsplash.com/photos/LAaSoL0LrYs)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!"
-categories:
-  - about
+excerpt: "Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção."
+#categories:
+#  - about
 tags:
   - about
 show_date: false
