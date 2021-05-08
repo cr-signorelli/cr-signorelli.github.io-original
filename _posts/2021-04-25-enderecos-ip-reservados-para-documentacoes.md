@@ -6,7 +6,7 @@ header:
   overlay_image: https://source.unsplash.com/ISG-rUel0Uw/1920x300
   og_image: https://source.unsplash.com/ISG-rUel0Uw/120x120
   teaser: https://source.unsplash.com/ISG-rUel0Uw/200x100
-  image_description: "Fundo preto com fibras opticas azuis"
+  image_description: "Painel com alguns cabos de rede fibras conectados."
   caption: "Imagem: [**Thomas Jensen**](https://unsplash.com/photos/ISG-rUel0Uw)"
   #actions:
   #  - label: "Leia mais"

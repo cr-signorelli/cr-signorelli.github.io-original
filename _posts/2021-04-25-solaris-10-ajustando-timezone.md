@@ -1,8 +1,9 @@
 ---
 title: "Solaris 10 - Ajustando TIMEZONE"
 classes: wide
+permalink: /solaris-10-ajustando-timezone/
 header:
-  overlay_image: /assets/images/solaris10.jpg
+  overlay_image: https://source.unsplash.com/CcIIao_-Eow/1920x300
   og_image: /assets/images/solaris10-og.jpg
   teaser: /assets/images/solaris10-thumb.jpg
   image_description: "Fundo azulado com desenho de meio sol"
@@ -10,6 +11,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Manter o horário de um servidor correto é crucial para o funcionamento de diversos sistemas e para muitos negócios."
 categories:
   - solaris-10
 tags:
@@ -20,9 +22,6 @@ show_date: false
 date: 2021-04-25T00:30:00-03:00
 last_modified_at: 2021-04-25T00:30:00-03:00
 ---
-
-Manter o horário de um servidor correto é crucial para o funcionamento de diversos sistemas e para muitos negócios.
-{: style="text-align: justify;"}
 
 Caso você não esteja familiarizado com administração de servidores pode não notar a importância dessa tarefa. Imagine logs e transações registrados com tempo errado, ao finalizar o horário de verão logs informações diferentes registradas com a mesma data e hora. Seria possível elencar diversas situações críticas, mas para ilustrar melhor pense em um sistema bancário e quanto ele pode ser afetado.
 {: style="text-align: justify;"}
