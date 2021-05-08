@@ -11,7 +11,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Atualmente o uso do IPv6 já bem popular, mas quando lidamos com sistema legados é normal entradar a interface o protocolo desabilitados."
+excerpt: "Quando lidamos com sistema operacinais legados é normal encontrar a interface IPv6 desabilitada. Veja como habilitá-la."
 categories:
   - solaris-10
 tags:
