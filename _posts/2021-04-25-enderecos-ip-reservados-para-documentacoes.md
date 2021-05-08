@@ -1,6 +1,7 @@
 ---
 title: "Endereços IP reservados para documentações"
 classes: wide
+permalink: /enderecos-ip-reservados-para-documentacoes/
 header:
   overlay_image: /assets/images/fiber.jpg
   og_image: /assets/images/fiber-og.jpg
@@ -10,7 +11,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Não é comum utilizarmos no dia a dia os endereços reservados em nossas notas e rascunho, mas caso tenha que compartilhar esses dados cuidado para não expor informações sigilosas de sua rede."
+excerpt: "Muito cuidado ao compartilhar suas notas principalmente na internet para não expor informações sigilosas de suas rede."
 categories:
   - network
 tags:
