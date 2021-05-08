@@ -204,9 +204,6 @@
 
   .page__meta-sep {
     display: block;
-    height: 100px;
-    width: 50%;
-    background-color: powderblue;
 
     &::before {
       display: none;
@@ -256,6 +253,7 @@
   position: relative;
   margin-bottom: 2em;
   font-size: 1.125em;
+  background-color: powderblue;
 
   @include breakpoint($small) {
     float: left;
