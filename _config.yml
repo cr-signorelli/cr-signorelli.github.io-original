@@ -10,16 +10,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "pt-BR"
-title                    : "Beco do Código"
+title                    : #"Beco do Código"
 title_separator          : "-"
-subtitle                 : "Tutoriais, dicas e curiosidades"
+subtitle                 : #"Tutoriais, dicas e curiosidades"
 name                     : "Signorelli"
 description              : "O Unix é amigável. Só é muito seletivo sobre quem são seus amigos."
 url                      : "https://cr-signorelli.github.io"
 baseurl                  : "" # "/test"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/beyondthegeeks.png" # e.g. "/assets/images/88x88.png"
+logo                     : #"/assets/images/beyondthegeeks.png" # e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
