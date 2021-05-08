@@ -33,7 +33,7 @@
 }
 
 .archive__subtitle {
-  margin: 5.414em 0 0.5em;
+  margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   color: $muted-text-color;
@@ -168,7 +168,7 @@
     }
   }
 
-  @include breakpoint($medium) {
+  @include breakpoint($small) {
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
     width: span(3 of 12);
