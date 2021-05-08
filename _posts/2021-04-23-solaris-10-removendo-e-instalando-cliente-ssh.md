@@ -7,7 +7,7 @@ header:
   overlay_image: https://source.unsplash.com/M5tzZtFCOfs/1920x300
   og_image: https://source.unsplash.com/M5tzZtFCOfs/120x120
   teaser: https://source.unsplash.com/M5tzZtFCOfs/200x100
-  image_description: "Chave pendurada na fechadura"
+  image_description: "Transistores utilizados na fabricação de processadores."
   caption: "Imagem: [**Taylor Vick**](https://unsplash.com/photos/M5tzZtFCOfs)"
   #actions:
   #  - label: "Leia mais"

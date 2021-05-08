@@ -3,9 +3,9 @@ title: "Endereços IP reservados para documentações"
 classes: wide
 permalink: /enderecos-ip-reservados-para-documentacoes/
 header:
-  overlay_image: /assets/images/fiber.jpg
-  og_image: /assets/images/fiber-og.jpg
-  teaser: /assets/images/fiber-thumb.jpg
+  overlay_image: https://source.unsplash.com/ISG-rUel0Uw/1920x300
+  og_image: https://source.unsplash.com/ISG-rUel0Uw/120x120
+  teaser: https://source.unsplash.com/ISG-rUel0Uw/200x100
   image_description: "Fundo preto com fibras opticas azuis"
   caption: "Imagem: [Denny Müller](https://unsplash.com/photos/JyRTi3LoQnc)"
   #actions:
