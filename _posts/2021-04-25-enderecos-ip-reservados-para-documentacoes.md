@@ -7,7 +7,7 @@ header:
   og_image: https://source.unsplash.com/ISG-rUel0Uw/120x120
   teaser: https://source.unsplash.com/ISG-rUel0Uw/200x100
   image_description: "Fundo preto com fibras opticas azuis"
-  caption: "Imagem: [Denny Müller](https://unsplash.com/photos/JyRTi3LoQnc)"
+  caption: "Imagem: [**Thomas Jensen**](https://unsplash.com/photos/ISG-rUel0Uw)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
@@ -36,6 +36,16 @@ Blocos IPv4 reservados para documentação:
 | 192.0.2.0/24    | 192.0.2.0 – 192.0.2.255       | 256               | "TEST-NET-1" para uso em exemplos e documentação. |
 | 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | 256               | "TEST-NET-2" para uso em exemplos e documentação. |
 | 203.0.113.0/24  | 203.0.113.0 – 203.0.113.255   | 256               | "TEST-NET-3" para uso em exemplos e documentação. |
+
+```console
+-----------------------------------------------------------------------------------------------------------------
+| Bloco           | Range                         | Números | Descrição                                         |
+-----------------------------------------------------------------------------------------------------------------
+| 192.0.2.0/24    | 192.0.2.0 – 192.0.2.255       | 256     | "TEST-NET-1" para uso em exemplos e documentação. |
+| 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | 256     | "TEST-NET-2" para uso em exemplos e documentação. |
+| 203.0.113.0/24  | 203.0.113.0 – 203.0.113.255   | 256     | "TEST-NET-3" para uso em exemplos e documentação. |
+-----------------------------------------------------------------------------------------------------------------
+```
 
 Blocos IPv6 reservados para documentação:
 {: style="text-align: justify;"}
