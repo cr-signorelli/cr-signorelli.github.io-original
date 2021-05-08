@@ -16,6 +16,7 @@ tags:
   - solaris-10
   - sparc
   - sysadmin
+show_date: false
 date: 2021-04-22T23:00:00-03:00
 last_modified_at: 2021-04-22T23:00:00-03:00
 ---

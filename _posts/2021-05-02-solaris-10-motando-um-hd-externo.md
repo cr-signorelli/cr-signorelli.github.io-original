@@ -18,6 +18,7 @@ tags:
   - sysadmin
   - network
   - instalacao
+show_date: false
 date: 2021-05-02T00:30:00-03:00
 last_modified_at: 2021-05-02T00:30:00-03:00
 ---

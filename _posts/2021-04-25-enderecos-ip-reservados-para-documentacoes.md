@@ -15,6 +15,7 @@ categories:
 tags:
   - network
   - documentação
+show_date: false
 date: 2021-04-25T17:30:00-03:00
 last_modified_at: 2021-04-25T17:30:00-03:00
 ---
