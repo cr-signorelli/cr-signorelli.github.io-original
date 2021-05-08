@@ -278,6 +278,8 @@ defaults:
       share: true
       related: true
       show_date: true
+      header:
+       image: /assets/images/shell.jpg
   # _pages
   - scope:
       path: "_pages"
@@ -285,6 +287,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      header:
+       image: /assets/images/shell.jpg
   # # _recipes
   # - scope:
   #     path: ""
