@@ -1,5 +1,6 @@
 ---
 title: "Solaris 10 - Como criar pacotes .pkg"
+permalink: /solaris-10-como-criar-pacotes-pkg/
 classes: wide
 header:
   overlay_image: https://source.unsplash.com/u8Jn2rzYIps/1920x300
