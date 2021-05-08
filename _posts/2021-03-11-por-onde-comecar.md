@@ -15,8 +15,6 @@ categories:
   - about
 tags:
   - about
-#date: 2021-04-21T14:09:00-03:00
-#last_modified_at: 2021-04-21T14:09:00-03:00
 ---
 
 Acredito que está intrínseco na natureza humana complicar e problematizar as coisas e eu não sou uma exceção!
