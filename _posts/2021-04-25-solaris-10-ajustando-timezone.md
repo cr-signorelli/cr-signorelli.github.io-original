@@ -4,10 +4,10 @@ classes: wide
 permalink: /solaris-10-ajustando-timezone/
 header:
   overlay_image: https://source.unsplash.com/CcIIao_-Eow/1920x300
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  og_image: https://source.unsplash.com/CcIIao_-Eow/120x120
+  teaser: https://source.unsplash.com/CcIIao_-Eow/200x100
+  image_description: "Foto preta e branca de um relógio de corda."
+  caption: "Imagem: [**Amanda Jones**](https://unsplash.com/photos/CcIIao_-Eow)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
