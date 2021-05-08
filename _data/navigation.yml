@@ -2,6 +2,8 @@
 main:
   # - title: "About"
   #   url: https://cr-signorelli.github.io/
+  - title: "Home"
+    url: https://cr-signorelli.github.io/
   - title: "Solaris 10"
     url: /solaris-10-inventory/
   - title: "Solaris 11"
