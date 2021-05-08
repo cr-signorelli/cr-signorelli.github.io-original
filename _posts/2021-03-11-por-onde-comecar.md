@@ -2,9 +2,9 @@
 title: "Por onde começar?"
 classes: wide
 header:
-  overlay_image: https://source.unsplash.com/LAaSoL0LrYs/1920x300
-  og_image: https://source.unsplash.com/LAaSoL0LrYs/120x120
-  teaser: https://source.unsplash.com/LAaSoL0LrYs/200x100
+  overlay_image: https://source.unsplash.com/bF2vsubyHcQ/1920x300
+  og_image: https://source.unsplash.com/bF2vsubyHcQ/120x120
+  teaser: https://source.unsplash.com/bF2vsubyHcQ/200x100
   image_description: "Lápis usado sobre um caderno com folhas quadriculadas"
   caption: "Imagem: [**Joanna Kosinska**](https://unsplash.com/photos/LAaSoL0LrYs)"
   #actions:
