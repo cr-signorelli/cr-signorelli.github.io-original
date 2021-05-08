@@ -87,8 +87,8 @@ author:
   bio              : "Consultor de Tecnologia com experiência em implementação de DataCenters e sistemas Unix/Linux em larga escala."
   location         : "São Paulo / Brasil"
   links:
-    - label: "cr-signorelli.github.io"
-      icon: "Site"
+    - label: "Site"
+      icon: "fas fa-fw fa-link"
       url: "https://cr-signorelli.github.io/"
     # - label: "cr_signorelli"
     #  icon: "fab fa-fw fa-twitter-square"
