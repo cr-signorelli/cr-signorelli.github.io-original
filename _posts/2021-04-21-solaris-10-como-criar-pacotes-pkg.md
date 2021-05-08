@@ -7,7 +7,7 @@ header:
   og_image: https://source.unsplash.com/u8Jn2rzYIps/120x120
   teaser: https://source.unsplash.com/u8Jn2rzYIps/200x100
   image_description: "Fundo abstrato com diferentes tons de roxo."
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  caption: "Imagem: [**Fakurian Arts**](https://unsplash.com/photos/u8Jn2rzYIps)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
