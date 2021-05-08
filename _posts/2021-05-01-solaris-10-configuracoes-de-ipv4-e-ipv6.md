@@ -3,6 +3,7 @@ title: "Solaris 10 - Configurações de IPv4 e Ipv6"
 classes: wide
 permalink: /solaris-10-configuracoes-de-ipv4-e-ipv6/
 header:
+  overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/wQLAGv4_OYs/1920x300
   og_image: https://source.unsplash.com/wQLAGv4_OYs/120x120
   teaser: https://source.unsplash.com/wQLAGv4_OYs/200x100
