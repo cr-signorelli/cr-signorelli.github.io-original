@@ -185,9 +185,10 @@ td > code {
 
 hr {
   display: block;
-  margin: 0em 0;
+  margin: 1em 0;
   border: 0;
   border-top: 1px solid $border-color;
+  height: 500px;
 }
 
 /* lists */
