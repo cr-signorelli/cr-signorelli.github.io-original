@@ -168,7 +168,7 @@
     }
   }
 
-  @include breakpoint($small) {
+  @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
     width: span(3 of 12);
@@ -208,6 +208,7 @@
     &::before {
       display: none;
     }
+    height: 10px;
   }
 
   .archive__item-title {
