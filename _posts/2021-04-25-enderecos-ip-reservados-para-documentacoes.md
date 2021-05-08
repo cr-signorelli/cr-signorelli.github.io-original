@@ -31,12 +31,6 @@ Embora exista essa recomendação é muito comum ao lermos um tutorial, artigo o
 Blocos IPv4 reservados para documentação:
 {: style="text-align: justify;"}
 
-| Bloco           | Range                         | Números           | Descrição                                                                                     |
-|-----------------|-------------------------------|-------------------|--------------|-------------------------------------------------------------------------------------------------|
-| 192.0.2.0/24    | 192.0.2.0 – 192.0.2.255       | 256               | "TEST-NET-1" para uso em exemplos e documentação. |
-| 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | 256               | "TEST-NET-2" para uso em exemplos e documentação. |
-| 203.0.113.0/24  | 203.0.113.0 – 203.0.113.255   | 256               | "TEST-NET-3" para uso em exemplos e documentação. |
-
 ```console
 -----------------------------------------------------------------------------------------------------------------
 | Bloco           | Range                         | Números | Descrição                                         |
@@ -50,9 +44,13 @@ Blocos IPv4 reservados para documentação:
 Blocos IPv6 reservados para documentação:
 {: style="text-align: justify;"}
 
-| Bloco           | Range                                               | Números            | Descrição                                             |
-|-----------------|-----------------------------------------------------|-------------------|---------------------------------------------------------|
-| 2001:db8::/32   | 2001:db8:: – 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff | 2^96              | "TEST-NET" para uso em exemplos e documentação. |
+```console
+-------------------------------------------------------------------------------------------------------------------------------------
+| Bloco           | Range                                               | Números | Descrição                                       |
+-------------------------------------------------------------------------------------------------------------------------------------
+| 2001:db8::/32   | 2001:db8:: – 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff | 2^96    | "TEST-NET" para uso em exemplos e documentação. |
+-------------------------------------------------------------------------------------------------------------------------------------
+```
 
 #### Referências
 
