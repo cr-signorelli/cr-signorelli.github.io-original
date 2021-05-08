@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Como identificar portas abertas"
 classes: wide
+permalink: /solaris-10-como-identificar-portas-abertas/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/bBavss4ZQcA/1920x300
+  og_image: https://source.unsplash.com/bBavss4ZQcA/120x120
+  teaser: https://source.unsplash.com/bBavss4ZQcA/200x100
+  image_description: "Grade vermelha com cadeados presos."
+  caption: "Imagem: [signorelli](https://pixabay.com/)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Além de identificar as portas abertas no sistema sabia como associá-las ao serviço correspondente."
 categories:
   - solaris-10
 tags:
@@ -23,7 +25,7 @@ date: 2021-04-25T15:00:00-03:00
 last_modified_at: 2021-04-25T15:00:00-03:00
 ---
 
-Identificar e conhecer todas as portas abertas do sistema operacional é algo essencial. Serviços desconhecidos, portas abertas sem controle podem significar ou torne-se uma fonte de problemas como funcionamento, performance, vulnerabilidade dentre outros.
+Identificar e conhecer todas as portas abertas do sistema operacional é algo essencial. Serviços desconhecidos, portas abertas sem controle podem significar ou torne-se uma fonte de problemas como funcionamento, performance, vulnerabilidade dentre outros. 
 {: style="text-align: justify;"}
 
 Para listar as portas do sistema no Solaris 10 podemos usar o comando **netstat**, mas no exemplo abaixo vamos realizar o processo um pouco diferente, além de identificar as portas vamos associá-las ao processo que as estão mantendo e seu PID.
