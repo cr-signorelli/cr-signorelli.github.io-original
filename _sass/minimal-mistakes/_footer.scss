@@ -16,6 +16,7 @@
   animation-delay: 0.45s;
   background-color: $footer-background-color;
   font-size: $type-size-7;
+  justify-content: center;
 
   footer {
     @include clearfix;
