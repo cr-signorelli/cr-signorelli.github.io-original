@@ -204,11 +204,13 @@
 
   .page__meta-sep {
     display: block;
+    height: 100px;
+    width: 50%;
+    background-color: powderblue;
 
     &::before {
       display: none;
     }
-    height: 10px;
   }
 
   .archive__item-title {
