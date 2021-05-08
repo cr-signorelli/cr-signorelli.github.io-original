@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Configurações de IPv4 e Ipv6"
 classes: wide
+permalink: /solaris-10-configuracoes-de-ipv4-e-ipv6/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/wQLAGv4_OYs/1920x300
+  og_image: https://source.unsplash.com/wQLAGv4_OYs/120x120
+  teaser: https://source.unsplash.com/wQLAGv4_OYs/200x100
+  image_description: "Fundo abstrato colorido"
+  caption: "Imagem: [**Lucas Benjamin**](https://unsplash.com/photos/wQLAGv4_OYs)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Atualmente o uso do IPv6 já bem popular, mas quando lidamos com sistema legados é normal entradar a interface o protocolo desabilitados."
 categories:
   - solaris-10
 tags:
