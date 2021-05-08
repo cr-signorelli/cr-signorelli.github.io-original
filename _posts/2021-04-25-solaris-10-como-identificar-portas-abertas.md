@@ -3,11 +3,12 @@ title: "Solaris 10 - Como identificar portas abertas"
 classes: wide
 permalink: /solaris-10-como-identificar-portas-abertas/
 header:
+  overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/bBavss4ZQcA/1920x300
   og_image: https://source.unsplash.com/bBavss4ZQcA/120x120
   teaser: https://source.unsplash.com/bBavss4ZQcA/200x100
   image_description: "Grade vermelha com cadeados presos."
-  caption: "Imagem: [signorelli](https://pixabay.com/)"
+  caption: "Imagem: [**Jon Moore**](https://unsplash.com/photos/bBavss4ZQcA)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
