@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: single
+header:
+  overlay_image: /assets/images/pencil.jpg
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -46,6 +48,7 @@ layout: default
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
