@@ -12,7 +12,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Como analisar o consumo de memória física e swap no Solaris 10 utilizando diferentes comandos."
+excerpt: "Como analisar o consumo de memória física e virtual no Solaris 10 utilizando diferentes comandos."
 categories:
   - solaris-10
 tags:
