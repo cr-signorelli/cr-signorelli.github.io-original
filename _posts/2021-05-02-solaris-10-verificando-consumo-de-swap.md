@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Verificando consumo de SWAP"
 classes: wide
+permalink: /solaris-10-verificando-consumo-de-swap/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/nuc3NFB_6po/1920x300
+  og_image: https://source.unsplash.com/nuc3NFB_6po/120x120
+  teaser: https://source.unsplash.com/nuc3NFB_6po/200x100
+  image_description: "Pente de memória para computador."
+  caption: "Imagem: [**Possessed Photography**](https://unsplash.com/photos/nuc3NFB_6po)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Como analisar o consumo de memória física e swap no Solaris 10 utilizando diferentes comandos."
 categories:
   - solaris-10
 tags:
