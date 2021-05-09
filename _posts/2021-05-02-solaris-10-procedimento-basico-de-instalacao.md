@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Procedimento básico de instalação"
 classes: wide
+permalink: /solaris-10-procedimento-basico-de-instalacao/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/tL_IIeMc5Xo/1920x300
+  og_image: https://source.unsplash.com/tL_IIeMc5Xo/120x120
+  teaser: https://source.unsplash.com/tL_IIeMc5Xo/200x100
+  image_description: "Fundo azulado abstrato."
+  caption: "Imagem: [**Daniele Levis Pelusi**](https://unsplash.com/photos/tL_IIeMc5Xo)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: Veja do as telas do processo de instalação em modo texto do Solaris 10 em um servidor Oracle da família T-Series.
 categories:
   - solaris-10
 tags:
