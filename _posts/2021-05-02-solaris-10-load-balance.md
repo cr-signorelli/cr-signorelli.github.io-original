@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Load Balance"
 classes: wide
+permalink: /solaris-10-load-balance/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/EJe6LqEjHpA/1920x300
+  og_image: https://source.unsplash.com/EJe6LqEjHpA/120x120
+  teaser: https://source.unsplash.com/EJe6LqEjHpA/200x100
+  image_description: "Cabo de rede"
+  caption: "Imagem: [**Sigmund**](https://unsplash.com/photos/EJe6LqEjHpA)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Como montar um sistema de load-balance utilizando Solaris 10 SPARC para distribuir e otimizar o uso do servidor."
 categories:
   - solaris-10
 tags:
