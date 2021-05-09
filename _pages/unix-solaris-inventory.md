@@ -42,30 +42,25 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 - Solaris 10 - [Como criar pacotes .PKG]({{ site.url }}{{ site.baseurl }}/solaris-10-como-criar-pacotes-pkg/){:target="_blank"}  
 - Solaris 10 - [Verificando consumo de SWAP]({{ site.url }}{{ site.baseurl }}/solaris-10-verificando-consumo-de-swap/){:target="_blank"}  
 
-### Network
+### _Network_
 
 - Solaris 10 - [Configurações de IPv4 e IPv6]({{ site.url }}{{ site.baseurl }}/solaris-10-configuracoes-de-ipv4-e-ipv6/){:target="_blank"}  
 - Solaris 10 - [Como criar um tunel IP]({{ site.url }}{{ site.baseurl }}/solaris-10-como-criar-tunel-ip/){:target="_blank"}  
 - Solaris 10 - [JumpStart]({{ site.url }}{{ site.baseurl }}/solaris-10-jumpstart/){:target="_blank"}  
 - Solaris 10 - [Load Balance]({{ site.url }}{{ site.baseurl }}/solaris-10-load-balance/){:target="_blank"}  
 
-### Segurança
+### _Segurança_
 
 - Solaris 10 - [Removendo e instalando cliente SSH]({{ site.url }}{{ site.baseurl }}/solaris-10-removendo-e-instalando-cliente-ssh/){:target="_blank"}  
 - Solaris 10 - [Como identificar portas abertas]({{ site.url }}{{ site.baseurl }}/solaris-10-como-identificar-portas-abertas/){:target="_blank"}  
 
-### Troubleshooting
+### _Troubleshooting_
 
 - Solaris 10 - [Boot Read Fail - Como resolver o problema de inicialização do disco]({{ site.url }}{{ site.baseurl }}/solaris-10-boot-read-fail/){:target="_blank"}  
 
 ## Solaris 11 SPARC / x86
 
-### Solaris 11.3
-
 - Solaris 11.3 - [Instalado AMP (Apache + PHP + MySQL )]({{ site.url }}{{ site.baseurl }}/solaris-11.3-apache-php-mysql/){:target="_blank"}  
 - Solaris 11.3 - [Link aggregation + Jump frame]({{ site.url }}{{ site.baseurl }}/solaris-11.3-link-aggregation-mais-jumbo-frame/){:target="_blank"}  
 - Solaris 11.3 - [Recuperando senha de ROOT]({{ site.url }}{{ site.baseurl }}/solaris-11.3-recovery-root-password/){:target="_blank"}  
-
-### Solaris 11.4
-
 - Solaris 11.4 - [Me primeiro Solaris 11.4 x86 zone]({{ site.url }}{{ site.baseurl }}/solaris-11.4-meu-primeiro-solaris-zone/){:target="_blank"}  
