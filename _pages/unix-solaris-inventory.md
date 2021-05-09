@@ -11,7 +11,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: Oraganizando o material de Unix, Solaris 10, Solaris 11.3 e Solaris 11.4
+excerpt: Organizando as publicações de Unix, Solaris 10, Solaris 11.3 e Solaris 11.4
 categories:
   - solaris-10
   - solaris-11
