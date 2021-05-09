@@ -31,7 +31,7 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 
 ## Hardware
 
-- Configuração básica da ILOM /ilom-configuracao-basica/
+- [Configuração básica da ILOM]({{ site.url }}{{ site.baseurl }}/ilom-configuracao-basica/){:target="_blank"}  
 
 ## Solaris 10 SPARC / x86
 
