@@ -24,7 +24,7 @@ tags:
   - unix
 toc: true
 toc_label: "--- Índice ---"
-toc_icon: "chess-king"
+toc_icon: "dragon"
 date: 2021-05-02T01:00:00-03:00
 last_modified_at: 2021-05-02T01:00:00-03:00
 ---
