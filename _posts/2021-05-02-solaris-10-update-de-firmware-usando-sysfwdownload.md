@@ -3,6 +3,7 @@ title: "Solaris 10 - Update de firmware usando sysfwdownload"
 classes: wide
 permalink: /solaris-10-update-de-firmware-usando-sysfwdownload/
 header:
+  overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/jXd2FSvcRr8/1920x300
   og_image: https://source.unsplash.com/jXd2FSvcRr8/120x120
   teaser: https://source.unsplash.com/jXd2FSvcRr8/200x100
