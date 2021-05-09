@@ -1,15 +1,18 @@
 ---
 title: "Solaris 10 - JumpStart"
 classes: wide
+permalink: /solaris-10-jumpstart/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_filter: 0.5
+  overlay_image: https://source.unsplash.com/1FxMET2U5dU/1920x300
+  og_image: https://source.unsplash.com/1FxMET2U5dU/120x120
+  teaser: https://source.unsplash.com/1FxMET2U5dU/200x100
+  image_description: "Foto da lateral de vidro de um prédio."
+  caption: "Imagem: [**Héctor J. Rivas**](https://source.unsplash.com/1FxMET2U5dU/1920x300)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Aprenda a instalar o sistema operacional de forma remota em um servidor Oracle SPARC ou x86."
 categories:
   - solaris-10
 tags:
