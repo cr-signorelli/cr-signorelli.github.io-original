@@ -4,7 +4,7 @@ permalink: /tags/
 layout: tags
 author_profile: true
 header:
-#  overlay_filter: 0.5
+  overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/B9N22h2s0to/1920x300
   og_image: https://source.unsplash.com/B9N22h2s0to/120x120
   teaser: https://source.unsplash.com/B9N22h2s0to/200x100
