@@ -3,6 +3,7 @@ title: "Solaris 10 - Procedimento básico de instalação"
 classes: wide
 permalink: /solaris-10-procedimento-basico-de-instalacao/
 header:
+  overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/tL_IIeMc5Xo/1920x300
   og_image: https://source.unsplash.com/tL_IIeMc5Xo/120x120
   teaser: https://source.unsplash.com/tL_IIeMc5Xo/200x100
