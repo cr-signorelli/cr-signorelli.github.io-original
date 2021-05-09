@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Como criar tunel IP"
 classes: wide
+permalink: /solaris-10-como-criar-tunel-ip/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/fdvTTpkAKkY/1920x300
+  og_image: https://source.unsplash.com/fdvTTpkAKkY/120x120
+  teaser: https://source.unsplash.com/fdvTTpkAKkY/200x100
+  image_description: "Foto dentro de um túnel"
+  caption: "Imagem: [**bantersnaps**](https://unsplash.com/photos/fdvTTpkAKkY)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Os túneis IP fornecem um meio de transportar pacotes de dados entre domínios de broadcast."
 categories:
   - solaris-10
 tags:
@@ -22,9 +24,6 @@ show_date: false
 date: 2021-05-02T17:30:00-03:00
 last_modified_at: 2021-05-02T17:30:00-03:00
 ---
-
-Os túneis IP fornecem um meio de transportar pacotes de dados entre domínios de broadcast.
-{: style="text-align: justify;"}
 
 Especificações que vamos usar para o exemplo:  
 {: style="text-align: justify;"}

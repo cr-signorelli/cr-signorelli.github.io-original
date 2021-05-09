@@ -20,7 +20,7 @@ tags:
   - sparc
   - sysadmin
   - network
-  - instalacao
+  - instalação
 show_date: false
 date: 2021-05-01T23:00:00-03:00
 last_modified_at: 2021-05-01T23:00:00-03:00
