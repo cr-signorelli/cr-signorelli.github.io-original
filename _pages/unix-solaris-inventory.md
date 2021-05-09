@@ -46,7 +46,7 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 
 - Solaris 10 - [Configurações de IPv4 e IPv6]({{ site.url }}{{ site.baseurl }}/solaris-10-configuracoes-de-ipv4-e-ipv6/){:target="_blank"}  
 - Solaris 10 - [Como criar um tunel IP]({{ site.url }}{{ site.baseurl }}/solaris-10-como-criar-tunel-ip/){:target="_blank"}  
-- Solaris 10 - [JumpStart]({{ site.url }}{{ site.baseurl }}/solaris-10-jumpstart/){:target="_blank"}  
+- Solaris 10 - [Como montar um JumpStart]({{ site.url }}{{ site.baseurl }}/solaris-10-jumpstart/){:target="_blank"}  
 - Solaris 10 - [Load Balance]({{ site.url }}{{ site.baseurl }}/solaris-10-load-balance/){:target="_blank"}  
 
 ---
