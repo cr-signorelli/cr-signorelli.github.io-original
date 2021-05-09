@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Montando HD externo"
 classes: wide
+permalink: /solaris-10-motando-um-hd-externo/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/sIX4eDtak7k/1920x300
+  og_image: https://source.unsplash.com/sIX4eDtak7k/120x120
+  teaser: https://source.unsplash.com/sIX4eDtak7k/200x100
+  image_description: "Parte interna de uma HD de computador."
+  caption: "Imagem: [**Sajad Nori**](https://unsplash.com/photos/sIX4eDtak7k)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Caso haja necessidade de adicionar um HD externo esse procedimento irá auxilia-lo a como localizar, montar e preparar o filesystem do disco novo."
 categories:
   - solaris-10
 tags:
@@ -22,9 +24,6 @@ show_date: false
 date: 2021-05-02T00:30:00-03:00
 last_modified_at: 2021-05-02T00:30:00-03:00
 ---
-
-Caso haja necessidade de adicionar um HD externo esse procedimento irá auxilia-lo a como localizar, montar e preparar o filesystem do disco novo.
-{: style="text-align: justify;"}
 
 Forçe o sistema operacional a procurar novos devices USB:
 {: style="text-align: justify;"}
