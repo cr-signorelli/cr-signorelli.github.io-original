@@ -1,15 +1,17 @@
 ---
 title: "Solaris 10 - Update de firmware usando sysfwdownload"
 classes: wide
+permalink: /solaris-10-update-de-firmware-usando-sysfwdownload/
 header:
-  overlay_image: /assets/images/solaris10.jpg
-  og_image: /assets/images/solaris10-og.jpg
-  teaser: /assets/images/solaris10-thumb.jpg
-  image_description: "Fundo azulado com desenho de meio sol"
-  #caption: "Imagem: [signorelli](https://pixabay.com/)"
+  overlay_image: https://source.unsplash.com/jXd2FSvcRr8/1920x300
+  og_image: https://source.unsplash.com/jXd2FSvcRr8/120x120
+  teaser: https://source.unsplash.com/jXd2FSvcRr8/200x100
+  image_description: "Placa de computador."
+  caption: "Imagem: [**Umberto**](https://unsplash.com/photos/jXd2FSvcRr8)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Atualizar o firmware em de um servidor por ser muito mais simples, se o Solaris 10 estiver rodando é possível utilizar o comando **sysfwdownload**."
 categories:
   - solaris-10
   - ilom
@@ -22,9 +24,6 @@ show_date: false
 date: 2021-05-02T19:00:00-03:00
 last_modified_at: 2021-05-02T19:00:00-03:00
 ---
-
-Atualizar o firmware em de um servidor por ser muito mais simples, se o Solaris 10 estiver rodando é possível utilizar o comando **sysfwdownload**.
-{: style="text-align: justify;"}
 
 **Alerta:** Mesmo realizando o processo de upgrade via software será preciso reiniciar o servidor.
 {: .notice--danger}
