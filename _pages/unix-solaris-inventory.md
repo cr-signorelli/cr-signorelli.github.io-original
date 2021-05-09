@@ -2,7 +2,7 @@
 title: "Unix / Oracle Solaris"
 permalink: /unix-solaris-inventory/
 header:
-  overlay_filter: 0.5
+  # overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/tIgJR__pjZw/1920x300
   og_image: https://source.unsplash.com/tIgJR__pjZw/120x120
   teaser: https://source.unsplash.com/tIgJR__pjZw/200x100
