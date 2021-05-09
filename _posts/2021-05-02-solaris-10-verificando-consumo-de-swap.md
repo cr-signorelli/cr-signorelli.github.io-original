@@ -3,6 +3,7 @@ title: "Solaris 10 - Verificando consumo de SWAP"
 classes: wide
 permalink: /solaris-10-verificando-consumo-de-swap/
 header:
+  overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/nuc3NFB_6po/1920x300
   og_image: https://source.unsplash.com/nuc3NFB_6po/120x120
   teaser: https://source.unsplash.com/nuc3NFB_6po/200x100
