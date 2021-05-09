@@ -12,7 +12,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Atualizar o firmware em de um servidor por ser muito mais simples, se o Solaris 10 estiver rodando é possível utilizar o comando **sysfwdownload**."
+excerpt: "Atualize o firmware em do servidor através do sistema operacional com o comando **sysfwdownload**."
 categories:
   - solaris-10
   - ilom
