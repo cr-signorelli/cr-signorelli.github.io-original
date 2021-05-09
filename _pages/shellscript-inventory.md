@@ -2,25 +2,25 @@
 title: "ShellScript"
 permalink: /shellscript-inventory/
 header:
-  overlay_image: /assets/images/shell.jpg
-  og_image: /assets/images/shell-og.jpg
-  teaser: /assets/images/shell-thumb.jpg
+  overlay_filter: 0.5
+  overlay_image: https://source.unsplash.com/6RTn6HZD-RI/1920x300
+  og_image: https://source.unsplash.com/6RTn6HZD-RI/120x120
+  teaser: https://source.unsplash.com/6RTn6HZD-RI/200x100
   image_description: "Uma concha na areia da praia"
-  caption: "Imagem: [aaronburden](https://unsplash.com/@aaronburden)"
+  caption: "Imagem: [**George Girnas**](https://unsplash.com/photos/6RTn6HZD-RI)"
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
+excerpt: "Organizando as publicações sobre ShellScript"
 categories:
   - shellscript
 tags:
   - shellscript
 toc: true
 toc_label: "--- Índice ---"
-toc_icon: "chess-king"
+toc_icon: "pastafarianism"
 date: 2021-05-02T01:00:00-03:00
 last_modified_at: 2021-05-02T01:00:00-03:00
 ---
 
-Organizando as publicações sobre ShellScript
-
-## Em Breve
+## Em desenvolvimento
