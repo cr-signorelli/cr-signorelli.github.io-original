@@ -25,7 +25,7 @@ date: 2021-05-02T17:30:00-03:00
 last_modified_at: 2021-05-02T17:30:00-03:00
 ---
 
-Load Balance é uma ferramenta muito útil para ajudar a distribuir e balancear o trafego entre diferentes servidores.
+Load Balance é uma ferramenta muito útil para ajudar a distribuir e balancear o tráfego entre diferentes servidores.
 
 Existem inúmeras formas de montar um load balance via software ou utilizando um hardware dedicado, mas em algumas situações é preciso trabalhar com que temos disponível ou quando estamos em uma fase conceitual de uma solução ou até mesmo realizando uma prova de conceito.
 
