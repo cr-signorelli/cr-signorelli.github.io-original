@@ -3,7 +3,7 @@ title: "Solaris 10 - Espelhamento de disco no ZFS"
 classes: wide
 permalink: /2021-05-10-solaris-10-espelhamento-de-disco-no-zfs/
 header:
-  overlay_filter: 0.5
+  # overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/hsg538WrP0Y/1920x300
   og_image: https://source.unsplash.com/hsg538WrP0Y/120x120
   teaser: https://source.unsplash.com/hsg538WrP0Y/200x100
@@ -12,7 +12,7 @@ header:
   #actions:
   #  - label: "Leia mais"
   #    url: "https://cr-signorelli.github.io/"
-excerpt: "Como fazer espelhamento de disco que estão utilizando o ZFS (Zettabyte file system)."
+excerpt: "Como fazer espelhamento de disco que estão utilizando o ZFS - Zettabyte file system."
 categories:
   - solaris-10
 tags:
