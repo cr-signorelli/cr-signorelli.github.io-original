@@ -69,6 +69,7 @@ Verificar os slices do disco 1:
 
 ```console
 bash-3.2# prtvtoc /dev/rdsk/c0t361CEB4725D71723d0s0
+
     * /dev/rdsk/c0t361CEB4725D71723d0s0 partition map
     *
     * Dimensions:
@@ -94,6 +95,7 @@ Verificar os slices do disco 2:
 
 ```console
 bash-3.2# prtvtoc /dev/rdsk/c0t3B7CA031337740CDd0s0
+
     * /dev/rdsk/c0t3B7CA031337740CDd0s0 partition map
     *
     * Dimensions:
@@ -141,6 +143,7 @@ Verificar os slices do disco 1 novamente:
 
 ```console
 bash-3.2# prtvtoc /dev/rdsk/c0t361CEB4725D71723d0s0
+
     * /dev/rdsk/c0t361CEB4725D71723d0s0 partition map
     *
     * Dimensions:
@@ -166,6 +169,7 @@ Verificar os slices do disco 2 novamente:
 
 ```console
 bash-3.2# prtvtoc /dev/rdsk/c0t3B7CA031337740CDd0s0
+
     * /dev/rdsk/c0t3B7CA031337740CDd0s0 partition map
     *
     * Dimensions:
@@ -201,6 +205,7 @@ Utilizando o comando **zpool status** acompanhe o processo de espelhamento.
 
 ```console
 bash-3.2# zpool status
+
       pool: rpool
      state: ONLINE
     status: One or more devices is currently being resilvered.  The pool will
@@ -226,6 +231,7 @@ Antes de fazer qualquer outra coisa aguarde o "resilvering" dos disco:
 
 ```console
 bash-3.2# zpool status
+
       pool: rpool
      state: ONLINE
     status: One or more devices is currently being resilvered.  The pool will
@@ -251,6 +257,7 @@ Finalizado o resilvering e com isso o espelhamento do disco está completo:
 
 ```console
 bash-3.2# zpool status
+
       pool: rpool
      state: ONLINE
      scan: resilvered 6.54G in 0h1m with 0 errors on Mon Apr 16 12:51:23 2012
