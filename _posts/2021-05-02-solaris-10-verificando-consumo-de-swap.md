@@ -127,5 +127,5 @@ fi
 
 #### Referências
 
-> [www.unixarena.com](https://www.unixarena.com/){:target="_blank"}  
+> [Site Unix Arena](https://www.unixarena.com/){:target="_blank"}  
 > [Artigo com o script original](https://www.unixarena.com/2013/05/solaris-memory-swap-usage-script-with.html/){:target="_blank"}  
