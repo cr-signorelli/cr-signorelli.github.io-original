@@ -41,6 +41,7 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 - Solaris 10 - [Update de firmware usando sysfwdownload]({{ site.url }}{{ site.baseurl }}/solaris-10-update-de-firmware/){:target="_blank"}  
 - Solaris 10 - [Como criar pacotes .PKG]({{ site.url }}{{ site.baseurl }}/solaris-10-como-criar-pacotes-pkg/){:target="_blank"}  
 - Solaris 10 - [Verificando consumo de SWAP]({{ site.url }}{{ site.baseurl }}/solaris-10-verificando-consumo-de-swap/){:target="_blank"}  
+- Solaris 10 - [Espelhamento de disco no ZFS]({{ site.url }}{{ site.baseurl }}/solaris-10-espelhamento-de-disco-no-zfs/){:target="_blank"}  
 
 ---
 

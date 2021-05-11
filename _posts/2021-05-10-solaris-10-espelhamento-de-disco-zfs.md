@@ -1,7 +1,7 @@
 ---
 title: "Solaris 10 - Espelhamento de disco no ZFS"
 classes: wide
-permalink: /2021-05-10-solaris-10-espelhamento-de-disco-no-zfs/
+permalink: /solaris-10-espelhamento-de-disco-no-zfs/
 header:
   overlay_filter: 0.5
   overlay_image: https://source.unsplash.com/hsg538WrP0Y/1920x300
