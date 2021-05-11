@@ -31,8 +31,8 @@ Existem diferentes formas de realizar o espelhamento de disco, via hardware com 
 Especificações que vamos usar para o exemplo:  
 {: style="text-align: justify;"}
 
-> c0t361CEB4725D71723d0s0 = disco principal, onde está instalado o sistema operacional
-> c0t3B7CA031337740CDd0s0 = disco secundário
+> c0t361CEB4725D71723d0s0 = disco principal, onde está instalado o sistema operacional  
+> c0t3B7CA031337740CDd0s0 = disco secundário  
 
 **Dica:** A identificação dos disco do exemplo podem parecer um pouco diferentes, isso porque são volumes logicos em vez de discos físicos.
 {: .notice--info}
