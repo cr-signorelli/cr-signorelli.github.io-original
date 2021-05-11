@@ -43,7 +43,7 @@ Primeiro localize os discos reconhecidos pelo sitema:
 ```console
 bash-3.2# ls /dev/rdsk/*s0
 
-/dev/rdsk/c0t361CEB4725D71723d0s0   /dev/rdsk/c0t3B7CA031337740CDd0s0   /dev/rdsk/c1t6d0s0   /dev/rdsk/c2t0d0s0
+    /dev/rdsk/c0t361CEB4725D71723d0s0   /dev/rdsk/c0t3B7CA031337740CDd0s0   /dev/rdsk/c1t6d0s0   /dev/rdsk/c2t0d0s0
 ```
 
 Comando para realizar o espelhanto dos discos:
