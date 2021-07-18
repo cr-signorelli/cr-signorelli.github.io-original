@@ -95,7 +95,7 @@ in.rdisc: No interfaces up
 Dependendo do teclado o F2 não funciona, não se preocupe utilize a sequência **ESC + 2**.
 
 ```console
-q The Solaris Installation Program qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# The Solaris Installation Program #############################################
 
   The Solaris installation program is divided into a series of short sections
   where you'll be prompted to provide information for the installation. At
@@ -108,12 +108,12 @@ q The Solaris Installation Program qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
           respond, press ESC; the legend at the bottom of the screen
           will change to show the ESC keys to use for navigation.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Identify This System qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Identify This System #########################################################
 
   On the next screens, you must identify this system as networked or
   non-networked, and set the default time zone and date/time.
@@ -124,12 +124,12 @@ q Identify This System qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
   > To begin identifying this system, press F2.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Network Connectivity qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Network Connectivity #########################################################
 
   Specify Yes if the system is connected to the network by one of the Solaris
   or vendor network/communication Ethernet cards that are supported on the
@@ -141,16 +141,16 @@ q Network Connectivity qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
       Networked
-      qqqqqqqqq
+      #########
       [X] Yes
       [ ] No
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q DHCP for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# DHCP for vnet0 ###############################################################
 
   Specify whether or not this network interface should use DHCP to configure
   itself.  Choose Yes if DHCP is to be used, or No if the network interface is
@@ -160,16 +160,16 @@ q DHCP for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
   reboots.
 
       Use DHCP for vnet0
-      qqqqqqqqqqqqqqqqqq
+      ##################
       [ ] Yes
       [X] No
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Host Name for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Host Name for vnet0 ##########################################################
 
   Enter the host name which identifies this system on the network.  The name
   must be unique within your domain; creating a duplicate host name will cause
@@ -181,12 +181,12 @@ q Host Name for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
                  Host name for vnet0 server01
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q IP Address for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# IP Address for vnet0 #########################################################
 
   Enter the Internet Protocol (IP) address for this network interface.  It
   must be unique and follow your site's address conventions, or a
@@ -198,12 +198,12 @@ q IP Address for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
                 IP address for vnet0 192.0.2.10
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Subnet for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Subnet for vnet0 #############################################################
 
   On this screen you must specify whether this system is part of a subnet.  If
   you specify incorrectly, the system will have problems communicating on the
@@ -214,16 +214,16 @@ q Subnet for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
       System part of a subnet
-      qqqqqqqqqqqqqqqqqqqqqqq
+      #######################
       [X] Yes
       [ ] No
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Netmask for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Netmask for vnet0 ############################################################
 
   On this screen you must specify the netmask of your subnet.  A default
   netmask is shown; do not accept the default unless you are sure it is
@@ -233,12 +233,12 @@ q Netmask for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
                    Netmask for vnet0 255.255.255.0
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q IPv6 for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# IPv6 for vnet0 ###############################################################
 
   Specify whether or not you want to enable IPv6, the next generation Internet
   Protocol, on this network interface.  Enabling IPv6 will have no effect if
@@ -250,18 +250,18 @@ q IPv6 for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
       Enable IPv6 for vnet0
-      qqqqqqqqqqqqqqqqqqqqq
+      #####################
       [ ] Yes
       [X] No
 
 
   Please wait...
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Set the Default Route for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Set the Default Route for vnet0 ##############################################
 
   To specify the default route, you can let the software try to detect one
   upon reboot, you can specify the IP address of the router, or you can choose
@@ -272,17 +272,17 @@ q Set the Default Route for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
       Default Route for vnet0
-      qqqqqqqqqqqqqqqqqqqqqqqqqq
+      ##########################
       [ ] Detect one upon reboot
       [X] Specify one
       [ ] None
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Default Route IP Address for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Default Route IP Address for vnet0 ###########################################
 
   Enter the IP address of the default route. This entry will be placed in the
   /etc/defaultrouter file and will be the default route after you reboot
@@ -292,12 +292,12 @@ q Default Route IP Address for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
          Router IP Address for vnet0 192.0.2.1
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Confirm Information for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Confirm Information for vnet0 ################################################
 
   > Confirm the following information.  If it is correct, press F2;
     to change any information, press F4.
@@ -313,28 +313,28 @@ q Confirm Information for vnet0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                       Default Route: Specify one
                   Router IP Address: 192.0.2.1
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-4_Change    Esc-6_Help
 ```
 
 ```console
-q Configure Security Policy: qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Configure Security Policy: ###################################################
 
   Specify Yes if the system will use the Kerberos security mechanism.
 
   Specify No if this system will use standard UNIX security.
 
       Configure Kerberos Security
-      qqqqqqqqqqqqqqqqqqqqqqqqqqq
+      ###########################
       [ ] Yes
       [X] No
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Confirm Information qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Confirm Information ##########################################################
 
   > Confirm the following information.  If it is correct, press F2;
     to change any information, press F4.
@@ -342,12 +342,12 @@ q Confirm Information qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
         Configure Kerberos Security: No
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-4_Change    Esc-6_Help
 ```
 
 ```console
-q Name Service qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Name Service #################################################################
 
   On this screen you must provide name service information.  Select the name
   service that will be used by this system, or None if your system will either
@@ -359,19 +359,19 @@ q Name Service qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
       Name service
-      qqqqqqqqqqqq
+      ############
       [ ] NIS+
       [ ] NIS
       [ ] DNS
       [ ] LDAP
       [X] None
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Confirm Information qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Confirm Information ##########################################################
 
   > Confirm the following information.  If it is correct, press F2;
     to change any information, press F4.
@@ -379,12 +379,12 @@ q Confirm Information qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
                        Name service: None
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-4_Change    Esc-6_Help
 ```
 
 ```console
-q NFSv4 Domain Name qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# NFSv4 Domain Name ############################################################
 
   NFS version 4 uses a domain name that is automatically derived from the
   system's naming services. The derived domain name is sufficient for most
@@ -396,16 +396,16 @@ q NFSv4 Domain Name qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
       NFSv4 Domain Configuration
-      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      ##############################################
       [X] Use the NFSv4 domain derived by the system
       [ ] Specify a different NFSv4 domain
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Confirm Information for NFSv4 Domain qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Confirm Information for NFSv4 Domain #########################################
 
   > Confirm the following information.  If it is correct, press F2;
     to change any information, press F4.
@@ -413,12 +413,12 @@ q Confirm Information for NFSv4 Domain qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
                  NFSv4 Domain Name:  << Value to be derived dynamically >>
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-4_Change    Esc-6_Help
 ```
 
 ```console
-q Time Zone qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Time Zone ####################################################################
 
   On this screen you must specify your default time zone.  You can specify a
   time zone in three ways:  select one of the continents or oceans from the
@@ -428,7 +428,7 @@ q Time Zone qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
     press Return to mark it [X].
 
       Continents and Oceans
-      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      ##################################
   -   [ ] Africa
   x   [X] Americas
   x   [ ] Antarctica
@@ -439,18 +439,18 @@ q Time Zone qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
   x   [ ] Europe
   v   [ ] Indian Ocean
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Country or Region qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Country or Region ############################################################
 
   > To make a selection, use the arrow keys to highlight the option and
     press Return to mark it [X].
 
       Countries and Regions
-      qqqqqqqqqqqqqqqqqqqqqqqqqqq
+      ###########################
   ^   [ ] Antigua & Barbuda
   x   [ ] Argentina
   x   [ ] Aruba
@@ -465,18 +465,18 @@ q Country or Region qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
   x   [ ] Colombia
   v   [ ] Costa Rica
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Time Zone qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Time Zone ####################################################################
 
   > To make a selection, use the arrow keys to highlight the option and
     press Return to mark it [X].
 
       Time zones
-      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      ######################################################
   ^   [ ] Pernambuco
   x   [ ] Tocantins
   x   [ ] Alagoas, Sergipe
@@ -491,12 +491,12 @@ q Time Zone qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
   x   [ ] W Amazonas
   -   [ ] Acre
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Date and Time qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Date and Time ################################################################
 
   > Accept the default date and time or enter
     new values.
@@ -509,12 +509,12 @@ q Date and Time qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                  Hour   (0-23)     : 15
                  Minute (0-59)     : 31
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Confirm Information qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Confirm Information ##########################################################
 
   > Confirm the following information.  If it is correct, press F2;
     to change any information, press F4.
@@ -524,12 +524,12 @@ q Confirm Information qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                                      (Brazil/East)
                       Date and time: 2012-04-16 15:31:00
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-4_Change    Esc-6_Help
 ```
 
 ```console
-q Root Password qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Root Password ################################################################
 
   Please enter the root password for this system.
 
@@ -542,12 +542,12 @@ q Root Password qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                      Root password:  *********
                      Root password:  *********
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Enabling remote services qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Enabling remote services #####################################################
 
   Would you like to enable network services for use by remote clients?
 
@@ -562,17 +562,17 @@ q Enabling remote services qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
       Remote services enabled
-      qqqqqqqqqqqqqqqqqqqqqqq
+      #######################
       [ ] Yes
       [X] No
 
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Provide Solaris Auto Registration Info: qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Provide Solaris Auto Registration Info: ######################################
 
   To improve products and services, Oracle Solaris communicates configuration
   data to Oracle after rebooting.
@@ -587,15 +587,15 @@ q Provide Solaris Auto Registration Info: qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
   > Use the arrow keys to select the option and press Return to
      mark it [X].
 
-      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      #################################################################
       [ ] I would like to register using My Oracle Support information.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
 ```console
-q Provide Solaris Auto Registration Info: qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Provide Solaris Auto Registration Info: ######################################
 
   To send the configuration data anonymously, complete the following fields.
   If using a proxy server, provide the proxy settings.
@@ -609,7 +609,7 @@ q Provide Solaris Auto Registration Info: qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                HTTP Proxy User Name:
                 HTTP Proxy Password:
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
     Esc-2_Continue    Esc-6_Help
 ```
 
@@ -630,7 +630,7 @@ Begin script install_begin execution completed.
 ```
 
 ```console
-q Solaris Interactive Installation qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Solaris Interactive Installation #############################################
 
   On the following screens, you can accept the defaults or you can customize
   how Solaris software will be installed by:
@@ -650,12 +650,12 @@ q Solaris Interactive Installation qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
       and upgrade, if your system is upgradable.
    - "Flash" installs your system from one or more Flash Archives.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      F2_Standard    F4_Flash    F5_Exit    F6_Help
 ```
 
 ```console
-q Eject a CD/DVD Automatically? qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Eject a CD/DVD Automatically? ################################################
 
   During the installation of Solaris software, you may be using one or more
   CDs/DVDs. You can choose to have the system eject each CD/DVD automatically
@@ -665,12 +665,12 @@ q Eject a CD/DVD Automatically? qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
             [ ] Automatically eject CD/DVD
             [X] Manually eject CD/DVD
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      F2_Continue    F3_Go Back    F5_Exit
 ```
 
 ```console
-q Reboot After Installation? qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Reboot After Installation? ###################################################
 
   After Solaris software is installed, the system must be rebooted. You can
   choose to have the system automatically reboot, or you can choose to
@@ -682,12 +682,12 @@ q Reboot After Installation? qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
             [X] Auto Reboot
             [ ] Manual Reboot
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      F2_Continue    F3_Go Back    F5_Exit
 ```
 
 ```console
-q Initializing qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Initializing #################################################################
 
   The system is being initialized.
 
@@ -695,7 +695,7 @@ q Initializing qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 ```
 
 ```console
-q License qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# License ######################################################################
 
         You acknowledge that your use of this software is subject to (i) the
         license terms that you accepted when you obtained a right to use this
@@ -708,12 +708,12 @@ q License qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
         downloaded for trial use or downloaded as replacement media may not be
         used to update any unsupported software.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Accept License    F5_Exit
 ```
 
 ```console
-q Select Geographic Regions qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Select Geographic Regions ####################################################
 
   Select the geographic regions for which support should be installed.
 
@@ -735,12 +735,12 @@ q Select Geographic Regions qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
     [ ]     Spanish
 
    Locale is selected.  Press Return to deselect
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F5_Exit    F6_Help
 ```
 
 ```console
-q Select System Locale qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Select System Locale #########################################################
 
   Select the initial locale to be used after the system has been installed.
 
@@ -749,12 +749,12 @@ q Select System Locale qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
     [ ]     Brazil (UTF-8) ( pt_BR.UTF-8 )
     [ ]     Brazil (ISO8859-1) ( pt_BR.ISO8859-1 )
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F5_Exit    F6_Help
 ```
 
 ```console
-q Additional Products qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Additional Products ##########################################################
 
   To scan for additional products, select the location you wish to scan.
   Products found at the selected location that are in a Web Start Ready
@@ -768,12 +768,12 @@ q Additional Products qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 
    Please wait ...
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F5_Exit
 ```
 
 ```console
-q Choose Filesystem Type qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Choose Filesystem Type #######################################################
 
   Select the filesystem to use for your Solaris installation
 
@@ -781,12 +781,12 @@ q Choose Filesystem Type qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
             [X] UFS
             [ ] ZFS
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F5_Exit    F6_Help
 ```
 
 ```console
-q Select Software qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Select Software ##############################################################
 
   Select the Solaris software to install on the system.
 
@@ -802,12 +802,12 @@ q Select Software qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
       [ ]  Reduced Networking Core System Support ..... 1487.00 MB
 
    Please wait ...
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F4_Customize    F5_Exit    F6_Help
 ```
 
 ```console
-q Select Disks qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Select Disks #################################################################
 
   On this screen you must select the disks for installing Solaris software.
   Start by looking at the Suggested Minimum field; this value is the
@@ -823,34 +823,34 @@ q Select Disks qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                                      Total Selected: 127908 MB
                                   Suggested Minimum:   5377 MB
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F4_Edit    F5_Exit    F6_Help
 ```
 
 ```console
-q Preserve Data? qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Preserve Data? ###############################################################
 
   Do you want to preserve existing data? At least one of the disks you've
   selected for installing Solaris software has file systems or unnamed slices
   that you may want to save.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F4_Preserve    F5_Exit    F6_Help
 ```
 
 ```console
-q Automatically Layout File Systems? qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Automatically Layout File Systems? ###########################################
 
   Do you want to use auto-layout to automatically layout file systems?
   Manually laying out file systems requires advanced system administration
   skills.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      F2_Auto Layout    F3_Go Back    F4_Manual Layout    F5_Exit    F6_Help
 ```
 
 ```console
-q File System and Disk Layout qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# File System and Disk Layout ##################################################
 
   The summary below is your current file system and disk layout, based on the
   information you've supplied.
@@ -863,14 +863,14 @@ q File System and Disk Layout qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
       ========================================================================
       overlap            c0d0s2                                     127908  MB
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F4_Customize    F5_Exit    F6_Help
 ```
 
 Para o layout do disco é possivel usar o padrão do sistema ou usar um customizado.
 
 ```console
-q Customize Disk: c0d0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Customize Disk: c0d0 #########################################################
 
   Entry:                            Recommended:      MB     Minimum:      MB
 ================================================================================
@@ -888,12 +888,12 @@ q Customize Disk: c0d0 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                         Allocated:       44028 MB
                              Free:           0 MB
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      F2_OK    Esc-4_Options    F5_Cancel    F6_Help
 ```
 
 ```console
-q File System and Disk Layout qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# File System and Disk Layout ##################################################
 
   The summary below is your current file system and disk layout, based on the
   information you've supplied.
@@ -913,22 +913,22 @@ q File System and Disk Layout qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
       /opt               c0d0s6                                     5004    MB
       /dados             c0d0s7                                     85860   MB
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F4_Customize    F5_Exit    F6_Help
 ```
 
 ```console
-q Mount Remote File Systems? qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Mount Remote File Systems? ###################################################
 
   Do you want to mount software from a remote file server? This may be
   necessary if you had to remove software because of disk space problems.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Continue    F3_Go Back    F4_Remote Mounts    F5_Exit    F6_Help
 ```
 
 ```console
-q Profile qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Profile ######################################################################
 
   The information shown below is your profile for installing Solaris software.
   It reflects the choices you've made on previous screens.
@@ -950,12 +950,12 @@ q Profile qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
  x                                   /tmp                c0d0s3 2016 MB
  v                                   /var                c0d0s4 9000 MB
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_Begin Installation    F4_Change    F5_Exit    F6_Help
 ```
 
 ```console
-q Warning qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+# Warning ######################################################################
 
         The following disk configuration condition(s) have been
         detected. Errors must be fixed to ensure a successful
@@ -970,7 +970,7 @@ q Warning qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
         what you had in mind, go back to the disk selection screens and
         change the "Reconfigure EEPROM" setting.
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
      Esc-2_OK    F5_Cancel
 ```
 
@@ -993,7 +993,7 @@ Beginning Solaris software installation
 ```
 
 ```console
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
 
      Solaris Initial Install
 
@@ -1006,7 +1006,7 @@ qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
           |           |           |           |           |           |
           0          20          40          60          80         100
 
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+################################################################################
 ```
 
 ```console
