@@ -52,7 +52,8 @@ algolia:
   powered_by             : true
 
 # SEO Related
-google_site_verification : G-8Z4N4WR07R
+#google_site_verification : G-8Z4N4WR07R
+google_site_verification : G-E7WBH569BB
 bing_site_verification   :
 yandex_site_verification : cf6880d214d55339
 
@@ -77,7 +78,8 @@ social:
 analytics:
   provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-8Z4N4WR07R
+    #tracking_id          : G-8Z4N4WR07R
+    tracking_id          : G-E7WBH569BB
 
 
 # Site Author
