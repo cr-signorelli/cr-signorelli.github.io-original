@@ -20,7 +20,10 @@ toc: true
 toc_label: "--- Índice ---"
 toc_icon: "pastafarianism"
 date: 2021-05-02T01:00:00-03:00
-last_modified_at: 2021-05-02T01:00:00-03:00
+last_modified_at: 2021-07-18T21:00:00-03:00
 ---
 
-## Em desenvolvimento
+## Solaris 10 SPARC / x86
+
+- Solaris 10 - [Alterando SSH com script]({{ site.url }}{{ site.baseurl }}/solaris-10-alterando-ssh-com-script/){:target="_blank"}  
+

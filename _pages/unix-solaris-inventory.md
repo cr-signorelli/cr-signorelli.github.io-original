@@ -54,6 +54,7 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 
 - Solaris 10 - [Removendo e instalando cliente SSH]({{ site.url }}{{ site.baseurl }}/solaris-10-removendo-e-instalando-cliente-ssh/){:target="_blank"}  
 - Solaris 10 - [Como identificar portas abertas]({{ site.url }}{{ site.baseurl }}/solaris-10-como-identificar-portas-abertas/){:target="_blank"}  
+- Solaris 10 - [Alterando SSH com script]({{ site.url }}{{ site.baseurl }}/solaris-10-alterando-ssh-com-script/){:target="_blank"}  
 
 ---
 
