@@ -40,7 +40,7 @@ Como os scripts abaixo é possível habilitar as opções **X11 forwarding** e o
 **Alerta:** Habilite essas opções apenas de casos de extrema necessidade e de forma temporária, ou seja, desative o mais rápido possível.  
 {: .notice--danger}
 
-Habilita as opções[ed-ssh-config-yes.sh](https://github.com/cr-signorelli/solaris10/blob/master/scripts/ed-ssh-config-yes.sh){:target="_blank"}:
+Habilita as opções [ed-ssh-config-yes.sh](https://github.com/cr-signorelli/solaris10/blob/master/scripts/ed-ssh-config-yes.sh){:target="_blank"}:
 {: style="text-align: justify;"}
 
 ```console
@@ -61,7 +61,7 @@ q
 EOF
 ```
 
-Desabilita as opções[ed-ssh-config-no.sh](https://github.com/cr-signorelli/solaris10/blob/master/scripts/ed-ssh-config-no.sh){:target="_blank"}:
+Desabilita as opções [ed-ssh-config-no.sh](https://github.com/cr-signorelli/solaris10/blob/master/scripts/ed-ssh-config-no.sh){:target="_blank"}:
 {: style="text-align: justify;"}
 
 ```console
