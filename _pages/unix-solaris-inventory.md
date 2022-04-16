@@ -63,6 +63,6 @@ last_modified_at: 2021-05-02T01:00:00-03:00
 ## Solaris 11 SPARC / x86
 
 - Solaris 11.3 - [Instalado AMP (Apache + PHP + MySQL )]({{ site.url }}{{ site.baseurl }}/solaris-11.3-apache-php-mysql/){:target="_blank"}  
-- Solaris 11.3 - [Link aggregation + Jump frame]({{ site.url }}{{ site.baseurl }}/solaris-11.3-link-aggregation-mais-jumbo-frame/){:target="_blank"}  
+- Solaris 11.3 - [Link aggregation + Jumbo frame]({{ site.url }}{{ site.baseurl }}/solaris-11.3-link-aggregation-mais-jumbo-frame/){:target="_blank"}  
 - Solaris 11.3 - [Recuperando senha de ROOT]({{ site.url }}{{ site.baseurl }}/solaris-11.3-recovery-root-password/){:target="_blank"}  
 - Solaris 11.4 - [Me primeiro Solaris 11.4 x86 zone]({{ site.url }}{{ site.baseurl }}/solaris-11.4-meu-primeiro-solaris-zone/){:target="_blank"}  
